@@ -1,0 +1,47 @@
+.registerBox{
+    border: 4px solid #F5F5F5;
+    padding: 30px;
+  }
+  .patientRegister{
+    color: #333333;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .registerLabel{
+    font-size: 14px;
+    color: #242424;
+    padding-bottom: 10px;
+  }
+  .registerField{
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    border: 1px solid #B8BCC5;
+    border-radius: 4px;
+    outline: none;
+  }
+  .inputField{
+    padding-bottom: 40px;
+  }
+  .textField{
+    font-size: 14px;
+    color: #242424;
+    border: 1px solid #B8BCC5;
+    border-radius: 4px;
+    padding: 10px 15px 40px 15px;
+    outline: none;
+    resize: none;
+    width: 100%;
+  }
+  .btnRegister{
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    padding: 10px 40px 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #232323;
+    font-size: 14px;
+  }
+  .btnRegister:focus{
+    outline: none;
+  }

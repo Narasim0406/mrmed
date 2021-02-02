@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Clock from './clock';\nimport Counter from './counter';\n\nconst Examples = () => {\n  return __jsx(\"div\", {\n    style: {\n      marginBottom: 10\n    }\n  }, __jsx(Clock, null), __jsx(Counter, null));\n};\n\nexport default Examples;","map":null,"metadata":{},"sourceType":"module"}

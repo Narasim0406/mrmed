@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CACP,IAAI,CAAA;EACA,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CACjB;;AALL,AAMI,WANO,CAMP,CAAC,CAAA;EACG,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "PapRegisterComponent.module.scss"
+    ],
+    "names": [],
+    "file": "PapRegisterComponent.module.css"
+}

@@ -1,0 +1,85 @@
+.whyMed {
+  color: #414B55;
+  font-size: 34px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.feedback {
+  padding: 10px;
+}
+
+.feedbackImg {
+  width: 95%;
+}
+
+.feedbackStar {
+  float: right;
+}
+
+.feedbackStar img {
+  display: inline;
+}
+
+.playImg {
+  position: absolute;
+  top: 0;
+  margin-left: 135px;
+  margin-top: 55px;
+}
+
+.feedbackProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.userName {
+  color: #343434;
+  font-size: 22px;
+}
+
+.userLocation {
+  color: #666666;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.userDetail {
+  padding-left: 10px;
+}
+
+.starImg {
+  margin-top: 25px;
+  float: right;
+}
+
+.previous {
+  margin-top: 5%;
+}
+
+.previous img {
+  float: right;
+}
+
+.next {
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.next img {
+  float: left;
+}
+
+.customer {
+  color: #414B55;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+/*# sourceMappingURL=Feedback.module.css.map */

@@ -1,0 +1,45 @@
+.orderId{
+    color: #333333;
+    font-size: 16px;
+}
+.id{
+    color: #6054E5;
+    font-size: 16px;
+}
+.orderPlaced{
+    color: #333333;
+    font-size: 14px;
+    float: right;
+}
+.successBack{
+    width: 100%;
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    border-radius: 4px;
+    padding: 30px 40px 30px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.starBorder{
+    width: 50px;
+    height: 50px;
+}
+.success{
+    padding-left: 50px;
+    b{
+        font-size: 18px;
+        color: #242424;
+    }
+    span{
+        font-size: 14px;
+        font-weight: bold;
+        color: #333333;
+    }
+}
+.estimateTime{
+    b{
+        color: #000000;
+        font-size: 14px;
+        float: right;
+    }
+}

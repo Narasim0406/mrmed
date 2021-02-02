@@ -1,0 +1,55 @@
+.deliveryInfo{
+    width: 853px;
+    height: 146px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 25px 50px;
+    &>p{
+        font-size: 18px;
+        line-height: 145.75%;
+        color: #575757;
+    }
+    .deliveryCard{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .customer{
+            .name{
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 28px;
+                color: #0C0C0C;
+            }
+            .number{
+                font-size: 16px;
+                line-height: 19px;
+                color: #757575;
+            }
+        }
+        .deliveryAddress{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .address{
+                font-size: 18px;
+                line-height: 150.3%;
+                color: #757575;
+            }
+            .adType{
+                width: 60px;
+                height: 25px;
+                background: #dfdbdb;
+                border-radius: 10px;
+                text-align: center;
+                font-size: 12px;
+                color: #333333;
+                &>p{
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+}

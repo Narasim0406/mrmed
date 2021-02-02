@@ -1,0 +1,43 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+button:focus{
+    outline: none;
+}
+
+.hide-x{
+    overflow-x: hidden;
+    cursor: default;
+}
+.indication{
+    padding: 0px;
+    span{
+        font-size: 16px;
+        color: grey;
+    }
+    b{
+        font-size: 28px;
+        color: #414B55;
+    }
+}
+.title{
+    font-size: 24px;
+    color: #414B55;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#nav-link:hover{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.content{
+    padding-top: 180px;
+}

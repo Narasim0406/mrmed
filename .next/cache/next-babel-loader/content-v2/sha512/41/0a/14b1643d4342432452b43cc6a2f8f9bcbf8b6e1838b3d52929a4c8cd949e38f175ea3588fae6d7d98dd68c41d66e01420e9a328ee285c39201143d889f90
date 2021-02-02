@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport styles from './OtherPayment.module.scss';\nexport default function OtherPayment() {\n  return __jsx(\"div\", {\n    className: \"col-md-6\"\n  }, __jsx(\"h1\", null, \"OtherPayment\"));\n}","map":null,"metadata":{},"sourceType":"module"}

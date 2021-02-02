@@ -1,0 +1,49 @@
+.specialityMed{
+    border: 1px solid #E8E8E8;
+    margin-top: 20px;
+    background: #FBFBFB;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .specialityImg{
+    text-align: center;
+    margin-bottom: 20px;
+    &>img{
+      object-fit: contain;
+    }
+  }
+  .specialityName{
+    color: #333333;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .speciality{
+    color: #414B55;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .seeAll{
+    color: #6054E5;
+    font-size: 16px;
+    display: inline;
+    float: right;
+    line-height: 2.5;
+  }
+  .landingArrow{
+    padding-left: 10px;
+  }
+  .indication{
+    padding: 0;
+    span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #727272;
+        cursor: pointer;
+    }
+    b{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        color: #414b55;
+        font-weight: bold;
+    }
+}

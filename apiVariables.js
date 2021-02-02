@@ -1,0 +1,10 @@
+export const url = 'http://180.151.69.138';
+export const auth_url = `${url}:2254/api/v1`;
+export const admin_url = `${url}:2255/api/v1`;
+export const profiles_url = `${url}:2256/api/v1`;
+export const orders_url = `${url}:2257/api/v1`;
+export const products_url = `${url}:2258/api/v1`;
+export const payments_url = `${url}:2259/api/v1`;
+export const medplans_url = `${url}:2260/api/v1`;
+export const notifications_url = `${url}:2261/api/v1`;
+export const cms_url = `${url}:2262/api/v1`;

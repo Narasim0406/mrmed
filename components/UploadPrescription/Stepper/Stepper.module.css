@@ -1,0 +1,131 @@
+.stepperWrapperHorizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.stepperWrapperHorizontal .stepWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 23%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.stepperWrapperHorizontal .stepWrapper .stepName {
+  font-size: 13px;
+  line-height: 15px;
+  color: #6054E5;
+}
+
+.stepperWrapperHorizontal .stepNumber {
+  border-radius: 50%;
+  border: 1px solid grey;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 1.2rem;
+}
+
+.stepperWrapperHorizontal .stepNumber .circle {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.stepperWrapperHorizontal .dividerLine {
+  height: 1px;
+  background-color: #bdbdbd;
+  position: absolute;
+  top: 20%;
+  left: 55%;
+}
+
+.stepperWrapperHorizontal .borderColor {
+  height: 2px;
+  background-color: #6054E5;
+}
+
+.stepperWrapperHorizontal .dividerLine_2 {
+  width: 290%;
+}
+
+.stepperWrapperHorizontal .dividerLine_3 {
+  width: 90%;
+}
+
+.stepperWrapperHorizontal .dividerLine_4 {
+  width: 0%;
+}
+
+.stepperWrapperHorizontal .dividerLine_5 {
+  width: 60%;
+}
+
+.stepperWrapperVertical .stepWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.stepperWrapperVertical .stepNumber {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding: 4.5px 4px 4px;
+  text-align: center;
+  font-size: 95%;
+}
+
+.stepperWrapperVertical .stepDescription {
+  margin-left: 1.2rem;
+  padding-bottom: 3px;
+}
+
+.stepperWrapperVertical .dividerLine {
+  height: 17px;
+  width: 1px;
+  background-color: #bdbdbd;
+  position: absolute;
+  top: 100%;
+  left: 6.4%;
+}
+
+.stepNumberSelected {
+  border: 1px solid #bdbdbd;
+  color: #fff;
+}
+
+.stepNumberDisabled {
+  border: 1px solid #838383;
+}
+
+.stepDescriptionActive {
+  font-weight: bold;
+}
+/*# sourceMappingURL=Stepper.module.css.map */

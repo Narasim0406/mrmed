@@ -1,0 +1,75 @@
+.otplogin {
+  background: #766CEB;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.otplogin .otplogin_inner {
+  padding: 0 60px;
+}
+
+.otplogin .otplogin_inner .otp_header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+
+.otplogin .otplogin_inner .otp_number {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 137%;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+
+.otplogin .otplogin_inner .otpno_container {
+  padding-bottom: 80px;
+}
+
+.otplogin .otplogin_inner .otpno_container .otp-form-input {
+  width: 70px;
+  height: 50px;
+  border: 0.5px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #766CEB;
+}
+
+.otplogin .otplogin_inner .otpno_container input::-webkit-input-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otplogin .otplogin_inner .otpno_container input:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otplogin .otplogin_inner .otpno_container input::-ms-input-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otplogin .otplogin_inner .otpno_container input::placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otplogin .otplogin_inner .otp_verify {
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #766DEC;
+  border: none;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

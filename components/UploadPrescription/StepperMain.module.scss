@@ -1,0 +1,49 @@
+.indication{
+  padding: 0;
+    span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #727272;
+    }
+    b{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        color: #414b55;
+        font-weight: bold;
+    }
+}
+.buttonsContainer{
+  margin-bottom: 30px;
+  .prevBtn{
+    width: 196px;
+    height: 50px;
+    background: #6054E5;
+    border-radius: 2px;
+    color:white;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  .nextBtn{
+    width: 196px;
+    height: 50px;
+    background: #6054E5;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    outline: none;
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  .nextBtn:focus{
+    outline: none;
+  }
+  .prevBtn:focus{
+    outline: none;
+  }
+}
+
+  .stepperContainerHorizontal{
+    margin-top: 30px;
+  }

@@ -1,0 +1,54 @@
+.productSpecification{
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .activeList{
+    display: inline;
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    margin-right: 20px;
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 15px 30px 15px 30px;
+    border-radius: 2px;
+  }
+  .inActiveList{
+    display: inline;
+    color: #6B6B6B;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px 15px 30px;
+    border-radius: 2px;
+    list-style-type: none;
+  }
+  .productSpecification ul{
+    padding: 0px;
+  }
+  .overviewContent{
+    font-size: 16px;
+    color: #686868;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .checkList{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #686868;
+
+  }
+  .tick{
+    padding-right: 20px;
+  }
+  .specsContent{
+    color: #686868;
+    margin-bottom: 40px;
+  }
+  .disclamier{
+    font-size: 20px;
+    color: #3D3D3D;
+    padding-bottom: 20px;
+  }
+  

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+.signin-modal{
+    background-color: #00000077;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  .signin-innermodal{
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.sign-in{
+    background: #766CEB;
+    display: flex;
+    height: 480px;
+    width: 950px;
+    margin:0 auto;
+    .signin-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 57px;
+        padding-left: 36px;
+        .signin-btns{
+            margin-top: -50px;
+        }
+        .signin-header{
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 138.5%;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+        }
+        .signin-input{
+            .singnin-form-input{
+                width: 320px;
+                height: 50px;
+                border: 1px solid #FFFFFF;
+                box-sizing: border-box;
+                font-family: 'Roboto', sans-serif;
+                border-radius: 4px;
+                font-size: 18px;
+                line-height: 21px;   
+                color:white;
+                outline: none;   
+                padding: 10px;  
+                background:#766CEB;        
+            }
+            input::placeholder{
+                color: #FFFFFF;
+            }
+        }                
+        .verify-btn{
+            width: 322px;
+            background: #FFFFFF;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #766DEC;
+            border: none;
+            height: 50px;
+            margin-bottom: 30px;
+        }    
+        .no-Account{
+            font-size: 16px;
+            line-height: 23px;
+            color: #FFFFFF;
+            text-align: center;
+            .register{
+                font-size: 20px;
+                line-height: 23px;
+                color: #FFFFFF;
+                text-decoration: none;  
+                font-weight: 500px;
+            }
+            &>span{
+                font-size: 20px;
+            }
+        }
+    }
+}
+.signup{
+    width: 1010px;
+}
+
+.signup-inner{
+        height: 480px;
+        font-size: 30px;
+        color: #FFFFFF;
+        line-height: 138.5%;
+        padding: 15px 0;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        background:#766CEB;
+        .signup-content{
+            padding-left: 30px;
+            margin-top: -20px;
+        }
+        .signup-header{
+            font-size: 28px;
+            line-height: 138.5%;
+            color: #FFFFFF;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+    }
+    .register{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;        
+    }
+    .signup-main{
+            .signup-form-input{
+                width: 320px;
+                height: 40px;
+                padding: 10px;
+                border: 1px solid #FFFFFF;
+                box-sizing: border-box;
+                border-radius: 4px;
+                font-size: 18px;
+                line-height: 21px;        
+                background:#766CEB;
+                margin-bottom: 20px;    
+                outline: none;
+                color: white;    
+            }
+            input::placeholder{
+                color: #FFFFFF;
+            }        
+    }    
+    .sverify-btn{
+        width: 320px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #766DEC;
+        border: none;
+        margin-bottom: -100px;
+        padding: 10px;
+    }
+    .accounts-main{
+        flex-direction: column;
+        .nosign-accooun{
+            margin-top: 15px;
+            .nosignup-Account{
+                text-align: center;
+                font-size: 16px;
+                line-height: 23px;
+                color: #FFFFFF;
+                font-family: 'Roboto', sans-serif;
+                .login_link{
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        }    
+        .signup-footer{
+            font-family: 'Roboto', sans-serif;
+            width: 400px;
+            .terms-cont{
+                font-size: 12px;
+                line-height: 146.68%;
+                color: #FFFFFF;
+                &>span{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        } 
+    }       

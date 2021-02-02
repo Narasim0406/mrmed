@@ -1,0 +1,55 @@
+.modal-dialog{
+   max-width: 700px !important;
+}
+.RegConfirmMain{
+   height: 500px;
+   text-align: center;
+   .contact_mr{
+      padding:15px 15px;
+      .cancelImg{
+         cursor: pointer;
+         object-fit: contain;
+      }
+   }
+   .phone_ring_sec{
+      padding-bottom: 60px;
+      .paymentSuccessImg{
+         object-fit: contain;
+      }
+   }
+   .mr_med_lower{
+      height: 200px;
+      flex-direction: column;
+      justify-content: space-evenly ;
+      .contact_text{
+         flex-direction: column;
+         .mr_medcontact{
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 151%;
+            text-align: center;
+            text-transform: capitalize;
+            color: #000000;
+            padding: 0 50px;
+         }
+         .enrolling_section{
+            font-size: 23px;
+            line-height: 165.7%;
+            text-align: center;
+            color: #737373;
+            padding: 0 40px;
+         }
+      }
+      .explore_med{
+         text-align: center;
+         .explore_medBtn{
+            width: 245px;
+            height: 51px;
+            background: #00D9C5;
+            border-radius: 2px;
+            border: none;
+            outline: none;
+         }           
+      }
+   }
+}

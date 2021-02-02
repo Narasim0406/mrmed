@@ -1,0 +1,67 @@
+.attached_prescription{
+    padding: 30px 10px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333; 
+}
+.attached_prescription_container{
+    padding: 0 130px;
+    .attached_prescriptionslist{
+        display: flex;
+        border: 0.8px solid #EAEAEA;
+        justify-content: center;
+        margin-top: 20px;
+        height: 404px;
+        align-items: center;
+    }
+    .prescription_right_box{
+        height: 340px;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+        border-radius: 4px;
+        padding: 0px 30px;
+            .prescription_attach_container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 40px;
+                .attached_prescription1{
+                    position: relative;
+                    height: 400px;
+                    background-image: url(../../../../assets/images/greenrect.png);
+                    background-repeat: no-repeat;
+                    object-fit: contain;
+                    background-size: 320px;
+                    display: flex;
+                    padding: 10px 20px ;
+                    .prescription_tickmark{
+                        position: absolute;
+                        right: -20px;
+                        top: -25px;
+                    }
+                    .prescription_image{
+                        margin-top: 10px;
+                        &>img{
+                            object-fit: contain;
+                            height: 250px;
+                        };
+                    }
+                    .icons_list{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: flex-start;
+                        height: 280px;
+                        padding: 0 20px;
+                        margin-top: 10px;
+                        &>img{
+                            object-fit: contain;
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+            
+            }
+        }
+}

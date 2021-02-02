@@ -1,0 +1,116 @@
+.overall__summary__container1{
+    padding:  10px 0;
+    .overall__summary__inner1{
+        padding: 20px;
+        background: #FFFFFF;
+        border: 0.8px solid #EAEAEA;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+        border-radius: 4px;
+        .or_order_summary1{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #333333;
+        }
+        .list_of_charges1{
+            .cart_values1{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .borderLine_bottom1{
+                border: 0.8px solid #DDDDDD;
+            }
+            .order_total_main1{
+                flex-direction: row;
+                justify-content: space-between;
+                .detail_total1{
+                    padding: 10px 0;
+                    font-weight: bold;
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #333333;
+                    margin-bottom: 0 ;
+                }
+                .detail_total_generate1{
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #343434; 
+                    font-weight: bold;
+                    padding: 10px 0;
+                    margin-bottom: 0 ;
+                }
+            }
+            .delivery__details__container1{
+                .delivery__details1{
+                    padding: 30px 0;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #343434; 
+                }
+                .delivery__inner_sec1{                    
+                    background: #FFFFFF;
+                    border: 1px solid #D8D8D8;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    height: 225px;
+                    .changeBtn{
+                        padding: 0 70px;
+                        .report_order1{
+                            border: 1px solid #6054E5;
+                            box-sizing: border-box;
+                            width: 170px;
+                            height: 35px;
+                            border-radius: 2px;
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 18px;
+                            color: #6054E5;
+                            background-color: white;  
+                        }
+                    }
+                    .del_person_inner_container1{
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .del_person_innnerLeft1{
+                            padding: 0 20px;
+                            padding-top: 20px ;
+                           .del_person_name1{
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #333333;
+                                margin-bottom:5px ;
+                            }
+                            .del_person_number1{
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: #333333;                                
+                            }  
+                        }
+                        .del_person_innerRight1{
+                            width: 60px;
+                            height: 25px;
+                            background: #dfdbdb;
+                            border-radius: 10px;
+                            text-align: center;
+                            font-size: 12px;
+                            color: #333333;
+                            margin: 20px;
+                            &>p{
+                                margin-top: 3px;
+                            }
+                        }
+                    }
+                    .street1{
+                        padding: 0 20px;
+                        font-size: 16px;
+                        line-height: 150.3%;
+                        color: #868686;
+                    }
+                }  
+            }
+        }
+    }
+}

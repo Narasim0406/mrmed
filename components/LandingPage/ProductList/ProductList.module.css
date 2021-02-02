@@ -1,0 +1,97 @@
+.chronic {
+  color: #414B55;
+  font-size: 34px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.activeList {
+  display: inline;
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 15px 40px 15px 40px;
+  border-radius: 2px;
+}
+
+.landingList {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  list-style-type: none;
+}
+
+.inActiveList {
+  display: inline;
+  color: #6B6B6B;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px 15px 30px;
+  border-radius: 2px;
+}
+
+.image {
+  background-color: #F7F7F7;
+}
+
+.image > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.category {
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.right {
+  float: right;
+}
+
+.name {
+  color: #424242;
+  font-size: 18px;
+}
+
+.discountPrice {
+  color: #6054E5;
+  font-size: 20px;
+}
+
+.actualPrice {
+  color: gray;
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.btnArrow {
+  background-color: white;
+  border: 1px solid #9B9B9B;
+  padding: 5px;
+}
+
+.btnView {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  color: #232323;
+  padding: 10px 40px 10px 40px;
+  margin-top: 40px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.btnView:focus {
+  outline: none;
+}
+
+.view {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=ProductList.module.css.map */

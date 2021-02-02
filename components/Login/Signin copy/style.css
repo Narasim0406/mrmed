@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+.signin-modal {
+  background-color: #00000077;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.signin-innermodal {
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sign-in {
+  background: #766CEB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 480px;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.sign-in .signin-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 57px;
+  padding-left: 36px;
+}
+
+.sign-in .signin-inner .signin-btns {
+  margin-top: -50px;
+}
+
+.sign-in .signin-inner .signin-header {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 138.5%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.sign-in .signin-inner .signin-input .singnin-form-input {
+  width: 320px;
+  height: 50px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  outline: none;
+  padding: 10px;
+  background: #766CEB;
+}
+
+.sign-in .signin-inner .signin-input input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+.sign-in .signin-inner .signin-input input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.sign-in .signin-inner .signin-input input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.sign-in .signin-inner .signin-input input::placeholder {
+  color: #FFFFFF;
+}
+
+.sign-in .signin-inner .verify-btn {
+  width: 322px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #766DEC;
+  border: none;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.sign-in .signin-inner .no-Account {
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.sign-in .signin-inner .no-Account .register {
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500px;
+}
+
+.sign-in .signin-inner .no-Account > span {
+  font-size: 20px;
+}
+
+.signup {
+  width: 1010px;
+}
+
+.signup-inner {
+  height: 480px;
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 138.5%;
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #766CEB;
+}
+
+.signup-inner .signup-content {
+  padding-left: 30px;
+  margin-top: -20px;
+}
+
+.signup-inner .signup-header {
+  font-size: 28px;
+  line-height: 138.5%;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.register {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.signup-main .signup-form-input {
+  width: 320px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21px;
+  background: #766CEB;
+  margin-bottom: 20px;
+  outline: none;
+  color: white;
+}
+
+.signup-main input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signup-main input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signup-main input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signup-main input::placeholder {
+  color: #FFFFFF;
+}
+
+.sverify-btn {
+  width: 320px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #766DEC;
+  border: none;
+  margin-bottom: -100px;
+  padding: 10px;
+}
+
+.accounts-main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.accounts-main .nosign-accooun {
+  margin-top: 15px;
+}
+
+.accounts-main .nosign-accooun .nosignup-Account {
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.accounts-main .nosign-accooun .nosignup-Account .login_link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.accounts-main .signup-footer {
+  font-family: 'Roboto', sans-serif;
+  width: 400px;
+}
+
+.accounts-main .signup-footer .terms-cont {
+  font-size: 12px;
+  line-height: 146.68%;
+  color: #FFFFFF;
+}
+
+.accounts-main .signup-footer .terms-cont > span {
+  font-size: 14px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

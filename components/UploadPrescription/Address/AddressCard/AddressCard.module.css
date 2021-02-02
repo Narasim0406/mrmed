@@ -1,0 +1,54 @@
+.container {
+  padding: 0px !important;
+}
+
+.container .card {
+  width: 337px;
+  height: 200px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.container .card .adPn {
+  margin-top: -13px !important;
+}
+
+.container .card .cardText {
+  font-size: 14px;
+  line-height: 150.3%;
+  color: #868686;
+}
+
+.container .card .cardTitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.container .card .adType {
+  padding: 5px 10px;
+  background: #f0f0f0;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.container .card .cardTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=AddressCard.module.css.map */

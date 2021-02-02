@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,QAAQ,EAAE,KAAK;EACf,UAAU,EAAE,KAAK;CAKpB;;AAPD,AAGI,QAHI,CAGJ,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AAEL,AAGY,QAHJ,CACJ,iBAAiB,CACb,kBAAkB,CACd,yBAAyB,CAAA;EACpB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,gBAAgB;EAClC,MAAM,EAAE,6BAA6B;CACzC",
+    "sources": [
+        "SpecialityMedAndCarousel.module.scss"
+    ],
+    "names": [],
+    "file": "SpecialityMedAndCarousel.module.css"
+}

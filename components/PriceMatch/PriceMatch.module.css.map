@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,OAAO,EAAE,CAAC;CAYb;;AAbD,AAEI,WAFO,CAEP,IAAI,CAAA;EACA,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CACjB;;AANL,AAOI,WAPO,CAOP,CAAC,CAAA;EACG,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "PriceMatch.module.scss"
+    ],
+    "names": [],
+    "file": "PriceMatch.module.css"
+}

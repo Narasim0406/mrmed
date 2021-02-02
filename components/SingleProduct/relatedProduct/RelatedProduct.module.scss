@@ -1,0 +1,63 @@
+
+  .alignCenter{
+    text-align: center;
+  }
+  .image{
+    background-color: #F7F7F7;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .category{
+    color: gray;
+    font-size: 14px;
+  }
+  .manufacture{
+    color: gray;
+    font-size: 14px;
+  }
+  .right{
+    float: right;
+  }
+  .productName{
+    color: #424242;
+    font-size: 18px;
+  }
+  .discountPrice{
+    color: #6054E5;
+    font-size: 20px;
+  }
+  .actualPrice{
+    color: gray;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+  .btnArrow{
+    background-color: white;
+    border: 1px solid #9B9B9B;
+    padding: 5px;
+  }
+  .btnView{
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    color: #232323;
+    padding: 10px 40px 10px 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+  }
+  .btnView:focus{
+    outline: none;
+  }
+  .related{
+    font-size: 24px;
+    color: #414B55;
+  }
+  .btnAdd{
+    background-color: white;
+    border: 1px solid #9B9B9B;
+    color: #9B9B9B;
+    font-size: 24px;
+    border-radius: 2px;
+    padding: 0px 10px 0px 10px;
+  }

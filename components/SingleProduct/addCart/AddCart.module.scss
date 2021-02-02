@@ -1,0 +1,94 @@
+ .purchaseBox{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+    padding: 20px;
+  }
+  .btnAddCart{
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+  }
+  .btnAddCart:focus{
+    outline: none;
+  }
+  .btnPriceMatch{
+    background-color: white;
+    color: #747474;
+    border: 1px solid #BBBBBB;
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+  }
+  .wishlist{
+    color: #6F6F6F;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .offer{
+    color: #0DA225;
+    font-size: 14px;
+  }
+  .price{
+    color: #9C9C9C;
+    padding-right: 10px;
+    color: #9C9C9C;
+    font-size: 14px;
+  }
+  .priceTag{
+    color: #9C9C9C;
+    position: absolute;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .line{
+    text-decoration: line-through;
+  }
+  .offerPrice{
+    font-size: 32px;
+    color: #6054E5;
+    display: inline;
+    padding-left: 50px;
+  }
+  .tax{
+    font-size: 12px;
+    color: #555555;
+  }
+  .quantityLabel{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #7A7A7A;
+      font-size: 16px;
+  }
+  .ratingNumber{
+    padding-right: 10px;
+  }
+  .quantityField{
+    padding-top: 10px;
+  }
+  .tabletCount{
+    line-height: normal;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #808080;
+    
+  }
+  .addCartCol{
+    border: 1px solid #EAEAEA;
+    font-size: 20px;
+    color: #646464;
+    padding: 5px 15px 5px 15px;
+  }
+  

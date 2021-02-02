@@ -1,0 +1,71 @@
+.payment_modal {
+  margin-right: 510px !important;
+}
+
+.payment_success {
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  width: 700px;
+  position: relative;
+}
+
+.payment_success .pt_msg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.payment_success .cancel_img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.payment_success .payment_success_img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 130px;
+  width: 100%;
+}
+
+.payment_success .track_your_order {
+  text-align: center;
+}
+
+.payment_success .track_your_order .track_order_btn {
+  width: 245px;
+  height: 51px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+.payment_success .payment_msg {
+  font-size: 26px;
+  line-height: 165.7%;
+  text-align: center;
+  color: #737373;
+}
+/*# sourceMappingURL=PaymentSuccess.module.css.map */

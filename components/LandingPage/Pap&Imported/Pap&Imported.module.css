@@ -1,0 +1,43 @@
+.whatDo {
+  color: #414B55;
+  font-size: 34px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.btnKnow {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  color: #232323;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 40px 10px 40px;
+}
+
+.btnKnow:focus {
+  outline: none;
+}
+
+.knowMore {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pap {
+  color: #6054E5;
+  font-size: 24px;
+}
+
+.papText {
+  color: #666666;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.papImg {
+  width: 100%;
+}
+/*# sourceMappingURL=Pap&Imported.module.css.map */

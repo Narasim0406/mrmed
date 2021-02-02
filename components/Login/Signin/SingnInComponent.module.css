@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+.signInUpModal {
+  max-width: 1050px !important;
+}
+
+.signIn {
+  background: #766CEB;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.signIn .signInCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signIn .signInCard .signinInput {
+  padding-top: 120px;
+}
+
+.signIn .signInCard .signinInput .singninFormInput {
+  width: 320px;
+  height: 50px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  outline: none;
+  padding: 10px;
+  background: #766CEB;
+}
+
+.signIn .signInCard .signinInput .signinHeader {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 138.5%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.signIn .signInCard .signinInput input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signIn .signInCard .signinInput input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signIn .signInCard .signinInput input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signIn .signInCard .signinInput input::placeholder {
+  color: #FFFFFF;
+}
+
+.signIn .signInCard .signinBtns {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.signIn .signInCard .signinBtns .verifyBtn {
+  width: 322px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #766DEC;
+  border: none;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.signIn .signInCard .signinBtns .noAccount {
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.signIn .signInCard .signinBtns .noAccount .register {
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 590;
+}
+
+.signIn .signInCard .signinBtns .noAccount > span {
+  font-size: 20px;
+}
+
+.signUp {
+  background: #766CEB;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.signUp .signupContent {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signUp .signupContent .signupHeader {
+  font-size: 28px;
+  line-height: 138.5%;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.signUp .signupContent .register {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.signUp .signupContent .signupMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signUp .signupContent .signupMain .signupFormInput {
+  width: 320px;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 21px;
+  background: #766CEB;
+  margin-bottom: 20px;
+  outline: none;
+  color: white;
+}
+
+.signUp .signupContent .signupMain input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signUp .signupContent .signupMain input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signUp .signupContent .signupMain input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.signUp .signupContent .signupMain input::placeholder {
+  color: #FFFFFF;
+}
+
+.signUp .signupContent .sverifyBtn {
+  width: 320px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #766DEC;
+  border: none;
+  padding: 10px;
+}
+
+.signUp .signupContent .accountsMain {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.signUp .signupContent .accountsMain .nosignAccooun .nosignupAccount {
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.signUp .signupContent .accountsMain .nosignAccooun .nosignupAccount .login_link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signUp .signupContent .accountsMain .signupFooter {
+  font-family: 'Roboto', sans-serif;
+  width: 435px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 20px;
+}
+
+.signUp .signupContent .accountsMain .signupFooter .termsCont {
+  font-size: 12px;
+  line-height: 146.68%;
+  color: #FFFFFF;
+  width: 380px;
+  text-align: center;
+}
+
+.signUp .signupContent .accountsMain .signupFooter .termsCont > span {
+  font-size: 14px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=SingnInComponent.module.css.map */

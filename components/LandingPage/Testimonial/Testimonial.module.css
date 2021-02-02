@@ -1,0 +1,89 @@
+.testimonial {
+  color: #414B55;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.testimonialBox {
+  background-color: #FFFFFF;
+  border: 1px solid #E3E3E3;
+  width: 95% !important;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.1);
+}
+
+.starTestimonial {
+  float: right;
+}
+
+.starTestimonial img {
+  display: inline;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.testimonialTitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.testimonialProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.userName {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 28px;
+  color: #343434;
+}
+
+.userLocation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #343434;
+}
+
+.previous {
+  margin-top: 5%;
+}
+
+.previous img {
+  float: right;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.next {
+  margin-top: 5%;
+}
+
+.next img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.slick-slider .slick-dots {
+  margin-bottom: 20px !important;
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+  font-family: 'slick' !important;
+  font-size: 15px;
+  line-height: 20px !important;
+}
+
+.slick-slider .slick-active button {
+  background-color: #6054E5 !important;
+}
+/*# sourceMappingURL=Testimonial.module.css.map */

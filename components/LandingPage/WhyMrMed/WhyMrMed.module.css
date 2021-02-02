@@ -1,0 +1,54 @@
+.wholeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wholeContainer .whyBox {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  width: 240px;
+  height: 295px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.wholeContainer .whyBox .whyContent {
+  height: 50px;
+}
+
+.wholeContainer .whyBox img {
+  width: 60px;
+  height: 55px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.wholeContainer .whyBox b {
+  color: #6054E5;
+  font-size: 16px;
+}
+
+.wholeContainer .whyBox p {
+  color: #000000;
+  text-align: center;
+  padding: 7px 10px 20px 10px;
+  font-size: 14px;
+}
+
+.whyMed {
+  color: white !important;
+  font-size: 34px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+/*# sourceMappingURL=WhyMrMed.module.css.map */

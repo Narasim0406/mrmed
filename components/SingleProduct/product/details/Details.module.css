@@ -1,0 +1,83 @@
+.btnPap {
+  background-color: white;
+  color: #6054E5;
+  border: 1px solid #6054E5;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.pack {
+  color: #264087;
+  font-size: 14px;
+}
+
+.prescription {
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.prescription img {
+  padding-right: 10px;
+}
+
+.productTitle {
+  color: #424242;
+  font-size: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.manufacturer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.specification {
+  padding-bottom: 30px;
+}
+
+.composition {
+  color: #2F2F2F;
+  font-size: 18px;
+}
+
+.rating {
+  background-color: #189B0C;
+  border: 1px solid #189B0C;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.rating img {
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 2px;
+}
+
+.ratingNumber {
+  padding-right: 10px;
+}
+
+.productMg {
+  color: gray;
+  font-size: 14px;
+}
+
+.my_custom_popover {
+  width: 220px;
+  height: 94.5px;
+  background: #F7F7F7;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/*# sourceMappingURL=Details.module.css.map */

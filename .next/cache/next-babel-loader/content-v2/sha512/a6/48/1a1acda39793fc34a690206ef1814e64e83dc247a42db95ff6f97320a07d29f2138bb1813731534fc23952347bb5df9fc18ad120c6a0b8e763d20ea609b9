@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Component } from 'react';\nimport styles from './CashOnDelivery.module.scss';\nexport default function CashOnDelivery() {\n  return __jsx(\"div\", {\n    className: \"col-md-6\"\n  }, __jsx(\"h1\", null, \"CashOnDelivery\"));\n}","map":null,"metadata":{},"sourceType":"module"}

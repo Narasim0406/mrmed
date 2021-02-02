@@ -1,0 +1,149 @@
+.overall__summary__container1 {
+  padding: 10px 0;
+}
+
+.overall__summary__container1 .overall__summary__inner1 {
+  padding: 20px;
+  background: #FFFFFF;
+  border: 0.8px solid #EAEAEA;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .or_order_summary1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .cart_values1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .borderLine_bottom1 {
+  border: 0.8px solid #DDDDDD;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .order_total_main1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .order_total_main1 .detail_total1 {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .order_total_main1 .detail_total_generate1 {
+  font-size: 15px;
+  line-height: 18px;
+  color: #343434;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__details1 {
+  padding: 30px 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #343434;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  height: 225px;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .changeBtn {
+  padding: 0 70px;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .changeBtn .report_order1 {
+  border: 1px solid #6054E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 170px;
+  height: 35px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6054E5;
+  background-color: white;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .del_person_inner_container1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .del_person_inner_container1 .del_person_innnerLeft1 {
+  padding: 0 20px;
+  padding-top: 20px;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .del_person_inner_container1 .del_person_innnerLeft1 .del_person_name1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .del_person_inner_container1 .del_person_innnerLeft1 .del_person_number1 {
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .del_person_inner_container1 .del_person_innerRight1 {
+  width: 60px;
+  height: 25px;
+  background: #dfdbdb;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  margin: 20px;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .del_person_inner_container1 .del_person_innerRight1 > p {
+  margin-top: 3px;
+}
+
+.overall__summary__container1 .overall__summary__inner1 .list_of_charges1 .delivery__details__container1 .delivery__inner_sec1 .street1 {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 150.3%;
+  color: #868686;
+}
+/*# sourceMappingURL=OrderSummary.module.css.map */

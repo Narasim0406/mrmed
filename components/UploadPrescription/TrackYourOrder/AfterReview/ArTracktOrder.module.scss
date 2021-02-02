@@ -1,0 +1,147 @@
+.MedList__container{
+    .medList_top_header{
+        padding: 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .Med_orderID{
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 116.6%;
+            color: #333333;
+            &>span{
+              color:#6054E5; 
+            }
+        }
+        .Med_orderDate{
+            font-size: 18px;
+            line-height: 21px;
+            color: #333333;
+        }
+    }
+    .medList__headertext{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 116.6%;
+        color: #333333;
+        padding: 10px 20px;
+    }
+    .medList__headertext{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 116.6%;
+
+    }
+    .medlist_overall_contain{
+        .medicine_inner_section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 160px;
+            margin-bottom: 20px;
+            .medcineList_left_sec{
+                display: flex;
+                flex-direction: row;
+                .bifacmed_img{
+                    object-fit: contain;
+                    height: 160px;
+                }
+                .medList_section{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    padding: 0 20px;
+                    .tablet_usage{
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #7D7D7D;
+                    }
+                    .tablet__name_sec{
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .tablet_name{
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 23px;
+                            color: #424242;
+                            margin-bottom: 0;
+                        }
+                        .blue_circle_rx{
+                            object-fit: contain;
+                            height: 100%;
+                        }
+                    }
+                    .manufacturer_name{
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #666666;
+                    }
+                    .medicine_list_button{
+                        border: 1px solid #B3B3B3;
+                        display: flex;
+                        flex-direction: row;
+                        width: 170px;
+                        &>button{
+                            background: white;
+                            outline: none;
+                            border: none;
+                            border-right: 1px solid #B3B3B3;
+                            width: 45px;
+                            padding: 5px 0;
+                        }
+                        .medicine_plus{
+                            border-right: none;
+                        }
+                        .medice_value{
+                            border-right: 1px solid #B3B3B3;
+                            width: 50px;
+                            margin-bottom: 0;
+                            text-align: center;
+                            padding: 8px 40px;                    
+                        }                
+                    }
+                }  
+            }
+            .price__dust{
+                height: 40px;
+                flex-direction: column;
+                height: 180px;
+                justify-content: space-evenly;
+                align-items: center;
+                .dustbin_image{
+                    object-fit: contain;
+                }
+                .price__list_section{
+                    flex-direction: row;
+                    align-items: center;
+                    .original_price{
+                        font-weight: bold;
+                        font-size: 23px;
+                        line-height: 29px;
+                        text-align: center;
+                        color: #6054E5;
+                        padding: 0 10px;
+                    }
+                    .strike_price{
+                        font-size: 18px;
+                        line-height: 21px;
+                        text-decoration-line: line-through;
+                        color: #767676;
+                    }
+                }
+            }    
+        }
+        .medlist_border_container{
+            padding: 0 15px;
+            .medlist_border{
+                max-width: 800px;
+                border: 0.5px solid #D5D5D5;
+                margin-bottom: 20px;
+                padding: 0 40px;
+            }
+        }        
+    }
+}
+.medList__summary__container{
+    padding:  50px 0;
+}

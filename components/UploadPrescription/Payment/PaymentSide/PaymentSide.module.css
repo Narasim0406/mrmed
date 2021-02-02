@@ -1,0 +1,62 @@
+.paymentSide {
+  width: 300px;
+  height: 674px;
+  background: #F4F4F5;
+  border-radius: 6px 0px 0px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.paymentSide .paymentNav {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.paymentSide .paymentNav .active_item {
+  border-left: 10px solid  #766CEB;
+  background-color: white;
+  color: #766CEB;
+}
+
+.paymentSide .paymentNav .textContent {
+  padding-left: 20px;
+}
+
+.paymentSide .paymentNav .textContent .selected {
+  background-color: white;
+}
+
+.paymentSide .paymentNav .textContent .active:active {
+  border-left: 10px solid  #766CEB;
+  background-color: white;
+  color: #766CEB;
+}
+
+.paymentSide .paymentNav a {
+  color: #464646;
+}
+
+.paymentSide .paymentNav a:hover {
+  text-decoration: none;
+}
+
+.paymentSide .paymentNav > li {
+  border-bottom: 1px solid #DDDDDD;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 137.19%;
+}
+/*# sourceMappingURL=PaymentSide.module.css.map */

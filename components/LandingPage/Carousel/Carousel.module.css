@@ -1,0 +1,68 @@
+.carouselBackground {
+  background-image: url("../../../assets/images/carousel-background.png");
+  background-size: contain;
+  height: 360px;
+}
+
+.carouselAlign {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.gaurantee {
+  width: 120px;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.carouselTitle {
+  color: #000000;
+  font-size: 32px;
+}
+
+.carouselTitle span {
+  color: gray;
+  font-size: 14px;
+}
+
+.btnShop {
+  background-color: #6054E5;
+  border: 1px solid #6054E5;
+  border-radius: 2px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+}
+
+.btnShop:focus {
+  outline: none;
+}
+
+.afford {
+  margin-top: 15px;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.accessImg {
+  width: 200px;
+  height: 170px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: -1;
+}
+
+.textPosition {
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin-top: -65px;
+  margin-left: 50px;
+}
+
+.bottom {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=Carousel.module.css.map */

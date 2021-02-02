@@ -1,0 +1,81 @@
+.placedBox{
+    border: 1px solid #EAEAEA;
+    padding: 15px;  
+    width: 100%;
+    margin-top: 40px;
+  }
+  .summary{
+    color: #333333;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .right{
+    float: right;
+  }
+  .details{
+    color: #333333;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .orderTotal{
+    color: #333333;
+    font-size: 18px;
+  }
+  .deliveryDetails{
+      color: #333333;
+      font-size: 18px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+  }
+  .placedAddress{
+    border: 1px solid #D8D8D8;
+    padding: 15px;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    b{
+        color: #333333;
+        font-size: 16px;
+        display: block;
+    }
+    span{
+        color: #333333;
+        font-size: 12px;
+        display: block;
+    }
+    p{
+        color: #868686;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+  }
+  .place{
+    background-color: #F0F0F0;
+    border: 1px solid #F0F0F0;
+    color: #333333;
+    font-size: 12px;
+    width: fit-content;
+    float: right;
+    border-radius: 20px;
+    padding: 0px 15px 0px 15px;
+  }
+  .summaryBtn{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    button{
+      background-color: white;
+      border: 1px solid #6054E5;
+      color:  #6054E5;
+      width: 50%;
+      font-size: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-weight: bold;
+      outline: none;
+    }
+    button:nth-child(1){
+      border-right: none;
+    }
+  }

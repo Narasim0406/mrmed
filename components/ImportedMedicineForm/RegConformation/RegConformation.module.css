@@ -1,0 +1,77 @@
+.modal-dialog {
+  max-width: 700px !important;
+}
+
+.RegConfirmMain {
+  height: 500px;
+  text-align: center;
+}
+
+.RegConfirmMain .contact_mr {
+  padding: 15px 15px;
+}
+
+.RegConfirmMain .contact_mr .cancelImg {
+  cursor: pointer;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.RegConfirmMain .phone_ring_sec {
+  padding-bottom: 60px;
+}
+
+.RegConfirmMain .phone_ring_sec .paymentSuccessImg {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.RegConfirmMain .mr_med_lower {
+  height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.RegConfirmMain .mr_med_lower .contact_text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.RegConfirmMain .mr_med_lower .contact_text .mr_medcontact {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 151%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 0 50px;
+}
+
+.RegConfirmMain .mr_med_lower .contact_text .enrolling_section {
+  font-size: 23px;
+  line-height: 165.7%;
+  text-align: center;
+  color: #737373;
+  padding: 0 40px;
+}
+
+.RegConfirmMain .mr_med_lower .explore_med {
+  text-align: center;
+}
+
+.RegConfirmMain .mr_med_lower .explore_med .explore_medBtn {
+  width: 245px;
+  height: 51px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=RegConformation.module.css.map */

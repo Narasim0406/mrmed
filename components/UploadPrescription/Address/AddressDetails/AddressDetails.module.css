@@ -1,0 +1,86 @@
+.stateCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.stateCol .formSelect {
+  background: #FFFFFF !important;
+  border: 1px solid #B8BCC5 !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  border-radius: 4px !important;
+  padding: 5px;
+  height: 37px !important;
+  outline: none;
+}
+
+.addressDetails {
+  margin-top: 25px;
+}
+
+.addressDetails > h2 {
+  font-weight: 540;
+}
+
+.addressDetails .save {
+  width: 205px;
+  height: 52px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.addressCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px !important;
+}
+
+#address {
+  resize: none !important;
+}
+
+.toggleBtn {
+  border: 1px solid #B8BCC5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 65px;
+  width: 131px;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.toggleBack {
+  background: #E2E2E2;
+}
+
+#option {
+  visibility: hidden;
+}
+/*# sourceMappingURL=AddressDetails.module.css.map */

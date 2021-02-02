@@ -1,0 +1,79 @@
+.deliveryInfo {
+  width: 883px;
+  height: 146px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  padding: 25px 50px;
+}
+
+.deliveryInfo > p {
+  font-size: 18px;
+  line-height: 145.75%;
+  color: #575757;
+}
+
+.deliveryInfo .deliveryCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.deliveryInfo .deliveryCard .customer .name {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 28px;
+  color: #0C0C0C;
+}
+
+.deliveryInfo .deliveryCard .customer .number {
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+
+.deliveryInfo .deliveryCard .deliveryAddress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.deliveryInfo .deliveryCard .deliveryAddress .address {
+  font-size: 18px;
+  line-height: 150.3%;
+  color: #757575;
+}
+
+.deliveryInfo .deliveryCard .deliveryAddress .adType {
+  width: 60px;
+  height: 25px;
+  background: #dfdbdb;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+}
+
+.deliveryInfo .deliveryCard .deliveryAddress .adType > p {
+  margin-top: 3px;
+}
+/*# sourceMappingURL=DeliveryDetails.module.css.map */

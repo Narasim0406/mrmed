@@ -1,0 +1,60 @@
+.indication{
+    padding: 0;
+    span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #727272;
+    }
+    b{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        color: #414b55;
+        font-weight: bold;
+    }
+}
+.heading{
+    font-size: 34px;
+    line-height: 40px;
+    color: #766DEC;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.career_Box{
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    width: 345px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    &>div{
+        display: flex;
+        justify-content: space-between;
+        width: 312px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 40px;
+        color: #343434;
+        img{
+            object-fit: contain;
+            cursor: pointer;
+        }
+    }
+    &>p{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #343434;
+        margin-top: 30px;
+    }
+}
+.careers_list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1190px;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+}

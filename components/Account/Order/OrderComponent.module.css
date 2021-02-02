@@ -1,0 +1,160 @@
+.trackBorder {
+  width: 100%;
+  border: 4px solid #F5F5F5;
+  border-radius: 4px;
+  padding: 20px 20px 40px 20px;
+}
+
+.myOrder {
+  color: #333333;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.in_box {
+  padding-left: 15px;
+}
+
+.orderStatus {
+  border: 1px solid #D8D8D8;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.orderStatus img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+  padding: 12px;
+}
+
+.orderStatus .pres_img {
+  height: 105px;
+  border: 1px solid #6054E5;
+}
+
+.orderId {
+  color: 343434;
+  font-size: 20px;
+}
+
+.idNumber {
+  color: #6054E5;
+  font-size: 20px;
+}
+
+.orderName {
+  color: #000000;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.orderAddress {
+  color: #474747;
+  font-size: 14px;
+}
+
+.deliveryDate {
+  color: #666666;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.amountDetails {
+  float: right;
+  margin-top: 20px;
+}
+
+.amountDetails span {
+  color: #666666;
+  font-size: 14px;
+}
+
+.amountDetails b {
+  color: #6054E5;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.orderShipped {
+  background-color: #FDF5CA;
+  border: 1px solid #FDF5CA;
+  color: #C79300;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 14px;
+  padding: 3px 20px 3px 20px;
+  border-radius: 20px;
+  float: right;
+}
+
+.orderDelivered {
+  background-color: #CAFDD8;
+  border: 1px solid #CAFDD8;
+  color: #139F06;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 14px;
+  padding: 3px 20px 3px 20px;
+  border-radius: 20px;
+  float: right;
+}
+
+.btnTrack {
+  background-color: white;
+  border: 1px solid #6054E5;
+  color: #6054E5;
+  font-size: 14px;
+  padding: 10px 25px 10px 25px;
+  text-align: center;
+}
+
+.btnTracks {
+  background-color: white;
+  border: 1px solid #6054E5;
+  color: #6054E5;
+  font-size: 14px;
+  padding: 10px 25px 10px 25px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.btnReorder {
+  border: 1px solid #BBBBBB;
+  background-color: white;
+  padding: 10px 40px 10px 40px;
+  font-size: 14px;
+  color: #747474;
+}
+
+.or_right {
+  font-size: 15px;
+  line-height: 116.6%;
+  color: #139F06;
+}
+
+.price_match {
+  font-size: 14px;
+  line-height: 116.6%;
+  color: #333333;
+}
+
+.orderReview {
+  margin-top: 10px;
+}
+
+.Order_header {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 116.6%;
+  color: #242424;
+}
+
+.order_esti {
+  padding-left: 50px;
+}
+/*# sourceMappingURL=OrderComponent.module.css.map */

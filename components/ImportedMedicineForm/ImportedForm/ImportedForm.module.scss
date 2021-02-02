@@ -1,0 +1,97 @@
+.provideDetail{
+    color: #333333;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .medDetail{
+    color: #242424;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .detailField{
+    width: 100%;
+    border: 1px solid #B8BCC5;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+  }
+  .note{
+    color: #242424;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .notesField{
+    resize: none;
+    border: 1px solid  #B8BCC5;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 10px 40px 10px;
+    outline: none;
+    border-radius: 2px;
+  }
+  .uploadLabel{
+    color: #242424;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .uploadField{
+    border: 1px dashed #766CEB;
+    color: #797979;
+    width: 100%;
+    padding-top: 40px;
+    font-size: 15px;
+    padding-bottom: 40px;
+    text-align: center;
+    img{
+      margin-bottom: 10px;
+    }
+  }
+  .Label{
+    color: #242424;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .uploadLabel{
+    background-color: white;
+    border: 1px solid #766CEB;
+    color: #766CEB;
+    padding: 10px 40px 10px 40px;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  #uploadFile{
+    opacity: 0;
+    position: absolute;
+  }#uploadFile1{
+    opacity: 0;
+    position: absolute;
+  }
+  .submit{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .btnSubmit{
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px;
+    color: #232323;
+    font-size: 14px;
+    margin: 20px 0 20px 0;
+  }
+  .btnSubmit:focus{
+    outline: none;
+  }
+  .formBorder{
+    border: 4px solid #F5F5F5;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  

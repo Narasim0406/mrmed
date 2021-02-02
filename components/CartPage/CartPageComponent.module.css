@@ -1,0 +1,28 @@
+.medicineDetail {
+  color: #333333;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.medicineDetail b {
+  font-weight: bold;
+}
+
+.indication {
+  padding: 0;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+/*# sourceMappingURL=CartPageComponent.module.css.map */

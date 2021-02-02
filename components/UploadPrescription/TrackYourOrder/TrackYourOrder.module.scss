@@ -1,0 +1,184 @@
+.indication{
+    padding: 0;
+      span{
+          font-family: 'Roboto', sans-serif;
+          font-size: 16px;
+          color: #727272;
+      }
+      b{
+          font-family: 'Roboto', sans-serif;
+          font-size: 28px;
+          color: #414b55;
+          font-weight: bold;
+      }
+  }
+.orderSection_left_inner{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .orderID{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 116.6%;
+        color: #333333;
+        &span{
+            color: #6054E5;
+        }
+    }
+    .orderDate{
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+        color: #333333;
+    }
+}
+.orderStatus{
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .or_right{
+        font-size: 15px;
+        line-height: 116.6%;
+        color: #139F06;
+      }
+      .price_match{
+        font-size: 18px;
+        line-height: 116.6%;
+        color: #333333;
+        margin-top: 20px;
+      }
+      .orderReview{
+        margin-top: 10px;
+      }
+      .Order_header{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 116.6%;
+      }
+      .order_esti{
+        padding-left: 20px;
+        width: 300px;
+      }
+    img{
+      object-fit: contain;
+      height: 100px;
+      padding:12px;
+    }
+    .pres_img{
+      height: 105px;
+      border: 1px solid #6054E5;
+    }
+  }
+.main_margin_bottom{
+    border: 0.8px solid #D5D5D5;
+}
+.medicine_soon{
+    flex-direction: column;
+    height: 300px;
+}
+.overall__summary__container{
+    padding:  50px 0;
+    .overall__summary__inner{
+        padding: 20px;
+        background: #FFFFFF;
+        border: 0.8px solid #EAEAEA;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+        border-radius: 4px;
+        .or_order_summary{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #333333;
+        }
+        .list_of_charges{
+            .cart_values{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .borderLine_bottom{
+                border: 0.8px solid #DDDDDD;
+            }
+            .order_total_main{
+                flex-direction: row;
+                justify-content: space-between;
+                .detail_total{
+                    padding: 10px 0;
+                    font-weight: bold;
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #333333;
+                    margin-bottom: 0 ;
+                }
+                .detail_total_generate{
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #878787;
+                    padding: 10px 0;
+                    margin-bottom: 0 ;
+                }
+            }
+            .delivery__details__container{
+                .delivery__details{
+                    padding: 30px 0;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #343434; 
+                }
+                .delivery__inner_sec{                    
+                    background: #FFFFFF;
+                    border: 1px solid #D8D8D8;
+                    box-sizing: border-box;
+                    border-radius: 6px;
+                    height: 150px;
+                    .del_person_inner_container{
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .del_person_innnerLeft{
+                            padding: 0 20px;
+                            padding-top: 20px ;
+                           .del_person_name{
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #333333;
+                                margin-bottom:5px ;
+                            }
+                            .del_person_number{
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: #333333;                                
+                            }  
+                        }
+                        .del_person_innerRight{
+                            width: 60px;
+                            height: 25px;
+                            background: #dfdbdb;
+                            border-radius: 10px;
+                            text-align: center;
+                            font-size: 12px;
+                            color: #333333;
+                            margin: 20px;
+                            &>p{
+                                margin-top: 3px;
+                            }
+                        }
+                    }
+                    .street{
+                        padding: 0 20px;
+                        font-size: 16px;
+                        line-height: 150.3%;
+                        color: #868686;
+                    }
+                }  
+            }
+        }
+    }
+}

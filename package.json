@@ -32,6 +32,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "styled-jsx-plugin-sass": "^1.0.0"
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "webpack": "^5.19.0"
   }
 }

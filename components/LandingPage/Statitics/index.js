@@ -16,7 +16,7 @@ class Statitics extends Component{
                     <div className={styles.statiticsBox}>
                         <div className="row">
                             <div className="col-4">
-                                <img className={styles.statiticsImg} src={require('../../../assets/images/visitor.png')} />
+                                <img className={styles.statiticsImg} src={'/visitor.png'} />
                             </div>
                             <div className="col-8">
                                 <b className={styles.statiticsCount}>5500+</b>
@@ -30,7 +30,7 @@ class Statitics extends Component{
                     <div className={styles.statiticsBox}>
                         <div className="row">
                             <div className="col-4">
-                                <img className={styles.statiticsImg} src={require('../../../assets/images/truck.png')} />
+                                <img className={styles.statiticsImg} src={'/truck.png'} />
                             </div>
                             <div className="col-8">
                                 <b className={styles.statiticsCount}>6200+</b>
@@ -44,7 +44,7 @@ class Statitics extends Component{
                     <div className={styles.statiticsBox}>
                         <div className="row">
                             <div className="col-4">
-                                <img className={styles.statiticsImg} src={require('../../../assets/images/buildings.png')} />
+                                <img className={styles.statiticsImg} src={'/buildings.png'} />
                             </div>
                             <div className="col-8">
                                 <b className={styles.statiticsCount}>14+</b>

@@ -30,19 +30,19 @@ function ProductSpecs(){
                     the growth of harmful microorganisms in the gut.
                 </p>
                 <div className={styles.checkList}>
-                    <img className={styles.tick} src={require('../../../assets/images/tick.png')}/>
+                    <img className={styles.tick} src={'/tick.png'}/>
                     <span>Streptococcus faecalis: 30 million</span>  
                 </div>
                 <div className={styles.checkList}>
-                    <img className={styles.tick} src={require('../../../assets/images/tick.png')}/>
+                    <img className={styles.tick} src={'/tick.png'}/>
                     <span>Clostridium butyricum: 2 million</span>  
                 </div>
                 <div className={styles.checkList}>
-                    <img className={styles.tick} src={require('../../../assets/images/tick.png')}/>
+                    <img className={styles.tick} src={'/tick.png'}/>
                     <span>Bacillus mesentericus: 1 million </span>  
                 </div>
                 <div className={styles.checkList}>
-                    <img className={styles.tick} src={require('../../../assets/images/tick.png')}/>
+                    <img className={styles.tick} src={'/tick.png'}/>
                     <span>Lactic acid bacillus (Lactobacillus sporogenes): 50 million spores</span>  
                 </div>
                 <p className={styles.specsContent}>

@@ -118,7 +118,7 @@ class Testimonial extends Component {
                 </div>
                 <div className="row d-flex flex-row">
                     <div className="previous" style={{marginTop:'115px'}}>
-                        <img onClick={this.previous} src={require('../../../assets/images/left-arrow.png')} />
+                        <img onClick={this.previous} src={'/left-arrow.png'} />
                     </div>
                     <div className="container">
                         <Slider ref={c => (this.slider = c)} {...settings}>
@@ -133,11 +133,11 @@ class Testimonial extends Component {
                                             </div>
                                             <div className="col-md-4">
                                                 <div className={styles.starTestimonial}>
-                                                    <img src={require('../../../assets/images/star.png')} />
-                                                    <img src={require('../../../assets/images/star.png')} />
-                                                    <img src={require('../../../assets/images/star.png')} />
-                                                    <img src={require('../../../assets/images/star.png')} />
-                                                    <img src={require('../../../assets/images/star.png')} />
+                                                    <img src={'/star.png'} />
+                                                    <img src={'/star.png'} />
+                                                    <img src={'/star.png'} />
+                                                    <img src={'/star.png'} />
+                                                    <img src={'/star.png'} />
                                                 </div>
                                             </div>
                                         </div>                
@@ -146,7 +146,7 @@ class Testimonial extends Component {
                                         </p>
                                         <div className="row">
                                             <div className="col-md-2 col-2">
-                                                <img className={styles.testimonialProfile} src={require('../../../assets/images/profile.jpeg')} />
+                                                <img className={styles.testimonialProfile} src={'/profile.jpeg'} />
                                             </div>
                                             <div className="col-md-10 col-10">
                                                 <b className={styles.userName}>{value.name}</b>
@@ -161,7 +161,7 @@ class Testimonial extends Component {
                         </Slider>
                     </div>
                     <div className="next" style={{marginTop:'115px'}}>
-                        <img onClick={this.next} src={require('../../../assets/images/right-arrow.png')} />
+                        <img onClick={this.next} src={'/right-arrow.png'} />
                     </div>
                 </div>
                 

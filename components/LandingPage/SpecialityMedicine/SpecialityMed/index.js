@@ -8,39 +8,39 @@ function SpecialityMed(){
         const [specialityMed,setSpecialityMed] = useState([
             {
                 name : 'Medical Gastroenterology',
-                img : require('../../../../assets/images/medical.png')
+                img : '/medical.png'
             },
             {
                 name : 'Surgical Gastroenterology',
-                img : require('../../../../assets/images/surgical.png')
+                img : '/surgical.png'
             },
             {
                 name : 'Medical Gastroenterology',
-                img : require('../../../../assets/images/liver.png')
+                img : '/liver.png'
             },
             {
                 name : 'Medical Gastroenterology',
-                img : require('../../../../assets/images/medical.png')
+                img : '/medical.png'
             },
             {
                 name : 'Surgical Gastroenterology',
-                img : require('../../../../assets/images/surgical.png')
+                img : '/surgical.png'
             },
             {
                 name : 'Medical Gastroenterology',
-                img : require('../../../../assets/images/liver.png')
+                img : '/liver.png'
             },
             {
                 name : 'Medical Gastroenterology',
-                img : require('../../../../assets/images/medical.png')
+                img : '/medical.png'
             },
             {
                 name : 'Surgical Gastroenterology',
-                img : require('../../../../assets/images/surgical.png')
+                img : '/surgical.png'
             },
             {
                 name : 'Medical Gastroenterology',
-                img : require('../../../../assets/images/liver.png')
+                img : '/liver.png'
             }
         ]); 
     return(
@@ -49,7 +49,7 @@ function SpecialityMed(){
                     <b>Speciality Medicines </b>
                     <div className={styles.seeAll} onClick={()=> router.push('/SpecialityMed')}>
                         <span>See All</span>
-                        <img className={styles.landingArrow} src={require('../../../../assets/images/arrow-1.svg')} />
+                        <img className={styles.landingArrow} src={'/arrow-1.svg'} />
                     </div>
                 </div>
                 <div className="row">

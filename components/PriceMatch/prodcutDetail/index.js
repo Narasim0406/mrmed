@@ -11,7 +11,7 @@ function ProductDetail(){
                 <div className="row">
                     <div className="col-md-5">
                         <div className={styles.background}>
-                            <img className={styles.detailImg} src={require('../../../assets/images/product-1.png')} />
+                            <img className={styles.detailImg} src={'/product-1.png'} />
                         </div>
                     </div>
                     <div className="col-md-7">

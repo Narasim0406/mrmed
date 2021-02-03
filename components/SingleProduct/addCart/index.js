@@ -26,9 +26,9 @@ function AddCart(){
                         <table>
                             <tbody>
                                 <tr>
-                                    <td className={styles.addCartCol}><img src={require('../../../assets/images/+.png')}/></td>
+                                    <td className={styles.addCartCol}><img src={'/+.png'}/></td>
                                     <td className={styles.addCartCol}>1</td>
-                                    <td className={styles.addCartCol}><img src={require('../../../assets/images/-.png')}/></td>
+                                    <td className={styles.addCartCol}><img src={'/-.png'}/></td>
                                 </tr>
                             </tbody>
                         </table>

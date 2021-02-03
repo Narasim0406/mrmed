@@ -46,7 +46,7 @@ export default function Careers() {
                                 <p>{career.job}</p>
                                 <img 
                                 onClick={() => router.push({pathname:'/CareerPage',query:{job:i}})}
-                                src={require('../../assets/images/goto.png')} 
+                                src={'/goto.png'} 
                                 alt="goto"/>
                             </div>
                             <p>{career.loc}</p>

@@ -12,7 +12,7 @@ function PapImported(){
                 </div>
                 <div className="row">
                     <div className="col-md-6">
-                        <img className={styles.papImg} src={require('../../../assets/images/pap.png')} />
+                        <img className={styles.papImg} src={'/pap.png'} />
                         <div className={styles.papText}>
                             <b className={styles.pap}>Patient Assistance Programme</b>
                             <br/>
@@ -26,7 +26,7 @@ function PapImported(){
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <img className={styles.papImg} src={require('../../../assets/images/imported.png')} />
+                        <img className={styles.papImg} src={'/imported.png'} />
                         <div className={styles.papText}>
                             <b className={styles.pap}>Imported medicines</b>
                             <br/>

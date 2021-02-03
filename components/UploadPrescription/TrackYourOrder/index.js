@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './TrackYourOrder.module.scss';
-import tabBottle from '../../../assets/images/tab-bottle.png';
+// import tabBottle from '/tab-bottle.png';
 import PaymentSuccess from '../Payment/PaymentSuccess/index';
 import OrderSummary from '../OrderSummary/index';
 
@@ -27,7 +27,7 @@ export default function TrackYourOrder(){
                         </div>
                         <div className={styles.orderStatus}>
                             <div className={styles.pres_img}>
-                                <img src={require('../../../assets/images/prescription-img.png')} alt="prescription" />
+                                <img src={"/prescription-img.png"} alt="prescription" />
                             </div>
                             <div className="col-md-6">
                                 <b className={styles.Order_header}>Order is Being Reviewed</b>
@@ -39,7 +39,7 @@ export default function TrackYourOrder(){
                         </div>
                         <div className={styles.main_margin_bottom}/>
                         <div className={`${styles.medicine_soon} d-flex justify-content-center align-items-center`}>
-                            <img src={tabBottle} className={styles.tablet_bottle} alt="Medicine bottle" />
+                            <img src={"/tab-bottle.png"} className={styles.tablet_bottle} alt="Medicine bottle" />
                             <p className={styles.generate_soon}>Medicine list to be generated soon!</p>
                         </div>
                     </div>

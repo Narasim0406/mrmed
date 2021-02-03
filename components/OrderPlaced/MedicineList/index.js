@@ -34,7 +34,7 @@ function MedicineList(){
             <div className={styles.medlist} key={index}>
                 <div className="row">
                     <div className="col-2">
-                        <img src={require('../../../assets/images/vitamin.png')} />
+                        <img src={'/vitamin.png'} />
                     </div>
                     <div className="col-7">
                         <div className={styles.medDetail}>

@@ -139,7 +139,7 @@ function ImportedForm(){
                             <span>Upload  Your Prescription</span>
                         </div>
                         <div className={styles.uploadField}>
-                            <img src={require('../../../assets/images/upload.png')} />
+                            <img src={'/upload.png'} />
                             <br/>
                             <span>Upload prescription or photo here</span>
                             <br/>
@@ -154,7 +154,7 @@ function ImportedForm(){
                             <span>Upload Documents</span>
                         </div>
                         <div className={styles.uploadField}>
-                            <img src={require('../../../assets/images/upload.png')} />
+                            <img src={'/upload.png'} />
                             <br/>  
                             <span>Upload any other related documents</span>
                             <br/>

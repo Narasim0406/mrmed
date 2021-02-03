@@ -11,7 +11,7 @@ function WhyMrMed(){
                 <div className={`col-md-12 ${styles.wholeContainer}`}>
                     <div>
                         <div className={styles.whyBox}>
-                            <img src={require('../../../assets/images/dollor.png')}/>
+                            <img src={'/dollor.png'}/>
                             <div className={styles.whyContent}>
                                 <b>Patient Centric Services</b>
                                 <br/>
@@ -26,7 +26,7 @@ function WhyMrMed(){
                     </div>
                     <div>
                         <div className={styles.whyBox}>
-                            <img src={require('../../../assets/images/quality-med.png')}/>
+                            <img src={'/quality-med.png'}/>
                             <div className={styles.whyContent}>
                                 <b>Highest Quality &amp; Genuine medicines</b>
                                 <p>
@@ -38,7 +38,7 @@ function WhyMrMed(){
                     </div>
                     <div>
                         <div className={styles.whyBox}>
-                            <img src={require('../../../assets/images/delivery-truck.png')}/>
+                            <img src={'/delivery-truck.png'}/>
                             <div className={styles.whyContent}>
                                 <b>Delivery aross India with atmost care</b>
                                 <p>
@@ -49,7 +49,7 @@ function WhyMrMed(){
                     </div>
                     <div>
                         <div className={styles.whyBox}>
-                            <img src={require('../../../assets/images/terms.png')}/>
+                            <img src={'/terms.png'}/>
                             <div className={styles.whyContent}>
                                 <b>Dedicated team of Pharmacists</b>
                                 <p>
@@ -61,7 +61,7 @@ function WhyMrMed(){
                     </div>
                     <div>
                         <div className={styles.whyBox}>
-                            <img src={require('../../../assets/images/doctor.png')}/>
+                            <img src={'/doctor.png'}/>
                             <div className={styles.whyContent}>
                                 <b>Super Specialty Pharmaceutical Experts</b>
                                 <p>

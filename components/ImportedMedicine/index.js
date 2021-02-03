@@ -60,7 +60,7 @@ function ImportedMedicineComponet(){
                                         <b>{slogan}</b>
                                     </div>
                                     <div>
-                                        {index < 3 ? <img src={require('../../assets/images/pap-rarrow.png')} alt="arrow"/>:""}
+                                        {index < 3 ? <img src={'/pap-rarrow.png'} alt="arrow"/>:""}
                                     </div>
                                 </div>
                             );

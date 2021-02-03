@@ -113,19 +113,19 @@ function Feedback(){
                 </div>
                 <div className="row">
                     <div className="previous" style={{marginTop:'145px'}}>
-                        <img onClick={previous} src={require('../../../assets/images/left-arrow.png')} />
+                        <img onClick={previous} src={'/left-arrow.png'} />
                     </div>
                     <div className="container">
                         <Slider asNavFor={nav1} ref={slider1 => setNav1(slider1)} {...settings}>
                             {feedback.map((value,index)=>{
                                 return(
                                     <div key={index}>
-                                        <img className={styles.feedbackImg} src={require('../../../assets/images/feedback-1.png')} />
-                                        <img className={styles.playImg} src={require('../../../assets/images/play.png')} />
+                                        <img className={styles.feedbackImg} src={'/feedback-1.png'} />
+                                        <img className={styles.playImg} src={'/play.png'} />
                                         <div className={styles.feedback}>
                                             <div className="row">
                                                 <div className="col-md-2">
-                                                    <img className={styles.feedbackProfile} src={require('../../../assets/images/profile.jpeg')} />
+                                                    <img className={styles.feedbackProfile} src={'/profile.jpeg'} />
                                                 </div>
                                                 <div className="col-md-5">
                                                     <div className={styles.userDetail}>
@@ -137,11 +137,11 @@ function Feedback(){
                                                 </div>
                                                 <div className="col-md-5">
                                                     <div className={styles.feedbackStar}>
-                                                        <img src={require('../../../assets/images/star.png')} />
-                                                        <img src={require('../../../assets/images/star.png')} />
-                                                        <img src={require('../../../assets/images/star.png')} />
-                                                        <img src={require('../../../assets/images/star.png')} />
-                                                        <img src={require('../../../assets/images/star.png')} />
+                                                        <img src={'/star.png'} />
+                                                        <img src={'/star.png'} />
+                                                        <img src={'/star.png'} />
+                                                        <img src={'/star.png'} />
+                                                        <img src={'/star.png'} />
                                                     </div>
                                                 </div>
                                             </div>
@@ -155,7 +155,7 @@ function Feedback(){
                         </Slider>
                     </div>
                     <div className="next" style={{marginTop:'145px'}}>
-                        <img onClick={next} src={require('../../../assets/images/right-arrow.png')} />
+                        <img onClick={next} src={'/right-arrow.png'} />
                     </div>
                 </div>
             </div>

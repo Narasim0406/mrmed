@@ -10,7 +10,7 @@ function Footer(){
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src={require('../../assets/images/footer-logo.png')}/>
+                            <img src={'/footer-logo.png'}/>
                             <br></br>
                             <p>
                                 MrMed is the first choice of Indian Online Pharmacy for many satisfied customers for buy
@@ -19,11 +19,11 @@ function Footer(){
                                 medicines it has become unaffordable to buy essential medicines.
                             </p>
                             <div className={styles.footerIconAlign}>
-                                <img src={require('../../assets/images/facebook.png')}/>
-                                <img src={require('../../assets/images/twitter.png')}/>
-                                <img src={require('../../assets/images/instagram.png')}/>
-                                <img src={require('../../assets/images/linkedin.png')}/>
-                                <img src={require('../../assets/images/youtube.png')}/>
+                                <img src={'/facebook.png'}/>
+                                <img src={'/twitter.png'}/>
+                                <img src={'/instagram.png'}/>
+                                <img src={'/linkedin.png'}/>
+                                <img src={'/youtube.png'}/>
                             </div>                    
                         </div>
                         <div className="col-md-7 offset-md-1">

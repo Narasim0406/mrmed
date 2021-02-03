@@ -9,75 +9,75 @@ function SpecialityMedicineExtended(props){
     const [specialityMed, setSpecialityMed] = useState([
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/medical.png')
+            img : '/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
-            img : require('../../../../assets/images/surgical.png')
+            img : '/surgical.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/liver.png')
+            img : '/liver.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/medical.png')
+            img : '/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
-            img : require('../../../../assets/images/surgical.png')
+            img : '/surgical.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/liver.png')
+            img : '/liver.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/medical.png')
+            img : '/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
-            img : require('../../../../assets/images/surgical.png')
+            img : '/surgical.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/liver.png')
+            img : '/liver.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/medical.png')
+            img : '/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
-            img : require('../../../../assets/images/surgical.png')
+            img : '/surgical.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/liver.png')
+            img : '/liver.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/medical.png')
+            img : '/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
-            img : require('../../../../assets/images/surgical.png')
+            img : '/surgical.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/liver.png')
+            img : '/liver.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/medical.png')
+            img : '/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
-            img : require('../../../../assets/images/surgical.png')
+            img : '/surgical.png'
         },
         {
             name : 'Medical Gastroenterology',
-            img : require('../../../../assets/images/liver.png')
+            img : '/liver.png'
         }
     ]);
      

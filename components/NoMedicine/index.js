@@ -29,7 +29,7 @@ function NoMedicineComponent(){
                         <div className="col-md-8">
                             <span>Upload Your Prescription</span>
                             <div className={styles.uploadPhoto}>
-                                <img src={require('../../assets/images/upload.png')} />
+                                <img src={'/upload.png'} />
                                 <br/>  
                                 <span>Upload prescription or photo here</span>
                                 <br/>

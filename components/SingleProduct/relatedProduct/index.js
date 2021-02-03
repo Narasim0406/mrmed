@@ -48,7 +48,7 @@ function RelatedProduct(){
                                 <div className={styles.bottom}>
                                     <div className={styles.image}>
                                         <div className={styles.alignCenter}>
-                                            <img src={require('../../../assets/images/product-3.png')} />  
+                                            <img src={'/product-3.png'} />  
                                         </div>
                                     </div>  
                                     <div>

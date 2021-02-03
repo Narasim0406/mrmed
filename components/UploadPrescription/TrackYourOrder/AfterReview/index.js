@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import styles from './ArTracktOrder.module.scss';
-import bifac from '../../../../assets/images/product-1.png';
-import dustbin from '../../../../assets/images/delete.png';
-import blue from '../../../../assets/images/blue-circle.png';
-import percentage from '../../../../assets/images/percentage-icon.png';
+// import bifac from '/product-1.png';
+// import dustbin from '/delete.png';
+// import blue from '/blue-circle.png';
+// import percentage from '/percentage-icon.png';
 import OrderSummary from '../../OrderSummary/index';
 import AttachedPrescriptions from '../../Attached Prescriptions/index';
 
 export default function ArTracktOrder(){
            const medicineList = [
             {
-                img: bifac,
-                img_dust: dustbin,
-                img_blue: blue,
+                img: "/product-1.png",
+                img_dust: "/delete.png",
+                img_blue: "/blue-circle.png",
                 usage: "Diabetes",
                 tablet: "Bifilac Tablets",
                 manufacturer: "Natures Velvet Lifecare",
@@ -20,9 +20,9 @@ export default function ArTracktOrder(){
                 strike_out: "200",
             },
             {
-                img: bifac,
-                img_dust: dustbin,
-                img_blue: blue,
+                img: "/product-1.png",
+                img_dust: "/delete.png",
+                img_blue: "/blue-circle.png",
                 usage: "Diabetes",
                 tablet: "Bifilac Tablets",
                 manufacturer: "Natures Velvet Lifecare",
@@ -30,9 +30,9 @@ export default function ArTracktOrder(){
                 strike_out: "200"
             },
             {
-                img: bifac,
-                img_dust: dustbin,
-                img_blue: blue,
+                img: "/product-1.png",
+                img_dust: "/delete.png",
+                img_blue: "/blue-circle.png",
                 usage: "Diabetes",
                 tablet: "Bifilac Tablets",
                 manufacturer: "Natures Velvet Lifecare",
@@ -62,7 +62,7 @@ export default function ArTracktOrder(){
                                                 <p className={styles.tablet_usage}>{med_list.usage}</p>
                                                 <div className={`${styles.tablet__name_sec} d-flex`}>
                                                     <p className={styles.tablet_name}>{med_list.tablet}</p>
-                                                    <img src={blue} alt="blue-color" className={styles.blue_circle_rx}/>
+                                                    <img src={"/blue-circle.png"} alt="blue-color" className={styles.blue_circle_rx}/>
                                                 </div>
                                                 <p className={styles.manufacturer_name}>Manufacturer:{med_list.manufacturer}</p>
                                                 <div className={styles.medicine_list_button}>
@@ -93,7 +93,7 @@ export default function ArTracktOrder(){
                         <OrderSummary ArOrder={true}/>
                         <div className={styles.md_dotteddown_container}>
                             <div className={`${styles.md_dotted_inner} d-flex`}>
-                                <img src={percentage} alt="percentage Image" className={styles.percentage_icon}/>
+                                <img src={"/percentage-icon.png"} alt="percentage Image" className={styles.percentage_icon}/>
                                 <p className={styles.apply_coupons}> APPLY COUPONS</p>
                             </div>
                             <div className={`${styles.apply_code_container} d-flex`}>

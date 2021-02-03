@@ -78,7 +78,7 @@ function PapAssistance(){
                                             <b>{content}</b>
                                         </div>
                                         <div>
-                                            {ind!=4 ? <img src={require('../../assets/images/pap-rarrow.png')} alt="arrow"/>:""}
+                                            {ind!=4 ? <img src={'/pap-rarrow.png'} alt="arrow"/>:""}
                                         </div>
                                     </div>
                                 );

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 import styles from './CancellationReasonComponent.module.scss';
-import img from '../../assets/images/prescription-img.png';
+// import img from '/prescription-img.png';
 import {useRouter} from 'next/router';
 
 function CancellationReasonComponent(){
@@ -75,7 +75,7 @@ function CancellationReasonComponent(){
                                 <div className="row">
                                     <div className={`col-md-4 ${styles.order_pmg}`}>
                                         <div className={styles.pres_img}>
-                                            <img src={img} alt="prescription" />
+                                            <img src={"/prescription-img.png"} alt="prescription" />
                                         </div>
                                     </div>
                                     <div className={`col-md-8 ${styles.cancelId}`}>

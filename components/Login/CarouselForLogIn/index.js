@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
-import mainlogo from '../../../assets/images/logo.png';
-import carouselImg from '../../../assets/images/carousel-tablets.png';
+// import mainlogo from 'assets/images/logo.png';
+// import carouselImg from 'assets/images/carousel-tablets.png';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -39,12 +39,12 @@ export default function CarouselForAll(){
                                     <SwiperSlide key={ind}>
                                         <div className={`col-md-11 ${styles.mrmed_maincontainer}`}>
                                             <div className={`${styles.mr_med_logo} d-flex align-items-center justify-content-end`}>
-                                                <img className={`${styles.logo_img} object-fit-contain`} src={mainlogo} alt="cancel" />
+                                                <img className={`${styles.logo_img} object-fit-contain`} src={"/logo.png"} alt="cancel" />
                                             </div>
                                             <div className="row">
                                                 <div className={`col-md-10 ${styles.mr_med_carinner} d-flex`}>
                                                     <div className={`${styles.mr_med_tablets} d-flex justify-content-center align-items-center`}>
-                                                        <img className="caro_img object-fit-contain" src={carouselImg} alt="success" />
+                                                        <img className="caro_img object-fit-contain" src={"/carousel-tablets.png"} alt="success" />
                                                     </div>
                                                     <p className={styles.now_medicine}>Know your medicine</p>
                                             

@@ -74,7 +74,7 @@ function MedicineDetail(){
                                  <div className="row">
                                     <div className="col-md-3">
                                         <div className={styles.background}>
-                                            <img className={styles.img} src={require('../../../assets/images/product-3.png')} />
+                                            <img className={styles.img} src={'/product-3.png'} />
                                         </div>
                                     </div>
                                     <div className="col-md-5">
@@ -85,7 +85,7 @@ function MedicineDetail(){
                                             <b>{medicineName}</b>
                                             {PAP && 
                                             // <Link to="/dashboard/papAssistance">
-                                                        <img className={styles.cartpiImg} src={require('../../../assets/images/prescription.png')} />
+                                                        <img className={styles.cartpiImg} src={'/prescription.png'} />
                                                     // </Link> 
                                                         }
                                         </div>
@@ -96,9 +96,9 @@ function MedicineDetail(){
                                             <table>
                                                 <tbody>
                                                     <tr className={styles.quantityBtns}>
-                                                        <td className={styles.tdCol} onClick={increaseQuantity(_id)}><img src={require('../../../assets/images/+.png')}/></td>
+                                                        <td className={styles.tdCol} onClick={increaseQuantity(_id)}><img src={'/+.png'}/></td>
                                                         <td className={styles.tdCol}>{product.qty}</td>
-                                                        <td className={styles.tdCol} onClick={decreaseQuantity(_id)}><img src={require('../../../assets/images/-.png')}/></td>
+                                                        <td className={styles.tdCol} onClick={decreaseQuantity(_id)}><img src={'/-.png'}/></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -106,7 +106,7 @@ function MedicineDetail(){
                                     </div>
                                     <div className={`col-md-4 ${styles.priceRequest}`}>
                                         <button className={styles.btnMatch}>PRICE MATCH</button>
-                                        <img onClick={removeFromCart(_id)} src={require('../../../assets/images/remove-cart.png')} alt="remove-cart"/>
+                                        <img onClick={removeFromCart(_id)} src={'/remove-cart.png'} alt="remove-cart"/>
                                         <div className={styles.price}>
                                             <b className={styles.discount}>₹{(price-discountPrice).toFixed(2)}</b>
                                             <span className={styles.original}>MRP ₹{price}</span>

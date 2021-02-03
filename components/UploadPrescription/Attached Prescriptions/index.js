@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import delete1 from  '../../../assets/images/delete1.png';
-import view from '../../../assets/images/view.png';
-import download from '../../../assets/images/download.png';
-import tick from '../../../assets/images//tickmark.png';
+// import delete1 from  '/delete1.png';
+// import view from '/view.png';
+// import download from '/download.png';
+// import tick from '/tickmark.png';
 import SwiperCore, { Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -40,15 +40,15 @@ export default function AttachedPrescription(){
                             <div className={styles.prescriptionAttachContainer}>
                                 <div className={styles.attachedPrescription1}>
                                     <div className={styles.prescriptionTickmark}>
-                                        <img src={tick} alt="tickmark" />
+                                        <img src={"/tickmark.png"} alt="tickmark" />
                                     </div>
                                     <div className={styles.prescriptionImage}>
-                                        <img src={require('../../../assets/images/prescription-img.png')} alt="prescription" />
+                                        <img src={'/prescription-img.png'} alt="prescription" />
                                     </div>
                                     <div className={styles.iconsList}>
-                                        <img src={delete1} alt="prescription" />
-                                        <img src={view} alt="prescription" />
-                                        <img src={download} alt="prescription" />
+                                        <img src={"/delete1.png"} alt="prescription" />
+                                        <img src={"/view.png"} alt="prescription" />
+                                        <img src={"/download.png"} alt="prescription" />
                                     </div>
                                 </div>
                             </div>

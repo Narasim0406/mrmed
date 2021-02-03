@@ -41,11 +41,11 @@ function InviteComponent(){
                         <span>Invite by Social</span>
                     </div>
                     <div className={styles.socialIcon}>
-                        <img src={require('../../../assets/images/facebook.png')}/>
-                        <img src={require('../../../assets/images/twitter.png')}/>
-                        <img src={require('../../../assets/images/instagram.png')}/>
-                        <img src={require('../../../assets/images/linkedin.png')}/>
-                        <img src={require('../../../assets/images/youtube.png')}/>
+                        <img src={'/facebook.png'}/>
+                        <img src={'/twitter.png'}/>
+                        <img src={'/instagram.png'}/>
+                        <img src={'/linkedin.png'}/>
+                        <img src={'/youtube.png'}/>
                     </div>
                 </div>
                 </div>

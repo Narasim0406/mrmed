@@ -36,7 +36,7 @@ class SpecialityMedAndCarousel extends Component{
                 </div>
                 <div className="row">
                     <div className={`col-md-1 offset-md-11 ${styles.fabIcon}`}>
-                        <img src={require('../../../assets/images/whatsapp-fab.png')} />
+                        <img src={'/whatsapp-fab.png'} />
                     </div>
                 </div>
             </div>

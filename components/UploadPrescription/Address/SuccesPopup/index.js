@@ -1,6 +1,6 @@
 import React from 'react';
-import stick from '../../../../assets/images/successTick.png';
-import cancel from '../../../../assets/images/closee.png';
+// import stick from '/successTick.png';
+// import cancel from '/closee.png';
 import { Modal } from 'reactstrap';
 import styles from './SuccessPopup.module.scss';
 import {useRouter} from 'next/router';
@@ -14,10 +14,10 @@ export default function SuccessPopup(props){
             <div className={`row ${styles.order_MainContainer} d-flex justify-content-center`}>
                <div className={styles.RegConfirmMain}>
                   <div className={`${styles.contact_mr} d-flex justify-content-end`}>
-                     <img className={styles.cancelImg} onClick={toggle} src={cancel} alt="cancel" />
+                     <img className={styles.cancelImg} onClick={toggle} src={"/closee.png"} alt="cancel" />
                   </div>
                   <div className={`${styles.order_sec} d-flex justify-content-center`}>
-                     <img className={styles.orderSuccessImg} src={stick} alt="success" />
+                     <img className={styles.orderSuccessImg} src={"/successTick.png"} alt="success" />
                   </div>
                   <div className={`${styles.mr_med_lower} d-flex`}>
                      <div className={styles.contact_text}>

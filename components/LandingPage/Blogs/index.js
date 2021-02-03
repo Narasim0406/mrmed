@@ -30,7 +30,7 @@ function Blogs(){
                     {news.map((value,index)=>{
                         return(
                             <div key={index} className={`col-md-4 ${styles.news}`}>
-                                <img src={require('../../../assets/images/faster-med.png')} />
+                                <img src={'/faster-med.png'} />
                                 <div>
                                     <span>Nov 15,2020 </span>
                                 </div>

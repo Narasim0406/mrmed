@@ -60,7 +60,7 @@ function ProductList(){
                                 <div className="bottom">
                                     {/* <NavLink id="nav-link" to="/dashboard/singleProduct"> */}
                                         <div className={styles.image}>
-                                            <img src={require('../../../assets/images/product-3.png')} />  
+                                            <img src={'/product-3.png'} />  
                                         </div> 
                                     {/* </NavLink> */}
                                     <div className={styles.category}>
@@ -76,7 +76,7 @@ function ProductList(){
                                     <b className={styles.discountPrice}>&#8377; {value.discountPrice}</b>
                                     <span className={styles.actualPrice}>MRP &#8377; {value.actualPrice}</span>
                                     <div className={styles.right}>
-                                        <button className={styles.btnArrow}><img src={require('../../../assets/images/arrow.png')}/></button>
+                                        <button className={styles.btnArrow}><img src={'/arrow.png'}/></button>
                                     </div>
                                 </div>
                             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import mobik from '../../../../assets/images/mobiwik.png';
-import paytm from '../../../../assets/images/payment.png';
+// import mobik from '/mobiwik.png';
+// import paytm from '/payment.png';
 import styles from './Wallets.module.scss';
 
 export default function Wallets(){
@@ -11,7 +11,7 @@ export default function Wallets(){
                         <div className={styles.wallet_payment}>
                             <input type="radio" name="payments" id="paytm" autocomplete="off" checked/>
                             <div>
-                                <img className={styles.payment_img} src={paytm} alt="paytm"/>
+                                <img className={styles.payment_img} src={"/payment.png"} alt="paytm"/>
                             </div>
                             <div className={styles.paytm_text}>
                                 <label htmlFor="paytm" className="toggle">Paytm</label>
@@ -34,7 +34,7 @@ export default function Wallets(){
                         <div className={styles.wallet_payment}>
                             <input type="radio" name="payments" id="mobik" autocomplete="off"/>
                             <div>
-                                <img className={styles.mobik_img} src={mobik} alt="mobik"/> 
+                                <img className={styles.mobik_img} src={"/mobiwik.png"} alt="mobik"/> 
                             </div>
                             <div className={styles.paytm_text}>
                                 <label htmlFor="mobik" id="mobik-label" className="toggle">Mobikwik</label>

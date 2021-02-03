@@ -1,6 +1,6 @@
 import React from 'react';
-import success from '../../../../assets/images/success.png';
-import cancel from '../../../../assets/images/cancel.png';
+// import success from '/success.png';
+// import cancel from '/cancel.png';
 import { Modal} from 'reactstrap';
 import styles from './PaymentSuccess.module.scss';
 
@@ -10,9 +10,9 @@ export default function PaymentSuccess(props){
         <>
               <Modal isOpen={modal} toggle={toggle} className={styles.payment_modal}>
                 <div className={styles.payment_success}>
-                    <img onClick={toggle} className={styles.cancel_img} src={cancel} alt="cancel"/>
+                    <img onClick={toggle} className={styles.cancel_img} src={"/cancel.png"} alt="cancel"/>
                     <div className="row">
-                        <img className={styles.payment_success_img} src={success} alt="success"/>
+                        <img className={styles.payment_success_img} src={"/success.png"} alt="success"/>
                     </div>
                     <div className={`row ${styles.pt_msg}`}>
                         <h3>Payment Successfull</h3>

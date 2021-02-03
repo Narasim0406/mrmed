@@ -14,7 +14,7 @@ function Payment(){
                         <div className="row">
                             <div className="col-md-8">
                                 <div>
-                                    <img src={require('../../../assets/images/master-card.png')} />
+                                    <img src={'/master-card.png'} />
                                     <b className={styles.masterCardName}>John Doe</b>
                                 </div>
                                 <div className={styles.masterCardNumber}>
@@ -27,7 +27,7 @@ function Payment(){
                                     </div>         
                                 </div>
                                 <div className="col-md-1">      
-                                    <img src={require('../../../assets/images/delete.png')} />
+                                    <img src={'/delete.png'} />
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ function Payment(){
                             <div className="row">
                                 <div className="col-md-8">
                                     <div>
-                                        <img src={require('../../../assets/images/master-card.png')} />
+                                        <img src={'/master-card.png'} />
                                         <b className={styles.masterCardName}>John Doe</b>
                                     </div>
                                     <div className={styles.masterCardNumber}>
@@ -50,7 +50,7 @@ function Payment(){
                                     </div>         
                                 </div>
                                 <div className="col-md-1">      
-                                    <img src={require('../../../assets/images/delete.png')} />
+                                    <img src={'/delete.png'} />
                                 </div>
                             </div>
                         </div>

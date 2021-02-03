@@ -1,5 +1,5 @@
 import React from 'react';
-import cancel from '../../../assets/images/cancel.png';
+// import cancel from '/cancel.png';
 import { Modal} from 'reactstrap';
 import styles from './NeedSigin.module.scss';
 
@@ -9,7 +9,7 @@ export default function NeedSignIn(props){
         <>
               <Modal isOpen={modal} toggle={toggle} className={styles.modals}>
                 <div className={styles.needSignin}>
-                    <img onClick={toggle} className={styles.cancelImg} src={cancel} alt="cancel"/>
+                    <img onClick={toggle} className={styles.cancelImg} src={"/cancel.png"} alt="cancel"/>
                     <div className={`row ${styles.ptMsg}`}>
                         <h3>Need To Sigin!</h3>
                     </div>

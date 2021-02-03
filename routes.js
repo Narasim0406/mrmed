@@ -3,9 +3,9 @@ const nextRoutes = require('next-routes')
 
 const routes = (module.exports = nextRoutes())
 
-routes.add('home', '/');
+routes.add("home", "/");
 
-routes.add('registration', '/registration');
+// routes.add('PapAssistance', '/registration/:id');
 
 routes.add('about', '/about');
 

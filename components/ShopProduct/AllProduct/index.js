@@ -113,8 +113,8 @@ function AllProduct(){
                 <div className="col-md-12">
                     <div className="row">
                         <div className={`col-md-6 ${styles.menu}`}>
-                            <img src={require('../../../assets/images/menu.png')} />
-                            <img src={require('../../../assets/images/list.png')} />
+                            <img src={'/menu.png'} />
+                            <img src={'/list.png'} />
                         </div>
                         <div className="col-md-6">
                             <div className={styles.sortDropdown}>
@@ -136,7 +136,7 @@ function AllProduct(){
                                                 <div className={styles.offerBadge}>
                                                     <b>{discountPercentage}%</b>
                                                 </div>
-                                                <img src={require('../../../assets/images/product-3.png')} />  
+                                                <img src={'/product-3.png'} />  
                                             </div>
                                         {/* </NavLink> */}
                                         <div className={styles.category}>
@@ -146,7 +146,7 @@ function AllProduct(){
                                             </div>
                                         </div>
                                         <b className={styles.name}>{medicineName}</b>
-                                        {PAP && <img className={styles.prescriptionImg} src={require('../../../assets/images/prescription.png')} />}
+                                        {PAP && <img className={styles.prescriptionImg} src={'/prescription.png'} />}
                                         <br/>
                                         <span className={styles.company}>Manufacturer: {manufacturer}</span>
                                         <hr/>

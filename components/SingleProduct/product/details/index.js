@@ -12,7 +12,7 @@ function Details(){
     return (
             <div>
                 <div className={styles.prescription}>
-                    <img src={require('../../../../assets/images/prescription-1.png')} />
+                    <img src={'/prescription-1.png'} />
                     <span>Presciption Required</span>
                 </div>
                 <div className={styles.productTitle}>
@@ -36,7 +36,7 @@ function Details(){
                 <br/>
                 {/* <NavLink to="/dashboard/papRegister"> */}
                     <button className={styles.btnPap}><b>PAP AVAILABLE</b></button>
-                    <img id={"Popover-" + 2} style={{cursor:'pointer'}} onClick={toggle} src={require('../../../../assets/images/popi.png')} alt="i"/>
+                    <img id={"Popover-" + 2} style={{cursor:'pointer'}} onClick={toggle} src={'/popi.png'} alt="i"/>
                 {/* </NavLink> */}
                 <Popover className={styles.my_custom_popover} placement="bottom" isOpen={popoverOpen}  target="Popover-2" toggle={toggle}>
                     <PopoverBody>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam diam adipiscing.</PopoverBody>

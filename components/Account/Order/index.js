@@ -15,7 +15,7 @@ function OrderComponent(){
                         <div className={styles.orderStatus}>
                             <div className={`row ${styles.in_box}`}>
                                 <div className={styles.pres_img}>
-                                    <img src={require('../../../assets/images/prescription-img.png')} alt="prescription" />
+                                    <img src={'/prescription-img.png'} alt="prescription" />
                                 </div>
                                 <div className="col-md-6">
                                     <b className={styles.orderId}>Order ID: </b>

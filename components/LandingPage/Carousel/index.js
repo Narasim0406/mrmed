@@ -24,7 +24,7 @@ function Carousel(){
                     <SwiperSlide className={styles.carouselBackground}>
                         <div className="row">
                             <div className="offset-1">
-                                <img className={styles.gaurantee} src={require('../../../assets/images/gaurentee.png')} />
+                                <img className={styles.gaurantee} src={'/gaurentee.png'} />
                                 <div className={styles.carouselTitle}>
                                     <b>Life Saving Medicines At <br/> Affordable Prices</b>
                                     <br/>
@@ -41,19 +41,19 @@ function Carousel(){
                 </Swiper>
                 <div className="row">
                     <div className="col-md-4">
-                        <img className={styles.accessImg} src={require('../../../assets/images/accessability.png')} />
+                        <img className={styles.accessImg} src={'/accessability.png'} />
                         <div className={styles.textPosition}>
                             <b>Accessibility</b>
                         </div>
                     </div>
                     <div className="col-md-4">  
-                        <img className={styles.accessImg} src={require('../../../assets/images/afford.png')} />
+                        <img className={styles.accessImg} src={'/afford.png'} />
                         <div className={styles.textPosition}>
                             <b>Affordability</b>
                         </div>
                     </div>
                     <div className="col-md-4">          
-                        <img className={styles.accessImg} src={require('../../../assets/images/relaiability.png')} />
+                        <img className={styles.accessImg} src={'/relaiability.png'} />
                         <div className={styles.textPosition}>
                             <b>Reliability</b>
                         </div>

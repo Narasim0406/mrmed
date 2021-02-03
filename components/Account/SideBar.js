@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from './Account.module.scss';
 import styles1 from '../../assets/fonts/icomoon/style.module.css';
 
-import user from '../../assets/images/user.svg';
+// import user from '../../assets/images/user.svg';
 import {useRouter} from 'next/router';
 
 function SideBar() {

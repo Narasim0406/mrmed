@@ -44,7 +44,7 @@ function RelatedProduct(){
                 <div key={index} className="col-md-3">
                     <div className={styles.image}>
                         <div className={styles.alignCenter}>
-                            <img src={require('../../../assets/images/product-3.png')} />  
+                            <img src={'/product-3.png'} />  
                         </div>
                     </div>  
                     <div>
@@ -61,7 +61,7 @@ function RelatedProduct(){
                         <b className={styles.discountPrice}>&#8377; {value.discountPrice}</b>
                         <span className={styles.actualPrice}>MRP &#8377; {value.actualPrice}</span>
                         <div className={styles.right}>
-                            <button className={styles.btnArrow}><img src={require('../../../assets/images/arrow.png')}/></button>
+                            <button className={styles.btnArrow}><img src={'/arrow.png'}/></button>
                         </div>
                     </div>
                 </div>

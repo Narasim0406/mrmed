@@ -25,7 +25,7 @@ function PriceDetail(){
                         <div className="col-md-12">
                             <div className={styles.upload}>
                                 <div className={styles.alignCenter}>
-                                    <img src={require('../../../assets/images/upload.png')} />
+                                    <img src={'/upload.png'} />
                                     <br/>
                                     <span>Upload Photo or Screenshot of the better price</span>
                                     <br/>

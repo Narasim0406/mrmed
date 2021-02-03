@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import styles from './UploadPrescriptions.module.scss';
-import upload from '../../../assets/images/upload.png';
-import delete1 from '../../../assets/images/delete1.png';
-import view from '../../../assets/images/view.png';
-import download from '../../../assets/images/download.png';
-import tick from '../../../assets/images/tickmark.png';
-import bluetick from '../../../assets/images/bluetick.png';
+// import upload from '/upload.png';
+// import delete1 from '/delete1.png';
+// import view from '/view.png';
+// import download from '/download.png';
+// import tick from '/tickmark.png';
+// import bluetick from '/bluetick.png';
 import PresPop from './PresPopup/index';
 
 export default function UploadPrescriptions(){
@@ -24,7 +24,7 @@ export default function UploadPrescriptions(){
                     <div className={`row ${styles.uploadPresMainContainer}`}>
                         <div className="col-md-8">
                             <div className={`${styles.uploadPresBox}  d-flex`}>
-                                <img src={upload} alt="upload-image" className={styles.uploadImg} />
+                                <img src={"/upload.png"} alt="upload-image" className={styles.uploadImg} />
                                 <p className={styles.diffDocs}>Drag & Drop or Browse files to upload photo of your<br /> prescription (JPG, PDF, Doc, etc.)</p>
                                 <div>
                                     <label className={styles.upload_label} htmlFor={styles.upload_file}>Browse Files</label>
@@ -37,15 +37,15 @@ export default function UploadPrescriptions(){
                                     <div className={`${styles.uploadprescripAttachContainer} d-flex justify-content-center align-items-center`}>
                                         <div className={`${styles.uploadattachedPrescrip1} d-flex`}>
                                             <div className={styles.uploadprescripTickmark}>
-                                                <img src={tick} alt="tickmark" />
+                                                <img src={"/tickmark.png"} alt="tickmark" />
                                             </div>
                                             <div className={styles.uploadprescripImg}>
-                                                <img src={require('../../../assets/images/prescription-img.png')} alt="prescription-img" />
+                                                <img src={"/prescription-img.png"} alt="prescription-img" />
                                             </div>
                                             <div className={`${styles.uploadIconsList} d-flex align-items-center`}>
-                                                <img src={delete1} alt="delete-icon" />
-                                                <img src={view} alt="view-icon" />
-                                                <img src={download} alt="download-icon" />
+                                                <img src={"/delete1.png"} alt="delete-icon" />
+                                                <img src={"/view.png"} alt="view-icon" />
+                                                <img src={"/download.png"} alt="download-icon" />
                                             </div>
                                         </div>
                                     </div>
@@ -53,15 +53,15 @@ export default function UploadPrescriptions(){
                                     <div className={`${styles.uploadprescripAttachContainer} d-flex justify-content-center align-items-center`}>
                                         <div className={`${styles.uploadattachedPrescrip1} d-flex`}>
                                             <div className={styles.uploadprescripTickmark}>
-                                                <img src={tick} alt="tickmark" />
+                                                <img src={"/tickmark.png"} alt="tickmark" />
                                             </div>
                                             <div className={styles.uploadprescripImg}>
-                                                <img src={require('../../../assets/images/prescription-img.png')} alt="prescription-img" />
+                                                <img src={"/prescription-img.png"} alt="prescription-img" />
                                             </div>
                                             <div className={`${styles.uploadIconsList} d-flex align-items-center`}>
-                                                <img src={delete1} alt="delete-icon" />
-                                                <img src={view} alt="view-icon" />
-                                                <img src={download} alt="download-icon" />
+                                                <img src={"/delete1.png"} alt="delete-icon" />
+                                                <img src={"/view.png"} alt="view-icon" />
+                                                <img src={"/download.png"} alt="download-icon" />
                                             </div>
                                         </div>
                                     </div>
@@ -74,14 +74,14 @@ export default function UploadPrescriptions(){
                         <div className={`col-md-4 ${styles.uploadPresBoxright}`}>
                             <p className={`col-md-12 ${styles.validPrescrip}`}>What is a valid prescription?</p>
                             {/* <div className="validprescrip-img"> */}
-                                <img src={require('../../../assets/images/prescription-img.png')} className={`col-md-12 ${styles.validprescripImg}`} alt="valid-prescription image"/>
+                                <img src={'/prescription-img.png'} className={`col-md-12 ${styles.validprescripImg}`} alt="valid-prescription image"/>
                             {/* </div> */}
                             <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
-                                <img src={bluetick} alt="bluetick-image" className={styles.blueTickImg}/>
+                                <img src={"/bluetick.png"} alt="bluetick-image" className={styles.blueTickImg}/>
                                 <p className={styles.validtextEnd}>Lorem ipsum is a placeholder text comn used to demonstrate.</p>
                             </div>
                             <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
-                                <img src={bluetick} alt="bluetick-image" className={styles.blueTickImg}/>
+                                <img src={"/bluetick.png"} alt="bluetick-image" className={styles.blueTickImg}/>
                                 <p className={styles.validtextEnd}>Lorem ipsum is a placeholder text comn used to demonstrate.</p>
                             </div>
                         </div>

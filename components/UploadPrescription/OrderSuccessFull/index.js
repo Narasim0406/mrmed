@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import tick from '../../../assets/images/tickmark.png';
+// import tick from '/tickmark.png';
 import DeliveryDetails from './DeliveryDetails/index';
 import styles from './OrderSuccess.module.scss';
 import AttachedPrescription from './AttachedDescription/index';
@@ -21,7 +21,7 @@ export default function OrderSuccess(){
                 </div>
                 <div className="row">
                     <div className={`col-md-12 ${styles.orderSuccess}`}>
-                        <img src={tick} alt="tick"/>
+                        <img src={"/tickmark.png"} alt="tick"/>
                         <p className={styles.successMsg}>Order Successfully Placed</p>
                         <h3 className={styles.orderReview}>Price match and description is being reviewed</h3>
                     </div>

@@ -1,13 +1,13 @@
 const { createServer } = require('http')
 const { parse } = require("url");
 const next = require('next')
-// const routes = require('./routes')
+const routes = require('./routes')
 
 const port = parseInt(process.env.PORT, 10) || 2005
 const dev = process.env.NODE_ENV !== 'production'
-const app = next({ dev : false })
-const handle = app.getRequestHandler()
-// const handle = routes.getRequestHandler(app)
+const app = next({ dev : true })
+// const handle = app.getRequestHandler()
+const handle = routes.getRequestHandler(app)
 
 app.prepare().then(() => {
   createServer((req, res) => {

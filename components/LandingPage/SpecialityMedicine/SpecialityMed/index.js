@@ -15,31 +15,31 @@ function SpecialityMed(){
                 img : '/surgical.png'
             },
             {
-                name : 'Medical Gastroenterology',
+                name : 'Liver Transplant',
                 img : '/liver.png'
             },
             {
-                name : 'Medical Gastroenterology',
+                name : 'Surgical Gastroenterology',
                 img : '/medical.png'
             },
             {
-                name : 'Surgical Gastroenterology',
+                name : 'Medical Gastroenterology',
                 img : '/surgical.png'
             },
             {
-                name : 'Medical Gastroenterology',
+                name : 'Liver Transplant',
                 img : '/liver.png'
             },
             {
-                name : 'Medical Gastroenterology',
+                name : `Liver Transplant`,
                 img : '/medical.png'
             },
             {
-                name : 'Surgical Gastroenterology',
+                name : 'Medical Gastroenterology',
                 img : '/surgical.png'
             },
             {
-                name : 'Medical Gastroenterology',
+                name : 'Surgical Gastroenterology',
                 img : '/liver.png'
             }
         ]); 
@@ -56,7 +56,7 @@ function SpecialityMed(){
                     {specialityMed.map((value,index)=>{
                         return(
                             <div className="col-md-4" key={index}>
-                                <div className={styles.specialityImg}>
+                                <div className={styles.specialityImg} onClick={() => router.push('/ShopProductComponent')}>
                                     <img src={value.img} />
                                     <div className={styles.specialityName}>
                                         <span>{value.name}</span>

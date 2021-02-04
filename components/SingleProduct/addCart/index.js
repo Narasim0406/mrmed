@@ -43,9 +43,9 @@ function AddCart(){
                     <button className={styles.btnAddCart}>ADD TO CART</button>
                 {/* </NavLink> */}
                 <br/>
-                {/* <NavLink to="/dashboard/priceMatch"> */}
+                {/* <NavLink to="/dashboard/priceMatch"> 
                     <button onClick={() => router.push('/PriceMatchs')} className={styles.btnPriceMatch}>PRICE MATCH</button>
-                {/* </NavLink> */}
+                 </NavLink> */}
                 <br/>
             </div>
         );

@@ -67,7 +67,7 @@ function PapForm(props){
                     <div className="col-md-4">
                         <div className={styles.inputField}>
                             <div className={styles.registerLabel}>
-                                <span>Full Name</span>
+                                <span>Patient Name</span>
                             </div>                              
                             <input name="name" 
                                    className={styles.registerField} 

@@ -16,11 +16,23 @@ function SpecialityMedicineExtended(props){
             img : '/surgical.png'
         },
         {
+            name : 'Liver Transplant',
+            img : '/liver.png'
+        },
+        {
+            name : 'Surgical Gastroenterology',
+            img : '/medical.png'
+        },
+        {
+            name : 'Liver Transplant',
+            img : '/surgical.png'
+        },
+        {
             name : 'Medical Gastroenterology',
             img : '/liver.png'
         },
         {
-            name : 'Medical Gastroenterology',
+            name : 'Liver Transplant',
             img : '/medical.png'
         },
         {
@@ -32,7 +44,7 @@ function SpecialityMedicineExtended(props){
             img : '/liver.png'
         },
         {
-            name : 'Medical Gastroenterology',
+            name : 'Liver Transplant',
             img : '/medical.png'
         },
         {
@@ -44,8 +56,8 @@ function SpecialityMedicineExtended(props){
             img : '/liver.png'
         },
         {
-            name : 'Medical Gastroenterology',
-            img : '/medical.png'
+            name : 'Liver Transplant',
+            img :'/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
@@ -56,20 +68,8 @@ function SpecialityMedicineExtended(props){
             img : '/liver.png'
         },
         {
-            name : 'Medical Gastroenterology',
-            img : '/medical.png'
-        },
-        {
-            name : 'Surgical Gastroenterology',
-            img : '/surgical.png'
-        },
-        {
-            name : 'Medical Gastroenterology',
-            img : '/liver.png'
-        },
-        {
-            name : 'Medical Gastroenterology',
-            img : '/medical.png'
+            name : 'Liver Transplant',
+            img : '/images/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',
@@ -104,7 +104,7 @@ function SpecialityMedicineExtended(props){
                     {specialityMed.map((value,index)=>{
                         return(
                             <div className="col-md-2" key={index}>
-                                <div className={styles.specialityImg}>
+                                <div className={styles.specialityImg} onClick={() => router.push('/ShopProductComponent')}>
                                     <img src={value.img} />
                                     <div className={styles.specialityName}>
                                         <span>{value.name}</span>

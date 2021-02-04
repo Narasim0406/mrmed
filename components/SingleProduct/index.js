@@ -16,7 +16,7 @@ function SingleProductComponent(){
                 <div className="container">
                     <div className={`col-md-12 ${styles.indication}`}>
                         <br/>
-                        <span onClick={() => router.push('/')}>Home &gt;</span><span onClick={() => router.push('/ShopProductComponent')}>Shop Products &gt;</span><span>Product Details</span>
+                        <span onClick={() => router.push('/')}>Home &gt; </span><span onClick={() => router.push('/ShopProductComponent')}>Shop Products &gt; </span><span>Product Details</span>
                         <br/>
                         <b>Product Details</b>
                         <hr/>
@@ -41,12 +41,12 @@ function SingleProductComponent(){
                         </div> */}
                     </div>   
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <div className={styles.title}>
                         <b>RELATED PRODUCTS</b>
                     </div>
                     <RelatedProduct></RelatedProduct>
-                </div>
+                </div> */}
             </div>
         );
 }

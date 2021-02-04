@@ -34,7 +34,7 @@ function Footer(){
                                         <span>About Us</span>
                                         <span onClick={() => router.push('/Career')}>Careers</span>
                                         <span>Partner with mrMED</span> 
-                                        <span>FAQ</span> 
+                                        <span onClick={() => router.push('/NeedHelps')}>FAQ</span> 
                                         <span>Contact Us</span>
                                     </div>
                                     <div className="col-md-4">

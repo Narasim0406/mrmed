@@ -1,0 +1,47 @@
+.indication{
+    padding: 0;
+    span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #727272;
+    }
+    b{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        color: #414b55;
+        font-weight: bold;
+    }
+}
+.blogContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.blogCard{
+    width: 360px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    .blogImg{
+        object-fit: cover !important;
+    }
+    .blogContent{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 190.19%;
+        color: #505050;
+    }
+    .blogTitle{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 190.19%;
+        color: #000000;
+    }
+    .textMuted{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 190.19%;
+        color: #6054E5;
+    }
+}

@@ -11,9 +11,21 @@ function WhyMrMed(){
                 <div className={`col-md-12 ${styles.wholeContainer}`}>
                     <div>
                         <div className={styles.whyBox}>
+                            <img src={'/doctor.png'}/>
+                            <div className={styles.whyContent}>
+                                <b>Super Specialty Pharmaceutical Experts</b>
+                                <p>
+                                    The team at MrMed comprises of pharmacists, distributors and clinicians
+                                    with over 40 years of experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={styles.whyBox}>
                             <img src={'/dollor.png'}/>
                             <div className={styles.whyContent}>
-                                <b>Patient Centric Services</b>
+                                <b>Patient Oriented at Best Prices </b>
                                 <br/>
                                 <br/>
                                 <p>
@@ -40,14 +52,14 @@ function WhyMrMed(){
                         <div className={styles.whyBox}>
                             <img src={'/delivery-truck.png'}/>
                             <div className={styles.whyContent}>
-                                <b>Delivery aross India with atmost care</b>
+                                <b>Timely Delivery - Handled with Care </b>
                                 <p>
                                     Cold chain logistics, on-time delivery 
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <div className={styles.whyBox}>
                             <img src={'/terms.png'}/>
                             <div className={styles.whyContent}>
@@ -71,6 +83,7 @@ function WhyMrMed(){
                             </div>
                         </div>
                     </div>
+                    </div> */}
             </div>
         </div>
         );

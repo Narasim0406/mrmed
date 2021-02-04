@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
-import Careers from '../../components/Careers/index';
+import Blog from '../../components/Blogs/IBlog/index';
 
-function Career() {
+function IBlog() {
     return (
         <div>
             <Header/>
-            <Careers/>
+            <Blog/>
             <Footer/>
         </div>
     )
 }
 
-export default Career
+export default IBlog;

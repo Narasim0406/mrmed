@@ -31,7 +31,7 @@ function Carousel(){
                                     <span>MrMed delivers affordable medicines at your door step</span>
                                 </div>
                                 {/* <NavLink to="/dashboard/shopProduct"> */}
-                                    <button onClick={() => router.push('/ShopProductComponent')} className={styles.btnShop}>SHOP NOW</button>
+                                    <button onClick={() => router.push('/ShopProductComponent')} className={styles.btnShop}>VIEW MEDICINE</button>
                                 {/* </NavLink> */}
                             </div>
                         </div>

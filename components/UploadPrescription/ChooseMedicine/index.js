@@ -54,27 +54,27 @@ export default function ChooseMedicine(){
                                 <span>Ask MrMed to call</span>
                             </div>
                             {
-                                choose === 3 ?
-                                <div className={`row ${styles.callForm}`}>
-                                    <div className="col-md-6">
-                                        <div className={styles.profileField}>
-                                            <span>Full Name</span>
-                                        </div>
-                                        <input className={styles.profileInput} type="text" placeholder="Enter Name" />
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className={styles.profileField}>
-                                            <span>Mobile Number</span>
-                                        </div>
-                                        <input className={styles.profileInput} type="text" placeholder="Enter Number" />
-                                    </div>
-                                    <div className="col-md-12">
-                                        <div className={styles.profileField}>
-                                            <span>Reason</span>
-                                        </div>
-                                        <textarea className={styles.profileTextarea} placeholder="Enter the Reason" />
-                                    </div>
-                                </div> :""
+                                //choose === 3 ?
+                                // <div className={`row ${styles.callForm}`}>
+                                //     <div className="col-md-6">
+                                //         <div className={styles.profileField}>
+                                //             <span>Full Name</span>
+                                //         </div>
+                                //         <input className={styles.profileInput} type="text" placeholder="Enter Name" />
+                                //     </div>
+                                //     <div className="col-md-6">
+                                //         <div className={styles.profileField}>
+                                //             <span>Mobile Number</span>
+                                //         </div>
+                                //         <input className={styles.profileInput} type="text" placeholder="Enter Number" />
+                                //     </div>
+                                //     <div className="col-md-12">
+                                //         <div className={styles.profileField}>
+                                //             <span>Reason</span>
+                                //         </div>
+                                //         <textarea className={styles.profileTextarea} placeholder="Enter the Reason" />
+                                //     </div>
+                                // </div> :""
                             }
                             </div>
                             <div className={styles.prescriptionProceedButton}>

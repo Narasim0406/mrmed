@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
-import Careers from '../../components/Careers/index';
+import CareerItem from '../../components/Careers/CareerItem';
 
-function Career() {
+function CareerPage() {
     return (
         <div>
             <Header/>
-            <Careers/>
+            <CareerItem/>
             <Footer/>
         </div>
     )
 }
 
-export default Career
+export default CareerPage

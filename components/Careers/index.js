@@ -24,6 +24,10 @@ export default function Careers() {
         {
             job:'Medical Content Writer',
             loc:'Chennai'
+        },
+        {
+            job:'Digital Marketing Executive ',
+            loc:'Chennai'
         }
     ]);
 

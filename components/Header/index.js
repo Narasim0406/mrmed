@@ -2,18 +2,23 @@ import React,{useState,useEffect} from 'react'
 import SignIn from '../Login/Signin/index';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import { Popover, PopoverBody } from 'reactstrap';
+import { useDispatch } from 'react-redux'
 // const whatsapp = require('../../assets/images/whatsapp-fab.png');
 import {useRouter} from "next/router";
 import { useSelector} from 'react-redux'
 import styles from './Header.module.scss';
+import { userDetails, userToken } from '../../actions';
 
 function Header(){
-
-   const userDetails = useSelector((state) => state.auth);
+   const dispatch = useDispatch();
+   const userDetail = useSelector((state) => state.auth);
    const cartProducts = useSelector(state => state.auth.cartProducts)
+   let [userData, setuserData] = useState({});
+   const [cartLength,setCartLength] = useState(0);
    let [langDropDown, setLangDropDown] = useState(false);
    let [locationPopOver, setLocationPopOver] = useState(false);
    let [userDropDown, setUserDropDown] = useState(false);
+   const products = useSelector(state => state.auth.products)
    const [modal,setModal] = useState(false);
    const router = useRouter();
 
@@ -27,15 +32,33 @@ function Header(){
         setLocationPopOver(!locationPopOver);
     }
     useEffect(() => {
-        console.log(userDetails.userDetails,"dsfsf");
-        if(userDetails.userToken){
-            toggle();
-        }
-    }, [])
+        if(localStorage.userData){
+            dispatch(userDetails(JSON.parse(localStorage.userData)));
 
-    const toggle = () => {
-        setModal(!modal);
+            setuserData(JSON.parse(localStorage.userData))
+        }
+        let len = cartProducts ? cartProducts.length : 0
+        setCartLength(len);
+        console.log(userDetail.userDetails,"dsfsfdfgsdhgfdghj", localStorage, userData);
+        // if(userDetail.token){
+        //     toggle();
+        // }
+    }, [cartProducts])
+
+    const logout = () => {
+        localStorage.clear()
+        window.location.reload();
     }
+
+    const toggle = async() => {
+        setModal(!modal);
+        if(localStorage.userData){
+            await dispatch(userDetails(JSON.parse(localStorage.userData)));
+
+            setuserData(JSON.parse(localStorage.userData))
+        }
+    }
+
     return(
             <div className={styles.headers}>
                 <div className={styles.greyBack}>
@@ -63,70 +86,76 @@ function Header(){
                 <div className={styles.logo}>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-9">
+                            <div className="col-md-9 d-flex">
                                 {/* <NavLink id="nav-link" to="/dashboard/landingPage"> */}
                                     <img onClick={() => router.push('/')} className={styles.imgLogo} src={'/logo.png'} style={{cursor:'pointer'}}/>
                                 {/* </NavLink> */}
-                                <button id="Popover1" type="button" className={styles.btnLocation}>
-                                    Chennai &#9660;
-                                </button>
-                                <Popover style={{'width':'175px'}} placement="auto-start" isOpen={locationPopOver} target="Popover1" toggle={locationPopOvers}>
+                                <div className={styles.deliveryContent}>
+                                    <img src='/loc.png'/>
+                                    <div className={styles.deliveryContainer}>
+                                        <label>Deliver to</label>
+                                        <div className={styles.deliver}>
+                                            <input id="pin" className={styles.deliver} type="text" placeholder="pincode"/>
+                                            <label htmlFor="pin"><img src='/edit.png'/></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* <Popover style={{'width':'175px'}} placement="auto-start" isOpen={locationPopOver} target="Popover1" toggle={locationPopOvers}>
                                     <PopoverBody>
                                         <div className={styles.locationDropdown}>
                                             <div className="row bottom">
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                    {/* <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Bangalore</span>
                                                 </div>
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                     <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Mumbai</span>
                                                 </div>
                                             </div>
                                             <div className="row bottom">
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                    {/* <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Pune</span>
                                                 </div>
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                    {/* <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Delhi</span>
                                                 </div>
                                             </div>
                                             <div className="row bottom">
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                    {/* <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Noida</span>
                                                 </div>
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                    {/* <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Gurgaon</span>
                                                 </div>
                                             </div>
                                             <div className="row bottom">
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                    {/* <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Hyderabad</span>
                                                 </div>
                                                 <div className="col-md-6">
-                                                    {/* <img src={require('../../assets/images/liver.png')} /> */}
+                                                    {/* <img src={require('../../assets/images/liver.png')} /> 
                                                     <span>Chennai</span>
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                     </PopoverBody>
-                                </Popover>
+                                </Popover> */}
                                 <input type="text" placeholder="Search for medicines and health products" className="search-box" />
                                 <img className={styles.searchIcon} src={'/search.png'} />
                             </div>
                             <div className="col-md-3">
                                 <div className={styles.headerIcon}>
                                     <div className="btn-group">
-                                    <Dropdown isOpen={userDetails.userToken ? true : false} toggle={userDropDowne}>
+                                    <Dropdown isOpen={userDropDown} toggle={userDropDowne}>
                                         {/* <Dropdown isOpen={this.state.userDropDown} toggle={()=>this.userDropDown()}> */}
                                             <DropdownToggle tag="span" data-toggle="dropdown" aria-expanded={userDropDown}>
-                                                <span className={styles.iconAlign} onClick={userDetails ? toggle : ""}>{userDetails.userDetails?.name ? userDetails.userDetails?.name : 'Login/Sign Up'}</span>
+                                                <span className={styles.iconAlign} onClick={userData && userData.token && userData.name ? userDropDowne:toggle}>{userData && userData.token && userData.name ? userData.name : 'Login/Sign Up'}</span>
                                                 <img className={styles.iconAlign} src={'/user.svg'} style={{cursor:'pointer'}}/>
                                             </DropdownToggle>
                                             <DropdownMenu className={styles.dropdownMenu} >
@@ -160,7 +189,8 @@ function Header(){
                                                         <span>Payments</span>
                                                     {/* </NavLink> */}
                                                 </DropdownItem>
-                                                <DropdownItem className={styles.item} onClick={() => router.push('/Accounts/logout')}>
+                                                {/* <DropdownItem className={styles.item} onClick={() => router.push('/Accounts/logout')}> */}
+                                                <DropdownItem className={styles.item} onClick={logout}>
                                                     <img className={styles.dropdownIcon} src={'/exit.svg'}/>
                                                     <span>Logout</span>
                                                 </DropdownItem>
@@ -171,7 +201,7 @@ function Header(){
                                     {/* <NavLink id="nav-link" to="/dashboard/cartPage"> */}
                                         <span onClick={() => router.push('/Cart')} className={styles.iconAlign}>Cart</span>
                                         <img onClick={() => router.push('/Cart')} src={'/shopping-cart.png'} style={{cursor:'pointer'}}/>
-                                        <button onClick={() => router.push('/Cart')} className={styles.cartBadge} id="cart-count">{cartProducts ? cartProducts.length : 0}</button>
+                                        <button onClick={() => router.push('/Cart')} className={styles.cartBadge} id="cart-count">{cartLength}</button>
                                     {/* </NavLink> */}
                                 </div>
                             </div>

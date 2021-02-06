@@ -1,0 +1,53 @@
+.trackBorder {
+  width: 100%;
+  border: 4px solid #F5F5F5;
+  padding: 20px 20px 40px 20px;
+  border-radius: 4px;
+}
+
+.paymentDetail {
+  color: #343434;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.creditCardBox {
+  border: 1px solid #D8D8D8;
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.masterCardName {
+  color: #000000;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.masterCardNumber {
+  color: #000000;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.creditCard {
+  background-color: #F0F0F0;
+  color: #000000;
+  font-size: 12px;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 25px 4px 25px;
+}
+
+.btnNew {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  color: #232323;
+  font-size: 14px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 40px;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=Payment.module.css.map */

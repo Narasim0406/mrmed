@@ -8,6 +8,7 @@ import AlternateBrand from '../SingleProduct/alternateBrand/index'
 import RelatedProduct from '../SingleProduct/relatedProduct/index'
 import styles from './SingleProductComponent.module.scss';
 import {useRouter} from 'next/router';
+import AddedCart from './AddedCart'
 
 function SingleProductComponent(){
     const router = useRouter();
@@ -16,12 +17,15 @@ function SingleProductComponent(){
                 <div className="container">
                     <div className={`col-md-12 ${styles.indication}`}>
                         <br/>
-                        <span onClick={() => router.push('/')}>Home &gt; </span><span onClick={() => router.push('/ShopProductComponent')}>Shop Products &gt; </span><span>Product Details</span>
+                        <span onClick={() => router.push('/')}>Home &gt; </span><span onClick={() => router.push('/ShopProductComponent')}>All Products &gt; </span><span>Product Details</span>
                         <br/>
                         <b>Product Details</b>
                         <hr/>
                     </div>
                     <div className="row">
+                        <div className="col-md-12">
+                            <AddedCart/>
+                        </div>
                         <div className="col-md-5">
                             <Image></Image>
                         </div>         

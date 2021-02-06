@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 22);
+/******/ 	return __webpack_require__(__webpack_require__.s = 29);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -129,25 +129,26 @@ var types = __webpack_require__("ChW8");
 const initialAuth = {
   userDetails: {},
   userToken: "",
-  cartProducts: []
+  cartProduct: [],
+  products: []
 };
 
 const reducer = (state = initialAuth, {
   type,
   payload
 }) => {
-  console.log(state.userDetails = payload, "hjk");
-
   switch (type) {
-    case types["b" /* USER_DETAILS */]:
+    case types["c" /* USER_DETAILS */]:
       {
+        console.log("USER_DETAILS", type, payload);
         return {
           userDetails: payload
         };
       }
 
-    case types["c" /* USER_TOKEN */]:
+    case types["d" /* USER_TOKEN */]:
       {
+        console.log("USER_TOKEN", type, payload);
         return {
           userToken: payload
         };
@@ -155,8 +156,17 @@ const reducer = (state = initialAuth, {
 
     case types["a" /* CART_PRODUCTS */]:
       {
+        console.log("CART_PRODUCTS", type, payload);
         return {
-          cartProducts: payload
+          cartProduct: payload
+        };
+      }
+
+    case types["b" /* PRODUCT_LISTS */]:
+      {
+        console.log("PRODUCT_LISTS", type, payload);
+        return {
+          products: payload
         };
       }
 
@@ -271,7 +281,7 @@ function App({
 
 /***/ }),
 
-/***/ 22:
+/***/ 29:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("1TCz");
@@ -283,9 +293,10 @@ module.exports = __webpack_require__("1TCz");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return USER_DETAILS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return USER_TOKEN; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return USER_DETAILS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return USER_TOKEN; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CART_PRODUCTS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return PRODUCT_LISTS; });
 // REDUX ACTION TYPES
 // export const TICK = 'TICK'
 // export const INCREMENT = 'INCREMENT'
@@ -294,6 +305,7 @@ module.exports = __webpack_require__("1TCz");
 const USER_DETAILS = 'USER_DETAILS';
 const USER_TOKEN = 'USER_TOKEN';
 const CART_PRODUCTS = 'CART_PRODUCTS';
+const PRODUCT_LISTS = 'PRODUCT_LISTS';
 
 /***/ }),
 

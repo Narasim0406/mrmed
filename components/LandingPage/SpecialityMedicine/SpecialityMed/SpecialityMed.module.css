@@ -8,6 +8,7 @@
 .specialityImg {
   text-align: center;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .specialityImg > img {
@@ -19,6 +20,7 @@
   color: #333333;
   font-size: 14px;
   padding-top: 10px;
+  text-align: center;
 }
 
 .speciality {

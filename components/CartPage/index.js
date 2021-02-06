@@ -1,7 +1,7 @@
 import React from 'react'
 
 import MedicineDetail from '../CartPage/medicineDetail/index'
-import RelatedProduct from '../CartPage/relatedProduct/index'
+//import RelatedProduct from '../CartPage/relatedProduct/index'
 
 import styles from './CartPageComponent.module.scss';
 import {useRouter} from 'next/router';

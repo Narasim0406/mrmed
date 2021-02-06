@@ -1,0 +1,45 @@
+.indication {
+  padding: 0;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+
+.iheader {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 108.69%;
+  color: #000000;
+}
+
+.date {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 190.19%;
+  color: #8A8A8A;
+}
+
+.blogImg {
+  width: 982px;
+  height: 378px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.blogText {
+  font-size: 18px;
+  line-height: 190.19%;
+  color: #505050;
+}
+/*# sourceMappingURL=IBlog.module.css.map */

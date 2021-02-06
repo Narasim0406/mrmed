@@ -44,7 +44,7 @@ function PapAssistance(){
                                 <br/>
                                 <span onClick={() => router.push('/')}>Home &gt;</span><span>Patient Assistance Programme</span>
                                 <br/>
-                                <b>Patient Assistance Programme</b>
+                                <b>Patient Assistance Program Enquiry</b>
                                 <hr/>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ function PapAssistance(){
                 </div>
                 <div className={styles.alignCenter}>
                     {/* <NavLink to="/dashboard/papRegister"> */}
-                        <button onClick={() => router.push('/PapRegisterComponent')} className={styles.papRequest}>REQUEST</button>
+                        <button onClick={() => router.push('/PapRegisterComponent')} className={styles.papRequest}>ENQUIRE</button>
                     {/* </NavLink> */}
                 </div>
             </div>

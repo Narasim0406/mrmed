@@ -45,8 +45,12 @@ function Blogs(){
                         );
                     })}
                 </div>
+                <div className={styles.btn}>
+                        <button className={styles.viewBtn}>view more</button>
+                </div>
             </div>
         );
     }
+
 
 export default Blogs;

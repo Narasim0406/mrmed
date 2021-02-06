@@ -1,0 +1,62 @@
+.indication {
+  padding: 0;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+
+.apply {
+  width: 205px;
+  height: 52px;
+  background: #00D9C5;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.apply:focus {
+  outline: none;
+}
+
+.job_description {
+  font-size: 15px;
+  line-height: 134.9%;
+  color: #333333;
+}
+
+.job_description .title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  color: #766DEC;
+}
+
+.job_description .job_detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 280px;
+}
+
+.job_description .job_detail p {
+  font-size: 18px;
+  line-height: 21px;
+  color: #727272;
+}
+/*# sourceMappingURL=CareerItem.module.css.map */

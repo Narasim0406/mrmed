@@ -1,0 +1,121 @@
+.indication{
+    padding: 0;
+    span{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #727272;
+    }
+    b{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        color: #414b55;
+        font-weight: bold;
+    }
+}
+
+.addressDetail{
+    color: #343434;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+  .addressBtns{
+    padding: 10px;
+    .removeBtn{
+      font-size: 14px;
+      line-height: 150.3%;
+      color: #2A1F9C;
+    }
+    .setBtn{
+      font-size: 14px;
+      line-height: 150.3%;
+      color: #2A1F9C;
+    }
+  }
+  .addAddress{
+    font-size: 14px;
+    line-height: 150.3%;
+    color: #2A1F9C;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  .addressBox{
+    border: 1px solid #D8D8D8;
+    padding: 10px;
+    width: 310px;
+    height: 139px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  .place{
+    background-color: #F0F0F0;
+    border: 1px solid #F0F0F0;
+    color: #333333;
+    font-size: 12px;
+    width: fit-content;
+    float: right;
+    border-radius: 20px;
+    padding: 0px 15px 0px 15px;
+  }
+  .addressName{
+    color: #333333;
+    font-size: 16px;
+  }
+  .addressNumber{
+    color: #333333;
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+  .address{
+    color: #868686;
+    font-size: 14px;
+  }
+  .btnNew{
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    color: #232323;
+    font-size: 14px;
+    padding: 10px 40px 10px 40px;
+    margin-top: 40px;
+    border-radius: 2px;
+  }
+  .uploadprescripCards{
+            .uploadprescripAttachContainer{
+                padding: 0 15px;
+                height: 225px;
+                .uploadattachedPrescrip1{
+                    position: relative;
+                    height: 200px;
+                    background-image: url(../../../../assets/images/greenrect.png);
+                    background-repeat: no-repeat;
+                    object-fit: contain;
+                    background-size: 225px;
+                    padding: 10px 20px;
+                    .uploadprescripTickmark{
+                        position: absolute;
+                        right: -20px;
+                        top: -24px;
+                    }
+                    .uploadprescripImg{
+                        margin-top: 10px;
+                        &>img{
+                            object-fit: contain;
+                            width: 150px;
+                            height: 160px;
+                        };
+                    }
+                    .uploadIconsList{
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        height: 180px;
+                        padding: 0 20px;
+                        margin-top: 12px;
+                        &>img{
+                            width: 23px;
+                            height: 23px;
+                            object-fit: contain;
+                            margin-bottom: 20px;
+                        }
+                    }
+                } 
+            }
+        }

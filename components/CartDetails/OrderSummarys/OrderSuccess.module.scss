@@ -1,0 +1,77 @@
+.orderSuccess{
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    .successMsg{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: capitalize;
+        color: #449500;
+    }
+    .orderReview{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 116.6%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #2F2F2F;
+    }
+}
+.successBorder{
+    border-bottom: 0.8px solid #D5D5D5;
+    margin-left: 140px;
+    width: 890px;
+}
+.orderDetail{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .orderId{
+        font-size: 20px;
+        line-height: 116.6%;
+        text-transform: uppercase;
+        color: #333333;
+        .price{
+            color:#6054E5;
+        }
+    }
+    .orderMsg{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 116.6%;
+        color: #424242;
+    }
+}
+.deliveryDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnContent{
+    text-align: center;
+    .track_btn{
+        width: 205px;
+        height: 52px;
+        background: #00D9C5;
+        border-radius: 2px;
+        border:none;
+        outline: none;
+        text-align: center;
+    }
+}
+.indication{
+    padding: 0;
+      span{
+          font-family: 'Roboto', sans-serif;
+          font-size: 16px;
+          color: #727272;
+      }
+      b{
+          font-family: 'Roboto', sans-serif;
+          font-size: 28px;
+          color: #414b55;
+          font-weight: bold;
+      }
+  }

@@ -4,20 +4,27 @@ import * as types from './types'
 const initialAuth = {
   userDetails:{},
   userToken:"",
-  cartProducts:[]
+  cartProduct:[],
+  products:[]
 }
 
 const reducer = (state=initialAuth,{type,payload}) => {
-  console.log(state.userDetails=payload,"hjk");
   switch (type) {
     case types.USER_DETAILS:{
+      console.log("USER_DETAILS", type, payload)
       return {userDetails:payload};
     }
     case types.USER_TOKEN:{
+      console.log("USER_TOKEN", type, payload)
       return {userToken:payload};
     }
     case types.CART_PRODUCTS:{
-      return {cartProducts:payload};
+      console.log("CART_PRODUCTS", type, payload)
+      return {cartProduct:payload};
+    }
+    case types.PRODUCT_LISTS:{
+      console.log("PRODUCT_LISTS", type, payload)
+      return {products:payload};
     }
     default:
       return state
@@ -61,7 +68,8 @@ const reducer = (state=initialAuth,{type,payload}) => {
 const reducers = {
   // counter: counterReducer,
   // timer: timerReducer,
-  auth:reducer
+  auth:reducer,
+
 }
 
 export default combineReducers(reducers)

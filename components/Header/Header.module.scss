@@ -5,6 +5,7 @@
   right: 0;
   z-index: 10;
 }
+
 .greyBack {
   background-color: #2A2A2C;
   width: 100%;
@@ -29,12 +30,63 @@
   button:focus{
     outline: none;
   }
+  .deliveryContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    label{
+      font-size: 14px;
+      line-height: 24px;
+      text-align: justify;
+      color: #858585;
+    }
+    .deliver{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-top: -5px;
+      input{
+        margin-left: -30px;
+        margin-top: -10px;
+        border:none;
+        width: 190px;
+        background: transparent;
+      }
+      img{
+        object-fit: contain;
+        position: absolute;
+        top: -18px;
+        right: 71px;
+        height: 15px;
+      }
+    }
+  }
+  .deliveryContent{
+    outline: none;
+    display: flex;
+    img{
+      object-fit: contain;
+      height: 20px;
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+    input::placeholder{
+      font-size: 16px;
+      line-height: 19px;
+      text-align: justify;
+      color: #2A2A2C;
+    }
+  }
+
   input{
     width: 60%;
     border: 1px solid #D2D2D2;
     padding: 10px 60px 10px 30px;
     margin-top: 10px;
     margin-left: 20px;
+    height: 40px;
     font-size: 12px;
     outline: none;
   }
@@ -43,6 +95,7 @@
   margin-left: -40px;
   width: 18px;
   height: 18px;
+  margin-top: 20px;
 }
 .lang{
   color: white;
@@ -69,6 +122,7 @@
   .item:focus{
     background-color: white;
   }
+ 
 }
 .imgLogo{
   width: 190px;

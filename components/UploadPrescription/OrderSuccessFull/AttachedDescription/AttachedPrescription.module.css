@@ -1,15 +1,15 @@
-.attached-prescription {
+.attached_prescription {
   padding: 30px 10px;
   font-size: 24px;
   line-height: 28px;
   color: #333333;
 }
 
-.attached-prescription-container {
+.attached_prescription_container {
   padding: 0 130px;
 }
 
-.attached-prescription-container .attached-prescriptionslist {
+.attached_prescription_container .attached_prescriptionslist {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,7 +24,7 @@
           align-items: center;
 }
 
-.attached-prescription-container .prescription-right-box {
+.attached_prescription_container .prescription_right_box {
   height: 340px;
   background: #FFFFFF;
   -webkit-box-sizing: border-box;
@@ -35,7 +35,7 @@
   padding: 0px 30px;
 }
 
-.attached-prescription-container .prescription-right-box .prescription-attach-container {
+.attached_prescription_container .prescription_right_box .prescription_attach_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +48,7 @@
   padding-top: 40px;
 }
 
-.attached-prescription-container .prescription-right-box .prescription-attach-container .attached-prescription1 {
+.attached_prescription_container .prescription_right_box .prescription_attach_container .attached_prescription1 {
   position: relative;
   height: 400px;
   background-image: url(../../../../assets/images/greenrect.png);
@@ -62,23 +62,23 @@
   padding: 10px 20px;
 }
 
-.attached-prescription-container .prescription-right-box .prescription-attach-container .attached-prescription1 .prescription-tickmark {
+.attached_prescription_container .prescription_right_box .prescription_attach_container .attached_prescription1 .prescription_tickmark {
   position: absolute;
   right: -20px;
   top: -25px;
 }
 
-.attached-prescription-container .prescription-right-box .prescription-attach-container .attached-prescription1 .prescription-image {
+.attached_prescription_container .prescription_right_box .prescription_attach_container .attached_prescription1 .prescription_image {
   margin-top: 10px;
 }
 
-.attached-prescription-container .prescription-right-box .prescription-attach-container .attached-prescription1 .prescription-image > img {
+.attached_prescription_container .prescription_right_box .prescription_attach_container .attached_prescription1 .prescription_image > img {
   -o-object-fit: contain;
      object-fit: contain;
   height: 250px;
 }
 
-.attached-prescription-container .prescription-right-box .prescription-attach-container .attached-prescription1 .icons-list {
+.attached_prescription_container .prescription_right_box .prescription_attach_container .attached_prescription1 .icons_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,7 +97,7 @@
   margin-top: 10px;
 }
 
-.attached-prescription-container .prescription-right-box .prescription-attach-container .attached-prescription1 .icons-list > img {
+.attached_prescription_container .prescription_right_box .prescription_attach_container .attached_prescription1 .icons_list > img {
   -o-object-fit: contain;
      object-fit: contain;
   margin-bottom: 30px;

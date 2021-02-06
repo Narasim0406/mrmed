@@ -1,8 +1,21 @@
-.orderSection_left {
-  padding: 30px 0;
+.indication {
+  padding: 0;
 }
 
-.orderSection_left .orderSection_left_inner {
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+
+.orderSection_left_inner {
   height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,30 +28,30 @@
           align-items: center;
 }
 
-.orderSection_left .orderSection_left_inner .orderID {
+.orderSection_left_inner .orderID {
   font-weight: bold;
   font-size: 28px;
   line-height: 116.6%;
   color: #333333;
 }
 
-.orderSection_left .orderSection_left_inner .orderIDspan {
+.orderSection_left_inner .orderIDspan {
   color: #6054E5;
 }
 
-.orderSection_left .orderSection_left_inner .orderDate {
+.orderSection_left_inner .orderDate {
   font-size: 18px;
   line-height: 21px;
   text-align: right;
   color: #333333;
 }
 
-.orderSection_left .orderReview__container {
-  background: #FFFFFF;
+.orderStatus {
   border: 1px solid #D8D8D8;
   border-radius: 6px;
-  height: 150px;
-  margin: 0 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,50 +64,56 @@
           justify-content: space-between;
 }
 
-.orderSection_left .orderReview__container .orderRev_innerleft .rectangle__img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding: 0 20px;
-}
-
-.orderSection_left .orderReview__container .orderRev_innerleft .orderReviewed {
-  padding: 20px 0;
-}
-
-.orderSection_left .orderReview__container .orderRev_innerleft .orderReviewed .Order__header {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 116.6%;
-  color: #242424;
-}
-
-.orderSection_left .orderReview__container .orderRev_innerleft .orderReviewed .price__match {
-  font-size: 18px;
-  line-height: 116.6%;
-  color: #333333;
-}
-
-.orderSection_left .orderReview__container .orderRev_innerRight .or_righttext_content {
+.orderStatus .or_right {
   font-size: 15px;
   line-height: 116.6%;
   color: #139F06;
-  padding: 20px;
 }
 
-.orderSection_left .main_margin_bottom {
-  padding: 40px 20px;
+.orderStatus .price_match {
+  font-size: 18px;
+  line-height: 116.6%;
+  color: #333333;
+  margin-top: 20px;
 }
 
-.orderSection_left .main_margin_bottom .main-inner-botton {
+.orderStatus .orderReview {
+  margin-top: 10px;
+}
+
+.orderStatus .Order_header {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116.6%;
+}
+
+.orderStatus .order_esti {
+  padding-left: 20px;
+  width: 300px;
+}
+
+.orderStatus img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+  padding: 12px;
+}
+
+.orderStatus .pres_img {
+  height: 105px;
+  border: 1px solid #6054E5;
+}
+
+.main_margin_bottom {
   border: 0.8px solid #D5D5D5;
 }
 
-.orderSection_left .medicine_soon {
+.medicine_soon {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 400px;
+  height: 300px;
 }
 
 .overall__summary__container {

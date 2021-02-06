@@ -40,7 +40,7 @@ function DeliveryEstimation(){
                         <div className={`col-md-6 ${styles.estimateTime}`}>
                             <b>Estimated delivery ( december 8, 2020 -  December 10, 2020)</b>
                             <br/>
-                            <b>Ships in 3-5 business days </b>
+                            <b>1 -3 days from when order confirmed status</b>
                         </div>
                     </div>
                 </div>

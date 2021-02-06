@@ -18,20 +18,20 @@ function OrderSummary(props){
                     </div>
                     <div className={styles.details}>
                         <span>Cart Value</span>
-                        <span className={styles.right}>₹{props.total}</span>
+                        <span className={styles.right}>₹{props.cartDetails?.cartValue?.toFixed(2)}</span>
                     </div> 
                     <div className={styles.details}>
                         <span>Delivery Charge</span>
-                        <span className={styles.right}>₹{deliveryCharge}</span>
+                        <span className={styles.right}>₹{props.cartDetails?.deliveryPrice}</span>
                     </div>  
                     <div className={styles.details}>
                         <span>Saved Amount</span>
-                        <span className={styles.right}>₹{props.savedAmount}</span>
+                        <span className={styles.right}>₹{props.cartDetails?.savedPrice?.toFixed(2)}</span>
                     </div>
                     <hr/>
                     <div className={styles.orderTotal}>
                         <b>Order Total</b>
-                        <b className={styles.right}>₹{props.total!=0 ? (props.total+deliveryCharge-props.savedAmount).toFixed(2) : 0}</b>
+                        <b className={styles.right}>₹{props.cartDetails?.total}</b>
                     </div>
                     <hr/>
                     <div className={styles.proceed}>

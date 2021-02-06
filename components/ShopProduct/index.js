@@ -14,7 +14,7 @@ function ShopProductComponent(){
                         <br/>
                         <span onClick={() => router.push('/')}>Home</span><span> &gt; All Products</span>
                         <br/>
-                        <b>Shop</b>
+                        <b>Products</b>
                         <hr/>
                     </div>
                     <AllProduct></AllProduct>

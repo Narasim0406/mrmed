@@ -69,7 +69,7 @@ function SpecialityMedicineExtended(props){
         },
         {
             name : 'Liver Transplant',
-            img : '/images/medical.png'
+            img : '/medical.png'
         },
         {
             name : 'Surgical Gastroenterology',

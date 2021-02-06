@@ -1,0 +1,112 @@
+.stepperWrapperHorizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .stepWrapper {
+        display: flex;
+        width: 23%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .stepName{
+            font-size: 13px;
+            line-height: 15px;
+            color: #6054E5;
+        }
+    }
+
+    .stepNumber {
+        border-radius: 50%;
+        border: 1px solid grey;
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 1.2rem;
+        .circle{
+            width: 15px;
+            height: 15px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    }
+
+    .dividerLine {
+        height: 1px;
+        background-color: #bdbdbd;
+        position: absolute;
+        top: 20%;
+        left: 55%;
+    }
+    .borderColor{
+        height: 2px;
+        background-color: #6054E5;
+    }
+    .dividerLine_1 {
+        width: 290%
+    }
+    .dividerLine_2 {
+        width: 290%
+    }
+
+    .dividerLine_3 {
+        width: 90%
+    }
+
+    .dividerLine_4 {
+        width: 90%;
+    }
+
+    .dividerLine_5 {
+        width: 60%
+    }
+}
+
+.stepperWrapperVertical {
+    .stepWrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.2rem;
+        position: relative;
+    }
+
+    .stepNumber {
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        padding: 4.5px 4px 4px;
+        text-align: center;
+        font-size: 95%;
+    }
+
+    .stepDescription {
+        margin-left: 1.2rem;
+        padding-bottom: 3px;
+    }
+
+    .dividerLine {
+        height: 17px;
+        width: 1px;
+        background-color: #bdbdbd;
+        position: absolute;
+        top: 100%;
+        left: 6.4%
+    }
+}
+
+.stepNumberSelected {
+    // background: purple;
+    border: 1px solid #bdbdbd;
+    color: #fff;
+
+}
+
+.stepNumberDisabled {
+    border: 1px solid #838383
+}
+
+.stepDescriptionActive {
+    font-weight: bold;
+}

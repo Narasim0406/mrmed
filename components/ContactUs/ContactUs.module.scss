@@ -1,0 +1,122 @@
+.contact_box{
+    border: 4px solid #F5F5F5;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    span{
+        display: block;
+        color: #262626;
+    }
+    h4{
+        color: #343434;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    h3{
+        color: #343434;
+        padding-bottom: 20px;
+        font-weight: bold; 
+    }
+}
+.contact_info{
+    display: flex;
+    padding-left: 5px;
+    img{
+        object-fit: contain;
+        margin-right: -10px;
+        margin-bottom: 5px;
+    }
+    .num{
+        height: 20px;
+    }
+    .what{
+        height: 25px;
+    }
+    .mail{
+        height: 17px;
+    }
+    span{
+        font-size: 14px;
+    }
+}
+.contact_details{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.contact_field{
+    margin-bottom: 40px;
+    input{
+        background-color: #FFFFFF;
+        border: 1px solid #B8BCC5;
+        border-radius: 4px;
+        width: 90%;
+        padding: 10px 15px 10px 15px;
+        margin-top: 10px;
+        outline: none;
+    }
+    textarea{
+        background-color: #FFFFFF;
+        border: 1px solid #B8BCC5;
+        border-radius: 4px;
+        width: 90%;
+        padding: 10px 15px 40px 15px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        resize: none;
+        outline: none;
+    }
+    span{
+        color: #242424;
+    }
+}
+.btn_contact_send{
+    background-color: #00D9C5;
+    border: 1px solid #00D9C5;
+    border-radius: 2px;
+    color: #232323;
+    width: 120px;
+    padding: 5px 0px 5px 0px;
+}
+.btn_radio{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  span{
+      display: inline;
+  }
+  input[type='radio'] {
+    display: none;
+    }
+    input[type='radio'] + .partner_label {
+        position: relative;
+        line-height: 1em;
+    }
+    input[type='radio'] + .partner_label:before {
+        content: '';
+        width: .75em;
+        height: .75em;
+        border-radius:100%;
+        margin-right: .75em;
+        display: inline-block;
+        background: white;
+        vertical-align: middle;
+        box-shadow: 0 0 0 .1em white, 0 0 0 .2em  #000000;
+        cursor: pointer;
+    }
+    input[type='radio']:checked + .partner_label:before {
+        background:  #000000;
+        vertical-align: middle;
+    }
+}
+.partner_dropdown{
+    background-color: #FFFFFF;
+    border: 1px solid #B8BCC5;
+    padding: 10px 10px 10px 15px;
+    width: 90%;
+    outline: none;
+    cursor: pointer;
+}

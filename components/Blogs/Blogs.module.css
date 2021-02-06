@@ -1,0 +1,60 @@
+.indication {
+  padding: 0;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+
+.blogContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.blogCard {
+  width: 360px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.blogCard .blogImg {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.blogCard .blogContent {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 190.19%;
+  color: #505050;
+}
+
+.blogCard .blogTitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 190.19%;
+  color: #000000;
+}
+
+.blogCard .textMuted {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 190.19%;
+  color: #6054E5;
+}
+/*# sourceMappingURL=Blogs.module.css.map */

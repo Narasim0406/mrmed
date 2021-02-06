@@ -20,6 +20,7 @@ function Carousel(){
                     pagination={{ clickable: true }}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
+                    autoplay={{delay:50,disableOnInteraction:true}}
                     >
                     <SwiperSlide className={styles.carouselBackground}>
                         <div className="row">

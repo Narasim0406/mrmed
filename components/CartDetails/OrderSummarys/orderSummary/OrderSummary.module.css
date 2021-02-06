@@ -1,0 +1,207 @@
+.summaryBox {
+  border: 1px solid #EAEAEA;
+  padding: 15px;
+  width: 100%;
+}
+
+.orderSummary {
+  color: #333333;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.right {
+  float: right;
+}
+
+.details {
+  color: #333333;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.details p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #6054E5;
+}
+
+.orderTotal {
+  color: #333333;
+  font-size: 20px;
+}
+
+.proceed {
+  text-align: center;
+}
+
+.btnProceed {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  border-radius: 2px;
+  color: #232323;
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.btnProceed:focus {
+  outline: none;
+}
+
+.btnPrescription {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #6054E5;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.btnPrice {
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-radius: 2px;
+  color: #747474;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+.couponBox {
+  border: 1px dashed #766CEB;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.apply {
+  color: #766CEB;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+}
+
+.applyField {
+  font-size: 12px;
+  width: 60%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #B8BCC5;
+}
+
+.btnCode {
+  background-color: #E6E6E6;
+  color: #747474;
+  border: 1px solid #E6E6E6;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.couponNote {
+  color: #189B0C;
+  font-size: 14px;
+}
+
+.mddelivery__details__container .mddelivery__details {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #343434;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  height: 200px;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .changeBtn {
+  padding: 0 95px;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .changeBtn .report_order1 {
+  border: 1px solid #6054E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 150px;
+  height: 35px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6054E5;
+  background-color: white;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddelPersonInnnerLeft {
+  padding: 0 20px;
+  padding-top: 20px;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddelPersonInnnerLeft .mddel_person_name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddelPersonInnnerLeft .mddel_person_number {
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddel_person_innerRight {
+  width: 60px;
+  height: 25px;
+  background: #dfdbdb;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  margin: 20px;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddel_person_innerRight > p {
+  margin-top: 3px;
+}
+
+.mddelivery__details__container .mddelivery__inner_sec .mdstreet {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 150.3%;
+  color: #868686;
+}
+/*# sourceMappingURL=OrderSummary.module.css.map */

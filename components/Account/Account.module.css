@@ -1,0 +1,72 @@
+.accountDetails {
+  border: 1px solid #BBBBBB;
+  margin-bottom: 40px;
+}
+
+.accountDetails i {
+  font-size: 18px;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.accountDetails b {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.accountDetails li {
+  list-style: none;
+}
+
+.accountDetails ul {
+  padding-left: 0px;
+}
+
+.myAccount span {
+  color: #727272;
+  font-size: 16px;
+}
+
+.myAccount b {
+  color: #414B55;
+  font-size: 28px;
+}
+
+.accountList {
+  list-style-type: none;
+  color: #343434;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  cursor: pointer;
+}
+
+.accountList img {
+  fill: green;
+}
+
+.accountList:hover {
+  text-decoration: none;
+  color: #343434;
+}
+
+.accountActiveList {
+  background-color: #F3F2FE;
+  color: #6054E5;
+  list-style-type: none;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.accountActiveList img {
+  fill: #6054E5;
+}
+
+.accountActiveList:hover {
+  text-decoration: none;
+  background-color: #F3F2FE;
+  color: #6054E5;
+}
+/*# sourceMappingURL=Account.module.css.map */

@@ -160,8 +160,8 @@
   max-width: 350px;
 }
 
-.uploadPresMainContainer .uploadPresBoxright .validTextend1 {
-  margin: 20px 0;
+.uploadPresMainContainer .uploadPresBoxright .validTextend1 p {
+  margin-top: 3px;
 }
 
 .uploadPresMainContainer .uploadPresBoxright .validTextend1 .blueTickImg {

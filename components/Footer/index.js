@@ -35,7 +35,7 @@ function Footer(){
                                         <span onClick={() => router.push('/Career')}>Careers</span>
                                         <span>Partner with mrMED</span> 
                                         <span onClick={() => router.push('/NeedHelps')}>FAQ</span> 
-                                        <span>Contact Us</span>
+                                        <span onClick={() => router.push('/Contact')}>Contact Us</span>
                                     </div>
                                     <div className="col-md-4">
                                         <b>Speciality Medicines</b>
@@ -58,10 +58,10 @@ function Footer(){
                     </div>
                     <hr className={styles.footerLine}/>
                     <div className={styles.copyright}>
-                        <span>Copyright © 2020 mrmed. All rights reserved.</span>
-                        <div className={styles.terms}>
+                        <span>Copyright © 2021 Eazymed Technologies Private Limited</span>
+                        {/* <div className={styles.terms}>
                             <b>Privacy / Terms &#38; Conditions / Contact Us</b>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

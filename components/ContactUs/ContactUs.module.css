@@ -1,0 +1,151 @@
+.contact_box {
+  border: 4px solid #F5F5F5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.contact_box span {
+  display: block;
+  color: #262626;
+}
+
+.contact_box h4 {
+  color: #343434;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact_box h3 {
+  color: #343434;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 5px;
+}
+
+.contact_info img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: -10px;
+  margin-bottom: 5px;
+}
+
+.contact_info .num {
+  height: 20px;
+}
+
+.contact_info .what {
+  height: 25px;
+}
+
+.contact_info .mail {
+  height: 17px;
+}
+
+.contact_info span {
+  font-size: 14px;
+}
+
+.contact_details {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.contact_field {
+  margin-bottom: 40px;
+}
+
+.contact_field input {
+  background-color: #FFFFFF;
+  border: 1px solid #B8BCC5;
+  border-radius: 4px;
+  width: 90%;
+  padding: 10px 15px 10px 15px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.contact_field textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #B8BCC5;
+  border-radius: 4px;
+  width: 90%;
+  padding: 10px 15px 40px 15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  resize: none;
+  outline: none;
+}
+
+.contact_field span {
+  color: #242424;
+}
+
+.btn_contact_send {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  border-radius: 2px;
+  color: #232323;
+  width: 120px;
+  padding: 5px 0px 5px 0px;
+}
+
+.btn_radio {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+.btn_radio span {
+  display: inline;
+}
+
+.btn_radio input[type='radio'] {
+  display: none;
+}
+
+.btn_radio input[type='radio'] + .partner_label {
+  position: relative;
+  line-height: 1em;
+}
+
+.btn_radio input[type='radio'] + .partner_label:before {
+  content: '';
+  width: .75em;
+  height: .75em;
+  border-radius: 100%;
+  margin-right: .75em;
+  display: inline-block;
+  background: white;
+  vertical-align: middle;
+  -webkit-box-shadow: 0 0 0 .1em white, 0 0 0 .2em  #000000;
+          box-shadow: 0 0 0 .1em white, 0 0 0 .2em  #000000;
+  cursor: pointer;
+}
+
+.btn_radio input[type='radio']:checked + .partner_label:before {
+  background: #000000;
+  vertical-align: middle;
+}
+
+.partner_dropdown {
+  background-color: #FFFFFF;
+  border: 1px solid #B8BCC5;
+  padding: 10px 10px 10px 15px;
+  width: 90%;
+  outline: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ContactUs.module.css.map */

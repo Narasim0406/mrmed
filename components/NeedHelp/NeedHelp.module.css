@@ -1,0 +1,128 @@
+.indication {
+  padding: 0px;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+
+.helpHeader {
+  width: 432px;
+  margin-bottom: 40px;
+}
+
+.helpHead {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.helpSub {
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.inputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.inputContainer input {
+  height: 45px;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #B8BCC5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.inputContainer label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #242424;
+}
+
+.helpBtn {
+  width: 245px;
+  height: 51px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.areaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+}
+
+.areaContainer textarea {
+  background: #FFFFFF;
+  border: 1px solid #B8BCC5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+  padding: 20px;
+}
+
+.areaContainer label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #242424;
+}
+
+.helpBorder {
+  width: 412px;
+  height: 701px;
+  background: #FFFFFF;
+  border: 0.8px solid #EAEAEA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=NeedHelp.module.css.map */

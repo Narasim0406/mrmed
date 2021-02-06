@@ -87,6 +87,8 @@
   border: none;
   height: 50px;
   margin-bottom: 30px;
+  outline: none;
+  border: none;
 }
 
 .signIn .signInCard .signinBtns .noAccount {
@@ -202,6 +204,7 @@
   color: #766DEC;
   border: none;
   padding: 10px;
+  outline: none;
 }
 
 .signUp .signupContent .accountsMain {
@@ -242,5 +245,105 @@
 .signUp .signupContent .accountsMain .signupFooter .termsCont > span {
   font-size: 14px;
   font-weight: bold;
+}
+
+.otpLogin_inner {
+  background: #766CEB;
+  height: 100%;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.otpLogin_inner .textContent {
+  margin-left: -35px;
+}
+
+.otpLogin_inner .otp_header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.otpLogin_inner .otp_number {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 137%;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.otpLogin_inner .otpno_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+
+.otpLogin_inner .otpno_container .otp_form_input {
+  width: 50px;
+  height: 50px;
+  border: 0.5px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #766CEB;
+  margin-right: 10px;
+  outline: none;
+  text-align: center;
+}
+
+.otpLogin_inner .otpno_container input::-webkit-input-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otpLogin_inner .otpno_container input:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otpLogin_inner .otpno_container input::-ms-input-placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otpLogin_inner .otpno_container input::placeholder {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.otpLogin_inner .otp_verify {
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #766DEC;
+  border: none;
+  height: 50px;
+  outline: none;
+  width: 370px;
+  margin-top: 60px;
 }
 /*# sourceMappingURL=SingnInComponent.module.css.map */

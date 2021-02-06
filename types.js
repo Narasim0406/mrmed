@@ -6,4 +6,6 @@
 export const USER_DETAILS='USER_DETAILS'
 export const USER_TOKEN='USER_TOKEN'
 export const CART_PRODUCTS='CART_PRODUCTS'
+export const PRODUCT_LISTS='PRODUCT_LISTS'
+
 

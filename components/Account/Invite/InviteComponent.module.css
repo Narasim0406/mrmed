@@ -1,0 +1,70 @@
+.trackBorder {
+  width: 100%;
+  border: 4px solid #F5F5F5;
+  padding: 20px 20px 40px 20px;
+  border-radius: 4px;
+}
+
+.invite {
+  color: #343434;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.inviteText {
+  color: #000000;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.inviteInput {
+  border: 1px solid #B8BCC5;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.inviteField {
+  color: #242424;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.inviteTextArea {
+  width: 100%;
+  resize: none;
+  padding: 10px 10px 40px 10px;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #B8BCC5;
+  outline: none;
+}
+
+.inviteBy {
+  color: #000000;
+  font-size: 15px;
+}
+
+.btnInvite {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  color: #232323;
+  font-size: 14px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 40px;
+  border-radius: 2px;
+}
+
+.socialIcon {
+  padding-top: 5px;
+}
+
+.socialIcon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=InviteComponent.module.css.map */

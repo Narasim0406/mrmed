@@ -76,13 +76,23 @@ export default function UploadPrescriptions(){
                             {/* <div className="validprescrip-img"> */}
                                 <img src={'/prescription-img.png'} className={`col-md-12 ${styles.validprescripImg}`} alt="valid-prescription image"/>
                             {/* </div> */}
-                            <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
-                                <img src={"/bluetick.png"} alt="bluetick-image" className={styles.blueTickImg}/>
-                                <p className={styles.validtextEnd}>Lorem ipsum is a placeholder text comn used to demonstrate.</p>
-                            </div>
-                            <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
-                                <img src={"/bluetick.png"} alt="bluetick-image" className={styles.blueTickImg}/>
-                                <p className={styles.validtextEnd}>Lorem ipsum is a placeholder text comn used to demonstrate.</p>
+                            <div className="mt-4">
+                                <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
+                                    <img src='/bluetick.png' alt="bluetick-image" className={styles.blueTickImg}/>
+                                    <p className={styles.validtextEnd}>Patient Details</p>
+                                </div>
+                                <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
+                                    <img src='/bluetick.png' alt="bluetick-image" className={styles.blueTickImg}/>
+                                    <p className={styles.validtextEnd}>Doctor’s Details</p>
+                                </div>
+                                <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
+                                    <img src={'/bluetick.png'} alt="bluetick-image" className={styles.blueTickImg}/>
+                                    <p className={styles.validtextEnd}>Doctor’s Sign + Stamp</p>
+                                </div>
+                                <div className={`col-md-12 ${styles.validTextend1} d-flex`}>
+                                    <img src={'/bluetick.png'} alt="bluetick-image" className={styles.blueTickImg}/>
+                                    <p className={styles.validtextEnd}>Medicine Details</p>
+                                </div>
                             </div>
                         </div>
                     </div>

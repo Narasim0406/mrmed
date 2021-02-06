@@ -2,15 +2,18 @@ import React, { useState } from 'react';
 import styles from './ChooseMedicine.module.scss';
 import AttachedPrescriptions from '../Attached Prescriptions/index';
 import CallPop from './CallPopup/index';
+import {useRouter} from 'next/router';
 
 export default function ChooseMedicine(){
     const [choose,setChoose] = useState(1);
     const [modal,setModal] = useState(false);
+    const router = useRouter();
     const handleChoose1 = () => {
         setChoose(1);
     }
     const handleChoose2 = () => {
         setChoose(2);
+        router.push('/ShopProductComponent');
     }
     const handleChoose3 = () => {
         setChoose(3);
@@ -46,7 +49,10 @@ export default function ChooseMedicine(){
                                 <span>Search and add medicines</span>
                             </div>
                             {
-                                choose === 2 ? "" : ""
+                                choose === 2 ? 
+                                <div className={styles.searchMed}>
+                                    <span>You will be directed to product page.</span>
+                                </div> : ""
                             }
                             <div className={styles.btn_radio}>
                                 <input type="radio" id="radio-label-3" className={styles.custom_radio} name="pap" />

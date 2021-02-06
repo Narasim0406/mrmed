@@ -1,11 +1,41 @@
-import React, { Component , useState} from 'react'
+import React, { useState} from 'react'
 
 import styles from './ProductList.module.scss';
 import {useRouter} from 'next/router';
 
 function ProductList(){
-    const [list,setList] = useState(['All','Diabetes','Cancer','HIV','Osteoporosis','Arthiritis']);
-    const [listStyle,setListStyle] = useState([true,false,false,false,false,false]);
+    const [diseases,setDiseases] = useState([
+        {
+            id:'1',
+            type:'All',
+            listStyle:true
+        },
+        {
+            id:'2',
+            type:'Diabetes',
+            listStyle:false
+        },
+        {
+            id:'3',
+            type:'Cancer',
+            listStyle:false
+        },
+        { 
+            id:'4',
+            type:'HIV',
+            listStyle:false
+        },
+        {
+            id:'5',
+            type:'Osteoporosis',
+            listStyle:false
+        },
+        {
+            id:'6',
+            type:'Arthiritis',
+            listStyle:false
+        }
+    ]);
     const router = useRouter();
     const [products,setProducts] = useState([
         {
@@ -41,17 +71,30 @@ function ProductList(){
             discountPrice : '150'
         }
     ] );
+    const handleType = (value) => {
+        const diseaseList = diseases.map((disease) => {
+            if(disease.id === value.id){
+                disease.listStyle=true;
+            }else{
+                disease.listStyle=false;
+            }
+            return disease;
+        });
+        setDiseases(diseaseList);
+    }
         return (
             <div>
                 <div className={styles.chronic}>
-                    <b>Shop by Chronic Diseases</b>
+                    <b>Life Saving Medicines</b>
                 </div>
                 <ul className={styles.landingList}>
-                    {list.map((value,index)=>{
+                    {diseases.map((value,index)=>{
                         return(
-                            <li key={index} className={listStyle[index] ? `${styles.activeList}` : `${styles.inActiveList}`}>{value}</li>
+                            <li onClick={() => handleType(value)} key={index} className={value.listStyle  ? `${styles.inActiveList} ${styles.activeList}` : `${styles.inActiveList}`}>{value.type}</li>
                         );
                     })}
+                    <img style={{marginRight:"30px",cursor:'pointer'}}src={'/chronicLeft.png'} alt="left"/>
+                    <img style={{cursor:'pointer'}} src={'/chronicRight.png'} alt="right"/>
                 </ul>
                 <div className="row">
                     {products.map((value,index)=>{

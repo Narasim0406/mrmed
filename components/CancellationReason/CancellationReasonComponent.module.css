@@ -1,0 +1,133 @@
+.orderCancel {
+  border: 1px solid #D8D8D8;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.reason {
+  color: #333333;
+  font-size: 20px;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.order_pmg {
+  text-align: center;
+}
+
+.pres_img {
+  height: 105px;
+  border: 1px solid #6054E5;
+}
+
+.pres_img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 95px;
+}
+
+.otherField {
+  border: 1px solid #B8BCC5;
+  width: 100%;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none;
+  resize: none;
+}
+
+.comment {
+  color: #242424;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.orderDetail {
+  color: #333333;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.orderPdf {
+  background-color: #F8F8FF;
+  height: 120px;
+  border: 1px solid #6054E5;
+  padding: 20px;
+}
+
+.cancelId {
+  color: #242424;
+  font-size: 18px;
+  padding-left: 0px;
+}
+
+.cancelDate {
+  color: #333333;
+  font-size: 14px;
+}
+
+.btnCancel {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  border-radius: 2px;
+  color: #232323;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.btnRadio {
+  margin-bottom: 20px;
+}
+
+.btnRadio span {
+  color: #4F4F4F;
+}
+
+.custom_radio {
+  display: none;
+}
+
+.custom_radio + .radio_label {
+  position: relative;
+  line-height: 1em;
+}
+
+.custom_radio + .radio_label:before {
+  content: '';
+  width: .75em;
+  height: .75em;
+  border-radius: 100%;
+  margin-right: .75em;
+  display: inline-block;
+  background: white;
+  vertical-align: middle;
+  -webkit-box-shadow: 0 0 0 .1em white, 0 0 0 .2em  #6054E5;
+          box-shadow: 0 0 0 .1em white, 0 0 0 .2em  #6054E5;
+}
+
+.custom_radio:checked + .radio_label:before {
+  background: #6054E5;
+  vertical-align: middle;
+}
+
+.indication {
+  margin-top: 20px;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+/*# sourceMappingURL=CancellationReasonComponent.module.css.map */

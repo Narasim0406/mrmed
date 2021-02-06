@@ -1,0 +1,268 @@
+.headers {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.greyBack {
+  background-color: #2A2A2C;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.greyBack img {
+  width: 27px;
+  height: 20px;
+  padding-right: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.greyBack b {
+  color: white;
+  font-size: 12px;
+  padding-right: 40px;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.logo button:focus {
+  outline: none;
+}
+
+.logo .deliveryContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5px;
+}
+
+.logo .deliveryContainer label {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  color: #858585;
+}
+
+.logo .deliveryContainer .deliver {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  margin-top: -5px;
+}
+
+.logo .deliveryContainer .deliver input {
+  margin-left: -30px;
+  margin-top: -10px;
+  border: none;
+  width: 190px;
+  background: transparent;
+}
+
+.logo .deliveryContainer .deliver img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  top: -18px;
+  right: 71px;
+  height: 15px;
+}
+
+.logo .deliveryContent {
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo .deliveryContent img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.logo .deliveryContent input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #2A2A2C;
+}
+
+.logo .deliveryContent input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #2A2A2C;
+}
+
+.logo .deliveryContent input::-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #2A2A2C;
+}
+
+.logo .deliveryContent input::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #2A2A2C;
+}
+
+.logo input {
+  width: 60%;
+  border: 1px solid #D2D2D2;
+  padding: 10px 60px 10px 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 40px;
+  font-size: 12px;
+  outline: none;
+}
+
+.searchIcon {
+  margin-left: -40px;
+  width: 18px;
+  height: 18px;
+  margin-top: 20px;
+}
+
+.lang {
+  color: white;
+  font-size: 12px;
+  float: right;
+  line-height: 2;
+}
+
+.btnLocation {
+  background-color: white;
+  border: 1px solid white;
+  color: gray;
+  font-size: 16px;
+}
+
+.dropdownMenu img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.dropdownMenu span {
+  color: #333333;
+  margin-right: 10px;
+}
+
+.dropdownMenu .item:focus {
+  background-color: white;
+}
+
+.imgLogo {
+  width: 190px;
+  height: 60px;
+  padding-right: 20px;
+}
+
+.iconAlign {
+  padding-right: 15px;
+  color: #333333;
+  font-size: 14px;
+}
+
+.headerIcon {
+  margin-top: 17px;
+  float: right;
+}
+
+.greenBack {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.greenBack li {
+  color: #2C2C2D;
+  font-size: 12px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: inline;
+  list-style: none;
+  line-height: 3.5;
+}
+
+.greenBack ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.greenBack img {
+  margin-right: 5px;
+}
+
+.btnUpload:focus {
+  outline: none;
+}
+
+.btnUpload {
+  background-color: #6054E5;
+  border: 1px solid #6054E5;
+  color: white;
+  font-size: 12px;
+  padding: 12px 20px 12px 20px;
+}
+
+.uploadPrescription {
+  float: right;
+}
+
+.cartBadge {
+  background-color: #6054E5;
+  border: 1px solid #6054E5;
+  font-size: 10px;
+  padding: 1px 5px 1px 5px;
+  border-radius: 100%;
+  color: white;
+  position: absolute;
+  margin-top: -6px;
+  margin-left: -10px;
+}
+
+.locationDropdown {
+  outline: none;
+}
+
+.locationDropdown img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.locationDropdown span {
+  font-size: 12px;
+}
+/*# sourceMappingURL=Header.module.css.map */

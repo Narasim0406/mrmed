@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,mBAAmB;CAC7B;;AACH,AAAA,gBAAgB,CAAA;EACZ,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,mBAAmB;EAC5B,aAAa,EAAE,GAAG;CACrB;;AACD,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,KAAK;CACf;;AACD,AAAA,kBAAkB,CAAA;EACd,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "PrescriptionComponent.module.scss"
+    ],
+    "names": [],
+    "file": "PrescriptionComponent.module.css"
+}

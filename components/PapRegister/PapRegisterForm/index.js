@@ -11,7 +11,7 @@ function PapForm(props){
         phone: "",
         email: "",
         medicineDetails: "",
-        quantity: "",
+        //quantity: "",
         callTime: "",
         message: "",
         status: 0,
@@ -39,7 +39,7 @@ function PapForm(props){
                 name:'',
                 medicineDetails:'',
                 phone:'',
-                quantity:'',
+               // quantity:'',
                 email:'',
                 callTime:'',
                 message:'',
@@ -63,47 +63,80 @@ function PapForm(props){
                     <b>Register for Patient Assistance Programme</b>
                 </div>
                 <form onSubmit={handleSubmit} method="post">
-                <div className="row">
-                    <div className="col-md-4">
-                        <div className={styles.inputField}>
-                            <div className={styles.registerLabel}>
-                                <span>Patient Name</span>
-                            </div>                              
-                            <input name="name" 
-                                   className={styles.registerField} 
-                                   type="text" 
-                                   placeholder="Enter here"
-                                   value={papRegisterData['name']} 
-                                   onChange={(e) => onChangeForm(e)}
-                                   required/>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className={styles.inputField}>
+                                <div className={styles.registerLabel}>
+                                    <span>Patient Name</span>
+                                </div>                              
+                                <input name="name" 
+                                    className={styles.registerField} 
+                                    type="text" 
+                                    placeholder="Enter here"
+                                    value={papRegisterData['name']} 
+                                    onChange={(e) => onChangeForm(e)}
+                                    required/>
+                            </div>
                         </div>
-                        <div className={styles.inputField}>
-                            <div className={styles.registerLabel}>
-                                <span>Medicine Details</span>
-                            </div>                              
-                            <input name="medicine_details" 
-                            className={styles.registerField} 
-                            type="text" 
-                            placeholder="Enter here" 
-                            value={papRegisterData['medicineDetails']} 
-                            onChange={(e) => onChangeForm(e)}
-                            required/>
+                        <div className="col-md-4">
+                            <div className={styles.inputField}>
+                                <div className={styles.registerLabel}>
+                                    <span>Phone Number</span>
+                                </div>                              
+                                <input name="phone" 
+                                className={styles.registerField} 
+                                type="text" 
+                                placeholder="Enter here" 
+                                value={papRegisterData['phone']} 
+                                onChange={(e) => onChangeForm(e)}
+                                required/>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className={styles.inputField}>
+                                <div className={styles.registerLabel}>
+                                    <span>Email</span>
+                                </div>                              
+                                <input name="email" 
+                                className={styles.registerField} 
+                                type="email" 
+                                placeholder="Enter here" 
+                                value={papRegisterData['email']} 
+                                onChange={(e) => onChangeForm(e)}
+                                required/>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className={styles.inputField}>
-                            <div className={styles.registerLabel}>
-                                <span>Phone Number</span>
-                            </div>                              
-                            <input name="phone" 
-                            className={styles.registerField} 
-                            type="text" 
-                            placeholder="Enter here" 
-                            value={papRegisterData['phone']} 
-                            onChange={(e) => onChangeForm(e)}
-                            required/>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className={styles.inputField}>
+                                    <div className={styles.registerLabel}>
+                                        <span>Medicine Details</span>
+                                    </div>                              
+                                    <input name="medicineDetails" 
+                                    className={styles.registerField} 
+                                    type="text" 
+                                    placeholder="Enter here" 
+                                    value={papRegisterData['medicineDetails']} 
+                                    onChange={(e) => onChangeForm(e)}
+                                    required/>
+                            </div>
                         </div>
-                        <div className={styles.inputField}>
+                        <div className="col-md-6">
+                            <div className={styles.inputField}>
+                                <div className={styles.registerLabel}>
+                                    <span>Preferable Call Time</span>
+                                </div>                              
+                                <input name="callTime" 
+                                className={styles.registerField} 
+                                type="text" 
+                                value={papRegisterData['callTime']} 
+                                onChange={(e) => onChangeForm(e)}
+                                placeholder="Enter here" required/>
+                            </div>
+                        </div>
+                    </div>
+                        {/* <div className={styles.inputField}>
                             <div className={styles.registerLabel}>
                                 <span>Quantity</span>
                                 </div>                              
@@ -114,34 +147,8 @@ function PapForm(props){
                             value={papRegisterData['quantity']} 
                             onChange={(e) => onChangeForm(e)}
                             required/>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className={styles.inputField}>
-                            <div className={styles.registerLabel}>
-                                <span>Email</span>
-                            </div>                              
-                            <input name="email" 
-                            className={styles.registerField} 
-                             type="email" 
-                             placeholder="Enter here" 
-                             value={papRegisterData['email']} 
-                             onChange={(e) => onChangeForm(e)}
-                             required/>
-                        </div>
-                        <div className={styles.inputField}>
-                            <div className={styles.registerLabel}>
-                                <span>Preferable Call Time</span>
-                            </div>                              
-                            <input name="callTime" 
-                            className={styles.registerField} 
-                            type="text" 
-                            value={papRegisterData['callTime']} 
-                            onChange={(e) => onChangeForm(e)}
-                            placeholder="Enter here" required/>
-                        </div>
-                    </div>
-                </div>
+                        </div> */}
+                    
                 <div className={styles.inputField}>
                     <div className={styles.registerLabel}>
                         <span>Message</span>
@@ -153,7 +160,7 @@ function PapForm(props){
                     onChange={(e) => onChangeForm(e)}
                     placeholder="Enter here" required/>
                 </div>
-                <button className={styles.btnRegister}><b>REGISTER</b></button>
+                <button className={styles.btnRegister}><b>ENQUIRE</b></button>
                 </form>
                 <RegConfirmation modal={modal} toggle={toggle}/>
             </div>

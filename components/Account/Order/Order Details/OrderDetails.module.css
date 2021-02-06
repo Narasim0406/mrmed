@@ -1,0 +1,149 @@
+.indication {
+  padding: 0;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+
+.addressDetail {
+  color: #343434;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.addressBtns {
+  padding: 10px;
+}
+
+.addressBtns .removeBtn {
+  font-size: 14px;
+  line-height: 150.3%;
+  color: #2A1F9C;
+}
+
+.addressBtns .setBtn {
+  font-size: 14px;
+  line-height: 150.3%;
+  color: #2A1F9C;
+}
+
+.addAddress {
+  font-size: 14px;
+  line-height: 150.3%;
+  color: #2A1F9C;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.addressBox {
+  border: 1px solid #D8D8D8;
+  padding: 10px;
+  width: 310px;
+  height: 139px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.place {
+  background-color: #F0F0F0;
+  border: 1px solid #F0F0F0;
+  color: #333333;
+  font-size: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  float: right;
+  border-radius: 20px;
+  padding: 0px 15px 0px 15px;
+}
+
+.addressName {
+  color: #333333;
+  font-size: 16px;
+}
+
+.addressNumber {
+  color: #333333;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.address {
+  color: #868686;
+  font-size: 14px;
+}
+
+.btnNew {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  color: #232323;
+  font-size: 14px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 40px;
+  border-radius: 2px;
+}
+
+.uploadprescripCards .uploadprescripAttachContainer {
+  padding: 0 15px;
+  height: 225px;
+}
+
+.uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 {
+  position: relative;
+  height: 200px;
+  background-image: url(../../../../assets/images/greenrect.png);
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: 225px;
+  padding: 10px 20px;
+}
+
+.uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadprescripTickmark {
+  position: absolute;
+  right: -20px;
+  top: -24px;
+}
+
+.uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadprescripImg {
+  margin-top: 10px;
+}
+
+.uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadprescripImg > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 150px;
+  height: 160px;
+}
+
+.uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadIconsList {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 180px;
+  padding: 0 20px;
+  margin-top: 12px;
+}
+
+.uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadIconsList > img {
+  width: 23px;
+  height: 23px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=OrderDetails.module.css.map */

@@ -29,14 +29,21 @@ export const userDetails = (details) => {
   }
 }
 export const userToken = (token) => {
+  
   return {
       type: types.USER_TOKEN,
       payload: token
   }
 }
-export const cartProducts = (products) => {
+export const cartProduct = (products) => {
   return {
       type: types.CART_PRODUCTS,
+      payload: products
+  }
+}
+export const productList = (products) => {
+  return {
+      type: types.PRODUCT_LISTS,
       payload: products
   }
 }

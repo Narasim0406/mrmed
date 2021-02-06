@@ -1,0 +1,89 @@
+.addedCart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1110px;
+  height: 95px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 70px;
+  padding: 20px;
+}
+
+.addedCart .btnExplore {
+  width: 245px;
+  height: 51px;
+  background-color: white;
+  border: 1px solid #6054E5;
+  color: #6054E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.addedCart .btnExplore:focus {
+  outline: none;
+}
+
+.addedCart .greenSqr {
+  width: 40px;
+  height: 40px;
+  border: 0.5px solid #51AF01;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: -4px;
+}
+
+.addedCart .green {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 18px;
+  margin-top: 10px;
+}
+
+.addedCart .btnBuy {
+  width: 245px;
+  height: 51px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.addedCart .btnBuy:focus {
+  outline: none;
+}
+
+.addedCart .addedTitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145.75%;
+  color: #51AF01;
+}
+
+.addedCart .addedValue {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 145.75%;
+  color: #6B6B6B;
+  margin-right: 24px;
+}
+
+.addedCart .amt {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #6054E5;
+}
+/*# sourceMappingURL=AddedCart.module.css.map */

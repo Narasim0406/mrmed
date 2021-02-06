@@ -1,10 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 import styles from  './AddCart.module.scss';
 import {useRouter} from 'next/router';
 
 function AddCart(){
     const router = useRouter();
+    const [added, setAdded] = useState(false);
+
+    const addCart = () => {
+        setAdded(!added);
+    }
         return(
             <div className={styles.purchaseBox}>
                 <div>
@@ -40,11 +45,12 @@ function AddCart(){
                     </div>
                 </div>
                 {/* <NavLink to="/dashboard/cartPage"> */}
-                    <button className={styles.btnAddCart}>ADD TO CART</button>
+                    <button className={styles.btnAddCart} onClick={addCart}>{added ? "ADDED TO CART" : "ADD TO CART"}</button>
                 {/* </NavLink> */}
                 <br/>
+                <button className={styles.btnPriceMatch}>BUY NOW</button>
                 {/* <NavLink to="/dashboard/priceMatch"> 
-                    <button onClick={() => router.push('/PriceMatchs')} className={styles.btnPriceMatch}>PRICE MATCH</button>
+                   
                  </NavLink> */}
                 <br/>
             </div>

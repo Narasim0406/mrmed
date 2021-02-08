@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
-import CartDetail from '../../components/CartDetails/index';
+import CartDetail from '../../components/MyCartFlow/index';
 
 function CartDetails() {
     return (

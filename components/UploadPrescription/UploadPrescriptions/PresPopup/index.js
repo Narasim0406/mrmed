@@ -4,18 +4,36 @@ import React from 'react'
 import styles from './PresPopup.module.scss';
 import { Modal } from 'reactstrap';
 import {useRouter} from 'next/router';
+import { connect } from 'react-redux';
+import axios from 'axios';
+import { Component } from 'react';
 
-export default function PresPopup(props) {
-    let {modal,toggle} = props;
-    const router = useRouter();
+const PresPopup = (props) => {
+   const router = useRouter()
+   return <MyClass {...props} router={router} />
+ }
 
-    return (
+class MyClass extends Component {
+   constructor(props) {
+      super(props)
+      this.state = {
+        loc: props.router.query.loc,
+        loaded: false
+      };
+    }
+   componentDidMount() {
+      console.log("sdfgsfghsfghfg", this.props)
+   }
+   
+   render() {
+   let {modal,toggle, router} = this.props;
+   return (
         <div>
             <Modal isOpen={modal} toggle={toggle} className={styles.modals}>
             <div className={`row ${styles.order_MainContainer} d-flex justify-content-center`}>
                <div className={styles.RegConfirmMain}>
                   <div className={`${styles.contact_mr} d-flex justify-content-end`}>
-                     <img className={styles.cancelImg} onClick={toggle} src={"/closee.png"} alt="cancel" />
+                     {/* <img className={styles.cancelImg} onClick={toggle} src={"/closee.png"} alt="cancel" /> */}
                   </div>
                   <div className={`${styles.order_sec} d-flex justify-content-center`}>
                      <img className={styles.orderSuccessImg} src={"/success.png"} alt="success" />
@@ -36,4 +54,12 @@ export default function PresPopup(props) {
         </div>
     )
 }
+}
 
+const mapStateToProps = state => ({
+   userDetail: state.auth.userDetails,
+   chooseMedicines: state.chooseMedicines,
+   prescription: state.prescription
+ });
+ 
+ export default connect(mapStateToProps)(PresPopup)

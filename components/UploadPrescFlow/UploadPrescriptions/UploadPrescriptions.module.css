@@ -1,0 +1,193 @@
+.uploadMainHead {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.uploadPresMainContainer .uploadPresBox {
+  height: 280px;
+  background: #FCFCFC;
+  border: 1px dashed #766CEB;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.uploadPresMainContainer .uploadPresBox .validPrescrip > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.uploadPresMainContainer .uploadPresBox .uploadImg {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.uploadPresMainContainer .uploadPresBox .diffDocs {
+  text-align: center;
+}
+
+.uploadPresMainContainer .uploadPresBox .uploadFile {
+  border: 1px solid #766CEB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  color: #766CEB;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 19px;
+  padding: 15px 40px;
+  background-color: white;
+}
+
+.uploadPresMainContainer .prescripList {
+  padding-top: 30px;
+}
+
+.uploadPresMainContainer .prescripList .prescripListtext {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #343434;
+}
+
+.uploadPresMainContainer .prescripList .uploadprescripCards .uploadprescripAttachContainer {
+  padding: 0 15px;
+  height: 225px;
+}
+
+.uploadPresMainContainer .prescripList .uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 {
+  position: relative;
+  height: 200px;
+  background-image: url(../../../assets/images/greenrect.png);
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: 225px;
+  padding: 10px 20px;
+}
+
+.uploadPresMainContainer .prescripList .uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadprescripTickmark {
+  position: absolute;
+  right: -20px;
+  top: -24px;
+}
+
+.uploadPresMainContainer .prescripList .uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadprescripImg {
+  margin-top: 10px;
+}
+
+.uploadPresMainContainer .prescripList .uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadprescripImg > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 150px;
+  height: 160px;
+}
+
+.uploadPresMainContainer .prescripList .uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadIconsList {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 180px;
+  padding: 0 20px;
+  margin-top: 12px;
+}
+
+.uploadPresMainContainer .prescripList .uploadprescripCards .uploadprescripAttachContainer .uploadattachedPrescrip1 .uploadIconsList > img {
+  width: 13px;
+  height: 13px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.uploadPresMainContainer .prescripList .uploadPrescripProceed {
+  padding-top: 20px;
+}
+
+.uploadPresMainContainer .prescripList .uploadPrescripProceed .uploadproceedButton {
+  width: 200px;
+  height: 52px;
+  background: #00D9C5;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: #232323;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.uploadPresMainContainer .uploadPresBoxright {
+  height: 650px;
+  background: #FFFFFF;
+  border: 0.8px solid #EAEAEA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+.uploadPresMainContainer .uploadPresBoxright .validPrescrip {
+  padding: 20px 15px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.uploadPresMainContainer .uploadPresBoxright .validprescripImg {
+  max-width: 350px;
+}
+
+.uploadPresMainContainer .uploadPresBoxright .validTextend1 .blueTickImg {
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 10px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.uploadPresMainContainer .uploadPresBoxright .validTextend1 p {
+  margin-top: 3px;
+}
+
+.upload_label {
+  background-color: white;
+  border: 1px solid #766CEB;
+  color: #766CEB;
+  padding: 10px 30px 10px 30px;
+  border-radius: 2px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#upload_file {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  cursor: pointer;
+}
+/*# sourceMappingURL=UploadPrescriptions.module.css.map */

@@ -12,13 +12,13 @@ import { userDetails, userToken } from '../../actions';
 function Header(){
    const dispatch = useDispatch();
    const userDetail = useSelector((state) => state.auth);
-   const cartProducts = useSelector(state => state.auth.cartProducts)
+   const cartProducts = useSelector(state => state.cartDetail)
    let [userData, setuserData] = useState({});
    const [cartLength,setCartLength] = useState(0);
    let [langDropDown, setLangDropDown] = useState(false);
    let [locationPopOver, setLocationPopOver] = useState(false);
    let [userDropDown, setUserDropDown] = useState(false);
-   const products = useSelector(state => state.auth.products)
+   const products = useSelector(state => state.productList)
    const [modal,setModal] = useState(false);
    const router = useRouter();
 
@@ -37,9 +37,9 @@ function Header(){
 
             setuserData(JSON.parse(localStorage.userData))
         }
-        let len = cartProducts ? cartProducts.length : 0
+        let len = cartProducts.cartProduct ? cartProducts.cartProduct.length : 0
         setCartLength(len);
-        console.log(userDetail.userDetails,"dsfsfdfgsdhgfdghj", localStorage, userData);
+        console.log(cartProducts.cartProduct, "dsfsfdfgsdhgfdghj", cartLength, cartProducts.cartProduct.length);
         // if(userDetail.token){
         //     toggle();
         // }

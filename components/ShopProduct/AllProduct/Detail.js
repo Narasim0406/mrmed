@@ -4,6 +4,8 @@ import {products_url} from '../../../apiVariables';
 import axios from 'axios';
 import { productList, cartProduct, userDetails } from '../../../actions';
 import styles from './AllProduct.module.scss';
+import { connect } from 'react-redux';
+import { profiles_url, orders_url  } from '../../../apiVariables';
 
 class Detail extends React.Component {
   constructor() {
@@ -35,16 +37,25 @@ class Detail extends React.Component {
 }
 
   fetchCart = async() => {
-    let { userDetails } = this.props.userDetail;
+    let { userDetail } = this.props;
     //let userId = "601cd4f10787cd421e6f6acc";
-    console.log(userDetails, "get cart dsfgsdfgsdfg")
-    const api=`http://180.151.69.138:2258/api/v1/cart?userId=${userDetails.userId}`;
+    console.log(userDetail, "get cart dsfgsdfgsdfg")
+    const api=`${products_url}/cart?userId=${userDetail.userId}`;
     await axios.get(api)
     .then(res => {
         this.props.dispatch(cartProduct(res.data.data.cartData))
         this.setState({cartData:res.data.data.cartData})
     })
 }
+flows = (id)  => {
+    console.log("asdfasdffadgdfgsdg", id)
+    if(this.props.myCart){
+        this.props.router.push({pathname:'/SingleProduct',query:{myCart : true, id: id._id }})
+    }else{
+        this.props.router.push({pathname:'/SingleProduct',query:{myCart : false, id: id._id }})
+    }
+}
+   
 
 // const compareWithCart = () => {
 //     console.log(cartData)
@@ -56,10 +67,10 @@ class Detail extends React.Component {
 //     }
 // }
 addToCart = async(product) =>{
-    let { userDetails } = this.props.userDetail;
+    let { userDetail } = this.props;
     console.log(this.props, "add cart dsfgsdfgsdfg")
     let data = {
-        userId: userDetails.userId,
+        userId: userDetail.userId,
         productId:product._id,
         quantity:1,
     };
@@ -154,12 +165,12 @@ addToCart = async(product) =>{
             {this.state.products.map((product,index)=>{
                 let {id,medicineName,manufacturer,price,discountPrice,PAP,discountPercentage,
                     } = product;
-                 
+                let myCart = this.props.myCart;
                 return(   
                     <div className="col-md-4" key={index} >  
                         <div className={styles.bottom}>
                             {/* <NavLink to="/dashboard/singleProduct">  */}
-                                <div className={styles.image} onClick={() => this.props.router.push('/SingleProduct')}>
+                                <div className={styles.image} onClick={() => this.flows(product)}>
                                     <div className={styles.offerBadge}>
                                         <b>{discountPercentage}%</b>
                                     </div>
@@ -196,4 +207,10 @@ addToCart = async(product) =>{
   }
 }
 
-export default Detail;
+const mapStateToProps = state => ({
+    userDetail: state.auth.userDetails,
+    cartDetail: state.cartDetail,
+    productList: state.productList
+  });
+  
+  export default connect(mapStateToProps)(Detail)

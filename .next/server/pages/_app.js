@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 29);
+/******/ 	return __webpack_require__(__webpack_require__.s = 30);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -132,13 +132,17 @@ const initialAuth = {
   cartProduct: [],
   products: []
 };
+const initialPresc = {
+  uploadPrescription: [],
+  chooseMedicine: ""
+};
 
 const reducer = (state = initialAuth, {
   type,
   payload
 }) => {
   switch (type) {
-    case types["c" /* USER_DETAILS */]:
+    case types["e" /* USER_DETAILS */]:
       {
         console.log("USER_DETAILS", type, payload);
         return {
@@ -146,7 +150,17 @@ const reducer = (state = initialAuth, {
         };
       }
 
-    case types["d" /* USER_TOKEN */]:
+    default:
+      return state;
+  }
+};
+
+const userToken = (state = initialAuth, {
+  type,
+  payload
+}) => {
+  switch (type) {
+    case types["f" /* USER_TOKEN */]:
       {
         console.log("USER_TOKEN", type, payload);
         return {
@@ -154,6 +168,16 @@ const reducer = (state = initialAuth, {
         };
       }
 
+    default:
+      return state;
+  }
+};
+
+const cartProduct = (state = initialAuth, {
+  type,
+  payload
+}) => {
+  switch (type) {
     case types["a" /* CART_PRODUCTS */]:
       {
         console.log("CART_PRODUCTS", type, payload);
@@ -162,11 +186,57 @@ const reducer = (state = initialAuth, {
         };
       }
 
-    case types["b" /* PRODUCT_LISTS */]:
+    default:
+      return state;
+  }
+};
+
+const products = (state = initialAuth, {
+  type,
+  payload
+}) => {
+  switch (type) {
+    case types["c" /* PRODUCT_LISTS */]:
       {
         console.log("PRODUCT_LISTS", type, payload);
         return {
           products: payload
+        };
+      }
+
+    default:
+      return state;
+  }
+};
+
+const upload_prescription = (state = initialPresc, {
+  type,
+  payload
+}) => {
+  switch (type) {
+    case types["d" /* UPLOAD_PRESCRIPTION */]:
+      {
+        console.log("USER_DETAILS", type, payload);
+        return {
+          uploadPrescription: payload
+        };
+      }
+
+    default:
+      return state;
+  }
+};
+
+const choose_medicine = (state = initialPresc, {
+  type,
+  payload
+}) => {
+  switch (type) {
+    case types["b" /* CHOOSE_MEDICINE */]:
+      {
+        console.log("USER_TOKEN", type, payload);
+        return {
+          chooseMedicine: payload
         };
       }
 
@@ -209,7 +279,13 @@ const reducer = (state = initialAuth, {
 const reducers = {
   // counter: counterReducer,
   // timer: timerReducer,
-  auth: reducer
+  auth: reducer,
+  userDetail: reducer,
+  userToken: userToken,
+  cartDetail: cartProduct,
+  productList: products,
+  prescription: upload_prescription,
+  chooseMedicines: choose_medicine
 };
 /* harmony default export */ var reducers_0 = (Object(external_redux_["combineReducers"])(reducers));
 // CONCATENATED MODULE: ./store.js
@@ -281,7 +357,7 @@ function App({
 
 /***/ }),
 
-/***/ 29:
+/***/ 30:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("1TCz");
@@ -293,10 +369,12 @@ module.exports = __webpack_require__("1TCz");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return USER_DETAILS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return USER_TOKEN; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return USER_DETAILS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return USER_TOKEN; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CART_PRODUCTS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return PRODUCT_LISTS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return PRODUCT_LISTS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return CHOOSE_MEDICINE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return UPLOAD_PRESCRIPTION; });
 // REDUX ACTION TYPES
 // export const TICK = 'TICK'
 // export const INCREMENT = 'INCREMENT'
@@ -306,6 +384,8 @@ const USER_DETAILS = 'USER_DETAILS';
 const USER_TOKEN = 'USER_TOKEN';
 const CART_PRODUCTS = 'CART_PRODUCTS';
 const PRODUCT_LISTS = 'PRODUCT_LISTS';
+const CHOOSE_MEDICINE = 'CHOOSE_MEDICINE';
+const UPLOAD_PRESCRIPTION = 'UPLOAD_PRESCRIPTION';
 
 /***/ }),
 

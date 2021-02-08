@@ -1,0 +1,134 @@
+.stateCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.stateCol .formSelect {
+  background: #FFFFFF !important;
+  border: 1px solid #B8BCC5 !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  border-radius: 4px !important;
+  padding: 5px;
+  height: 37px !important;
+  outline: none;
+}
+
+.addForm {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  border: 0.8px solid #EAEAEA;
+  width: 593px;
+  margin-top: 20px;
+}
+
+.addressItem {
+  border: 0.8px solid #EAEAEA;
+  padding: 10px;
+  height: 50px;
+  width: 593px;
+}
+
+.deliverFlip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 644px;
+  height: 44px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+}
+
+.deliverFlip img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.addressDetails {
+  margin-top: 25px;
+}
+
+.addressDetails > h2 {
+  font-weight: 540;
+}
+
+.addressDetails .save {
+  width: 205px;
+  height: 52px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.addressDetails .save a {
+  text-decoration: none;
+  color: black;
+}
+
+.place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.addressCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px !important;
+}
+
+#address {
+  resize: none !important;
+}
+
+.toggleBtn {
+  border: 1px solid #B8BCC5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 65px;
+  width: 131px;
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.toggleBack {
+  background: #E2E2E2;
+}
+
+#option {
+  visibility: hidden;
+}
+/*# sourceMappingURL=AddressDetails.module.css.map */

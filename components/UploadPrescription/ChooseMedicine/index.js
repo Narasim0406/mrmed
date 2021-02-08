@@ -3,23 +3,41 @@ import styles from './ChooseMedicine.module.scss';
 import AttachedPrescriptions from '../Attached Prescriptions/index';
 import CallPop from './CallPopup/index';
 import {useRouter} from 'next/router';
+import { connect, useDispatch, useSelector} from 'react-redux';
+import { chooseMedicine } from '../../../actions';
 
-export default function ChooseMedicine(){
+function ChooseMedicine(props){
     const [choose,setChoose] = useState(1);
     const [modal,setModal] = useState(false);
+    const [got,setGot] = useState("asperp");
     const router = useRouter();
+    const [noDay, handleChange] = useState("");
+    const dispatch = useDispatch();
+    const prescription = useSelector((state) => state);
     const handleChoose1 = () => {
         setChoose(1);
+        setGot("asperp");
     }
     const handleChoose2 = () => {
         setChoose(2);
-        router.push('/ShopProductComponent');
+        setGot("product");
+        //router.push('/ShopProductComponent');
     }
-    const handleChoose3 = () => {
+    const handleChoose3 = async() => {
         setChoose(3);
+        setGot("call");
+        await dispatch(chooseMedicine("call"))
     }
     const toggle = () => {
         setModal(!modal);
+    }
+    const handleChangeNoDay = async(e) => {
+        handleChange(e.target.value)
+        await dispatch(chooseMedicine(e.target.value))
+        console.log("jkljasdlfkjasdf", props)
+    }
+    const handleProd = () => {
+        router.push({pathname:'/ShopProductComponent',query:{myCart:true}});
     }
     return (
             <div className="App">
@@ -40,7 +58,7 @@ export default function ChooseMedicine(){
                             { choose === 1 ?
                                 <div className={`col-md- 12 ${styles.selectOptionInnerForm}`}>
                                     <label className={styles.dosageDurationLabel}>Duration of dosage</label>
-                                    <input type='text' id='dosage-input' name='dosage-duration' placeholder="Enter number of days" className={styles.dosageInputBox} />
+                                    <input value={noDay} onChange={handleChangeNoDay} type='text' id='dosage-input' name='dosage-duration' placeholder="Enter number of days" className={styles.dosageInputBox} />
                                 </div> : ""
                             }
                             <div className={styles.btn_radio}>
@@ -84,7 +102,7 @@ export default function ChooseMedicine(){
                             }
                             </div>
                             <div className={styles.prescriptionProceedButton}>
-                                <button onClick={toggle} className={styles.proceedButton}>PROCEED</button>
+                                <button onClick={choose !== 2 ? props.handleStep : handleProd} className={styles.proceedButton}>PROCEED</button>
                             </div>
                         </div>
                         <div className={`col-md-5 ${styles.attaches}`}>
@@ -96,3 +114,9 @@ export default function ChooseMedicine(){
             </div>
         )
 }
+
+const mapStateToProps = state => ({
+    post: state
+});
+
+export default connect(mapStateToProps)(ChooseMedicine)

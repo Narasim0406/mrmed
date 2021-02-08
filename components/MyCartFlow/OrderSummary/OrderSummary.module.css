@@ -1,0 +1,265 @@
+.medList__summary__inner {
+  padding: 20px;
+  height: 620px;
+  background: #FFFFFF;
+  border: 0.8px solid #EAEAEA;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+.medList__summary__inner .md_order_summary {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.medList__summary__inner .mdListOfCharges .report_cancel {
+  padding: 40px 0;
+}
+
+.medList__summary__inner .mdListOfCharges .report_cancel .report_order1 {
+  border: 1px solid #6054E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 250px;
+  height: 50px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6054E5;
+  background-color: white;
+  border-right: none;
+}
+
+.medList__summary__inner .mdListOfCharges .report_cancel .report_order2 {
+  border: 1px solid #6054E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 250px;
+  height: 50px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6054E5;
+  background-color: white;
+}
+
+.medList__summary__inner .mdListOfCharges .mdcartValues {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.medList__summary__inner .mdListOfCharges .mdborderLineBottom {
+  border: 0.5px solid #DDDDDD;
+}
+
+.medList__summary__inner .mdListOfCharges .mdorderTotalMain {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.medList__summary__inner .mdListOfCharges .mdorderTotalMain .mddetail_total {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+.medList__summary__inner .mdListOfCharges .mdorderTotalMain .mddetail_total_generate {
+  font-size: 15px;
+  line-height: 18px;
+  color: #878787;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.medList__summary__inner .mdListOfCharges .md_proceed_pay {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 120px;
+}
+
+.medList__summary__inner .mdListOfCharges .md_proceed_pay .mdproceed_pay_inner {
+  background: #00D9C5;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #232323;
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__details {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #343434;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+  height: 160px;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .changeBtn {
+  padding: 0 70px;
+  margin-top: 30px;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .changeBtn .report_order1 {
+  border: 1px solid #6054E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 170px;
+  height: 35px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6054E5;
+  background-color: white;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddelPersonInnnerLeft {
+  padding: 0 20px;
+  padding-top: 20px;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddelPersonInnnerLeft .mddel_person_name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddelPersonInnnerLeft .mddel_person_number {
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddel_person_innerRight {
+  width: 60px;
+  height: 25px;
+  background: #dfdbdb;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  margin: 20px;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .mddelPersonInnerContainer .mddel_person_innerRight > p {
+  margin-top: 3px;
+}
+
+.medList__summary__inner .mdListOfCharges .mddelivery__details__container .mddelivery__inner_sec .mdstreet {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 150.3%;
+  color: #868686;
+}
+
+.md_dotteddown_container {
+  background: #FCFCFC;
+  border: 1px dashed #766CEB;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.md_dotteddown_container .md_dotted_inner {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+.md_dotteddown_container .md_dotted_inner .percentage_icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.md_dotteddown_container .md_dotted_inner .apply_coupons {
+  margin-bottom: 0;
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #766CEB;
+}
+
+.md_dotteddown_container .apply_code_container {
+  padding: 0 10px;
+}
+
+.md_dotteddown_container .apply_code_container .apply_code_input {
+  width: 225px;
+  background: #FFFFFF;
+  border: 1px solid #B8BCC5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.md_dotteddown_container .apply_code_container .apply__code_btn {
+  background: #E6E6E6;
+  border-radius: 0px 6px 6px 0px;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  color: #747474;
+  width: 100px;
+  border: none;
+}
+/*# sourceMappingURL=OrderSummary.module.css.map */

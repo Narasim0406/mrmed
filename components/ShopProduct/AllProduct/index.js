@@ -5,16 +5,15 @@ import {productList,cartProduct} from '../../../actions';
 import {useSelector,useDispatch} from 'react-redux';
 import {products_url} from '../../../apiVariables';
 import Details from './Detail';
-import styles from './AllProduct.module.scss';
 
 function AllProduct(){
    
     const router = useRouter();
     const dispatch = useDispatch();
     const userDetail = useSelector((state) => state.auth);
-
+    const {myCart} = router.query;
     return (
-        <Details dispatch={dispatch} router={router} userDetail={userDetail}></Details>
+        <Details myCart={myCart} dispatch={dispatch} router={router} userDetail={userDetail}></Details>
         );
 }
 

@@ -18,9 +18,6 @@ function CartPageComponent(){
                         <b>My Cart</b>
                         <hr/>
                     </div>
-                    <div className={styles.medicineDetail}>
-                        <b>Medicines Details</b>
-                    </div>
                     <div className="row">
                         <div className="col-md-12">
                             <MedicineDetail></MedicineDetail>

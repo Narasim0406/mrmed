@@ -1,63 +1,95 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 //import SignIn from '../../Login/Signin';
 import styles from './ImportedForm.module.scss';
-import { useSelector} from 'react-redux'
-import {products_url,medplans_url} from '../../../apiVariables';
+import { useDispatch} from 'react-redux';
+import { userDetails} from '../../../actions';
+import {medplans_url} from '../../../apiVariables';
+import axios from 'axios';
+import jwt_decode from "jwt-decode";
+import RegConfirm from '../RegConformation/index';
+
 
 function ImportedForm(){
-
-    const userDetails = useSelector((state) => state.auth);
+    const dispatch = useDispatch();
     const [modal,setModal] = useState(false);
     const [importedRegister, setImportedRegister] = useState({
-        userId:userDetails.userDetails ? userDetails.userDetails.id : "",
+        userId:"601cd4f10787cd421e6f6acc",
         medicineDetails:"",
         quantity:"",
         notes:"",
+        status:0
     });
-    const [prescriptionUrls,setPrescritpionUrls] = useState([]);
-    const [documentUrls,setDocumentUrls] = useState([]);
+    const [prescriptionUrl,setPrescritpionUrl] = useState([]);
+    const [documentUrl,setDocumentUrl] = useState([]);
+    const [userData,setuserData] = useState({});
+
+    useEffect(() => {
+        if(localStorage.userData){
+            dispatch(userDetails(JSON.parse(localStorage.userData)));
+            setuserData(JSON.parse(localStorage.userData))
+        }
+    }, [])
 
     const uploadDocuments = async(documents) =>{
-        const url=`${products_url}/upload/uploadFile`;
+        const url=`http://180.151.69.138:2258/api/v1/upload/uploadFile/single`;
+        console.log(documents,"documents")
         let docs = [];
-        await documents.map(async(prescription) => {
-            const formData = new FormData();
-            formData.append("file", prescription);
-            let res = await fileUpload(url,formData);
-            console.log(res)
-            docs.push(res.data);
-        })
+        if(documents){
+            for(var i=0;i<documents.length;i++) {
+                async function call(){
+                    let formData = new FormData();
+                    let file = documents[i];
+                    formData.append("file",file);
+                    let res = await axios.post(url,formData,{headers: {
+                        "Content-Type": "multipart/form-data"
+                      }}
+                    );
+                    if(res.status ===200) {
+                        console.log(res.data.data.url);
+                        docs.push(res.data.data.url);
+                    }
+                }
+                await call();
+            }
+        }
         return docs;
-    }
-    const fileUpload = async() => {
-        let result = await fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'multipart/form-data'
-            },
-            body: JSON.stringify(body)
-        });
-        return await result;
     }
     const handleSubmit = async (e) => {
         e.preventDefault();
         let {medicineDetails,quantity,notes} = importedRegister;
-        const presc = uploadDocuments(prescriptionUrls);
-        const docu = uploadDocuments(documentUrls);
-        console.log({medicineDetails,quantity,notes,presc,docu});
-        let data = {medicineDetails,quantity,notes,presc,docu};
+        const prescriptionUrls = uploadDocuments(prescriptionUrl);
+        const documentUrls = uploadDocuments(documentUrl);
+        //console.log({prescriptionUrls,documentUrls});
+        let user = jwt_decode(userData.token);
+        let data = {
+            userId: user && user.id,
+            userName: user && user.name,
+            medicineDetails,
+            quantity,
+            notes,
+            prescriptionUrls,
+            documentUrls,
+            status:0,
+            address: "344B",
+            addressName: "bharathi",
+            addressMobile: "9290876754",
+            addressCity: "salem",
+            addressState: "tamilnadu",
+            addressPincode: "636010",
+            addressLandmark: "temple",
+            addressType: "home"
+        };
         const url = `${medplans_url}/import`;
-        let res = await httpPostRequest(url,data);
-        console.log(res);
+        let res = await axios.post(url,data);
         if(res.status === 200 ) {
-            alert(res.message);
             setImportedRegister({
                 medicineDetails:"",
                 quantity:"",
                 notes:"",
+                status:0
             });
-            setPrescritpionUrls([]);
-            setDocumentUrls([]);
+            setPrescritpionUrl([]);
+            setDocumentUrl([]);
         }
         toggle();
     }
@@ -72,21 +104,10 @@ function ImportedForm(){
         }))
     }
     const handleDocument = (e) => {
-        setDocumentUrls(e.target.files);
+        setDocumentUrl(e.target.files);
     }
     const handlePrescription = (e) => {
-        setPrescritpionUrls(e.target.files);
-    }
-    const httpPostRequest = async(url, body) => {
-        console.log(body)
-        let result = await fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(body)
-        });
-        return await result
+        setPrescritpionUrl(e.target.files);
     }
 
     return(
@@ -172,6 +193,7 @@ function ImportedForm(){
                     </div>
                 </div>    
                 {/* <SignIn modal={modal} toggle={toggle}/>      */}
+                <RegConfirm modal={modal} toggle={toggle}/>
             </div>
         );
 }

@@ -27,6 +27,7 @@
   "/ShopProductComponent": "pages/ShopProductComponent.html",
   "/SingleProduct": "pages/SingleProduct.html",
   "/SpecialityMed": "pages/SpecialityMed.html",
+  "/UploadPresFlow": "pages/UploadPresFlow.html",
   "/UploadStepper": "pages/UploadStepper.html",
   "/_app": "pages/_app.js",
   "/home": "pages/home.html",

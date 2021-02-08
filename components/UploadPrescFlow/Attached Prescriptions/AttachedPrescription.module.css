@@ -1,0 +1,100 @@
+.attachedPrescription {
+  padding: 30px 10px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 10px !important;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background: #6054E5 !important;
+}
+
+.prescriptionRightBox {
+  height: 420px;
+  background: #FFFFFF;
+  border: 0.8px solid #EAEAEA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+
+.prescriptionRightBox .prescriptionAttachContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+}
+
+.prescriptionRightBox .prescriptionAttachContainer .attachedPrescription1 {
+  position: relative;
+  height: 400px;
+  background: url("../../../assets/images/greenrect.png");
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.prescriptionRightBox .prescriptionAttachContainer .attachedPrescription1 .prescriptionTickmark {
+  position: absolute;
+  right: -20px;
+  top: -25px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 10px;
+}
+
+.prescriptionRightBox .prescriptionAttachContainer .attachedPrescription1 .prescriptionImage {
+  margin-top: 10px;
+}
+
+.prescriptionRightBox .prescriptionAttachContainer .attachedPrescription1 .prescriptionImage > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 220px;
+}
+
+.prescriptionRightBox .prescriptionAttachContainer .attachedPrescription1 .iconsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 280px;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.prescriptionRightBox .prescriptionAttachContainer .attachedPrescription1 .iconsList > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=AttachedPrescription.module.css.map */

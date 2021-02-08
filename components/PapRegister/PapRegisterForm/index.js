@@ -11,7 +11,7 @@ function PapForm(props){
         phone: "",
         email: "",
         medicineDetails: "",
-        //quantity: "",
+        quantity: "",
         callTime: "",
         message: "",
         status: 0,
@@ -39,7 +39,7 @@ function PapForm(props){
                 name:'',
                 medicineDetails:'',
                 phone:'',
-               // quantity:'',
+                quantity:'',
                 email:'',
                 callTime:'',
                 message:'',
@@ -108,7 +108,7 @@ function PapForm(props){
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                             <div className={styles.inputField}>
                                     <div className={styles.registerLabel}>
                                         <span>Medicine Details</span>
@@ -122,7 +122,21 @@ function PapForm(props){
                                     required/>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
+                            <div className={styles.inputField}>
+                                <div className={styles.registerLabel}>
+                                    <span>Quantity</span>
+                                    </div>                              
+                                <input name="quantity" 
+                                className={styles.registerField} 
+                                type="text" 
+                                placeholder="Enter here"
+                                value={papRegisterData['quantity']} 
+                                onChange={(e) => onChangeForm(e)}
+                                required/>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
                             <div className={styles.inputField}>
                                 <div className={styles.registerLabel}>
                                     <span>Preferable Call Time</span>
@@ -136,18 +150,6 @@ function PapForm(props){
                             </div>
                         </div>
                     </div>
-                        {/* <div className={styles.inputField}>
-                            <div className={styles.registerLabel}>
-                                <span>Quantity</span>
-                                </div>                              
-                            <input name="quantity" 
-                            className={styles.registerField} 
-                            type="text" 
-                            placeholder="Enter here"
-                            value={papRegisterData['quantity']} 
-                            onChange={(e) => onChangeForm(e)}
-                            required/>
-                        </div> */}
                     
                 <div className={styles.inputField}>
                     <div className={styles.registerLabel}>

@@ -3,12 +3,18 @@ import React,{useState} from 'react'
 import styles from  './AddCart.module.scss';
 import {useRouter} from 'next/router';
 
-function AddCart(){
+function AddCart(props){
     const router = useRouter();
     const [added, setAdded] = useState(false);
-
     const addCart = () => {
         setAdded(!added);
+    }
+    const flows = ()  => {
+        if(props.myCart){
+            router.push('/CartDetails')
+        }else{
+            router.push('/UploadPresFlow')
+        }
     }
         return(
             <div className={styles.purchaseBox}>
@@ -48,7 +54,7 @@ function AddCart(){
                     <button className={styles.btnAddCart} onClick={addCart}>{added ? "ADDED TO CART" : "ADD TO CART"}</button>
                 {/* </NavLink> */}
                 <br/>
-                <button className={styles.btnPriceMatch}>BUY NOW</button>
+                <button className={styles.btnPriceMatch} onClick={flows}>BUY NOW</button>
                 {/* <NavLink to="/dashboard/priceMatch"> 
                    
                  </NavLink> */}

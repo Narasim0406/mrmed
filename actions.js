@@ -29,7 +29,7 @@ export const userDetails = (details) => {
   }
 }
 export const userToken = (token) => {
-  
+
   return {
       type: types.USER_TOKEN,
       payload: token
@@ -45,5 +45,19 @@ export const productList = (products) => {
   return {
       type: types.PRODUCT_LISTS,
       payload: products
+  }
+}
+
+export const chooseMedicine = (details) => {
+  return {
+      type: types.CHOOSE_MEDICINE,
+      payload: details
+  }
+}
+
+export const uploadPrescriptions = (details) => {
+  return {
+      type: types.UPLOAD_PRESCRIPTION,
+      payload: details
   }
 }

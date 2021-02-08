@@ -1,0 +1,98 @@
+.orderSuccess {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+.orderSuccess .successMsg {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #449500;
+}
+
+.orderSuccess .orderReview {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116.6%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2F2F2F;
+}
+
+.successBorder {
+  border-bottom: 0.8px solid #D5D5D5;
+  margin-left: 140px;
+  width: 890px;
+}
+
+.orderDetail {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.orderDetail .orderId {
+  font-size: 20px;
+  line-height: 116.6%;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.orderDetail .orderId .price {
+  color: #6054E5;
+}
+
+.orderDetail .orderMsg {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 116.6%;
+  color: #424242;
+}
+
+.deliveryDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btnContent {
+  text-align: center;
+}
+
+.btnContent .track_btn {
+  width: 205px;
+  height: 52px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.indication {
+  padding: 0;
+}
+
+.indication span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #727272;
+}
+
+.indication b {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #414b55;
+  font-weight: bold;
+}
+/*# sourceMappingURL=OrderSuccess.module.css.map */

@@ -1,0 +1,95 @@
+.background {
+  background-color: #F7F7F7;
+  height: 100%;
+}
+
+.img {
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.category {
+  color: #7D7D7D;
+  font-size: 12px;
+}
+
+.name {
+  color: #424242;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.manufacturer {
+  color: #666666;
+  font-size: 14px;
+}
+
+.quantity {
+  margin-top: 20px;
+}
+
+.quantity .quantityBtns {
+  cursor: pointer;
+}
+
+.cart {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.priceRequest {
+  color: #46B63C;
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.priceRequest > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.btnMatch {
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-radius: 2px;
+  color: #747474;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  margin-right: 10px;
+}
+
+.price {
+  margin-top: 60px;
+}
+
+.discount {
+  color: #6054E5;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.original {
+  color: #767676;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.tdCol {
+  border: 1px solid #EAEAEA;
+  font-size: 20px;
+  color: #646464;
+  padding: 5px 15px 5px 15px;
+}
+
+.cartpiImg {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 10px;
+  height: 25px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=MedicineDetail.module.css.map */

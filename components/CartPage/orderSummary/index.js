@@ -2,11 +2,12 @@ import React, {useState} from 'react'
 
 import styles from './OrderSummary.module.scss'
 import NeedSignIn from './NeedSigin';
+import {useRouter} from 'next/router';
 
 function OrderSummary(props){
     const [deliveryCharge, setDeliveryCharge] = useState(40);
     const [modal, setModal] = useState(false);
-   
+    const router = useRouter();
     const toggle=() => {
         setModal(!modal);
     }
@@ -34,16 +35,15 @@ function OrderSummary(props){
                         <b className={styles.right}>₹{props.cartDetails?.total}</b>
                     </div>
                     <hr/>
-                    <div className={styles.proceed}>
-                        <button className={styles.btnProceed} onClick={toggle}><b>PROCEED TO PAY</b></button>
-                        <button className={styles.btnPrescription}><b>UPLOAD PRESCRIPTION</b></button> 
-                    </div>
                 </div>
                 <div className={styles.couponBox}>
                     <b className={styles.apply}>APPLY COUPONS</b>
                     <input className={styles.applyField} type="text" placeholder="Apply coupon code here" />
                     <button className={styles.btnCode}><b>APPLY CODE</b></button>
                 </div>
+                <div className={styles.proceed}>
+                        <button className={styles.btnProceed}><b>UPLOAD PRESCRIPTION</b></button> 
+                    </div>
                 <hr/>
                 <div className={styles.couponNote}>
                     <b>ORDER ABOVE ₹500 TO SAVE ON DELIVERY CHARGES. FREE DELIVERY WITH CART VALUE ABOVE ₹1000</b>

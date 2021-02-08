@@ -7,18 +7,27 @@ import React, { useState } from 'react';
 import Stepper from "./Stepper/index"; 
 import styles from './StepperMain.module.scss';
 import {useRouter} from 'next/router';
+import { useDispatch, useSelector} from 'react-redux';
+import { uploadPrescriptions } from '../../actions';
 
 export default function StepperMain(){
-   const [currentStep,setCurrentStep] = useState(1);
+   const [currentStep,setCurrentStep] = useState(0);
    const router = useRouter();
-
+   const dispatch = useDispatch();
+   const prescription = useSelector((state) => state.prescription);
   const handleClick = (clickType) => {
+    console.log("sdfgsdfsdfg", clickType)
     let newStep = currentStep;
     clickType === "next" ? newStep++ : newStep--;
 
     if (newStep > 0 && newStep <= 3) {
       setCurrentStep(newStep);
     }
+  }
+
+  const handleDispatch = async(data) => {
+    console.log("fdgsdfgsdfg", data)
+    await dispatch(uploadPrescriptions(data))
   }
 
   return (
@@ -40,9 +49,11 @@ export default function StepperMain(){
           <div className={styles.stepperContainerHorizontal}>
             <Stepper
               direction="Horizontal"
-              currentStepNumber={currentStep - 1}
+              currentStepNumber={currentStep}
               steps={stepsArray}
               stepColor="#6054E5"
+              handleStepper={() => handleClick("next")}
+              dispatch={(data)=>handleDispatch(data)}
             />
           </div>
   

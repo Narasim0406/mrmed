@@ -4,6 +4,7 @@ import UploadPrescriptions from '../UploadPrescriptions/index';
 import {Address} from "../Address/index";
 import ChooseMedicine from '../ChooseMedicine/index';
 import {Payment} from '../Payment/index';
+import PresPop from '../UploadPrescriptions/PresPopup/index';
 
 import styles from "./Stepper.module.scss";
 
@@ -11,6 +12,7 @@ export default class Stepper extends Component {
   constructor() {
     super();
     this.state = {
+      modal: false,
       steps: []
     };
   }
@@ -88,6 +90,18 @@ export default class Stepper extends Component {
     return newSteps;
   }
 
+  handleStepper = () => {
+    this.props.handleStepper();
+  }
+
+  toggle = () => {
+    let { modal } = this.state;
+    modal = !modal
+    this.setState({
+        modal
+    });
+}
+
   render() {
     const { direction, stepColor="violet" } = this.props;
     const { steps } = this.state;
@@ -126,10 +140,12 @@ export default class Stepper extends Component {
         {stepsJSX}
         </div>
         <div>
-          {this.props.currentStepNumber===0 ? <UploadPrescriptions/> : ""}
-          {this.props.currentStepNumber===1 ?  <ChooseMedicine/> : ""}
-          {this.props.currentStepNumber===2 ? <Address/> : ""}
+          {this.props.currentStepNumber===0 ? <UploadPrescriptions handleStep={this.handleStepper} dispatch={this.props.dispatch}/> : ""}
+          {this.props.currentStepNumber===1 ?  <ChooseMedicine handleStep={this.handleStepper}/> : ""}
+          {this.props.currentStepNumber===2 ? <Address handleSubmitedOrder={this.toggle}/> : ""}
         </div>
+        <PresPop modal={this.state.modal} toggle={this.toggle} />
+
       </>
     )
   }

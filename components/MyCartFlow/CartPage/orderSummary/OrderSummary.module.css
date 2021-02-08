@@ -1,0 +1,106 @@
+.summaryBox {
+  border: 1px solid #EAEAEA;
+  padding: 15px;
+  width: 100%;
+}
+
+.orderSummary {
+  color: #333333;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.right {
+  float: right;
+}
+
+.details {
+  color: #333333;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.orderTotal {
+  color: #333333;
+  font-size: 20px;
+}
+
+.proceed {
+  text-align: center;
+}
+
+.btnProceed {
+  background-color: #00D9C5;
+  border: 1px solid #00D9C5;
+  border-radius: 2px;
+  color: #232323;
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.btnProceed:focus {
+  outline: none;
+}
+
+.btnPrescription {
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-radius: 2px;
+  color: #747474;
+  font-size: 14px;
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.btnPrice {
+  background-color: white;
+  border: 1px solid #BBBBBB;
+  border-radius: 2px;
+  color: #747474;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+.couponBox {
+  border: 1px dashed #766CEB;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.apply {
+  color: #766CEB;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+}
+
+.applyField {
+  font-size: 12px;
+  width: 60%;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #B8BCC5;
+}
+
+.btnCode {
+  background-color: #E6E6E6;
+  color: #747474;
+  border: 1px solid #E6E6E6;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.couponNote {
+  color: #189B0C;
+  font-size: 14px;
+}
+/*# sourceMappingURL=OrderSummary.module.css.map */

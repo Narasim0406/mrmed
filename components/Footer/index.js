@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './Footer.module.scss';
 import {useRouter} from 'next/router';
+import Link from 'next/link';
 
 function Footer(){
     const router = useRouter();
@@ -19,11 +20,11 @@ function Footer(){
                                 medicines it has become unaffordable to buy essential medicines.
                             </p>
                             <div className={styles.footerIconAlign}>
-                                <img src={'/facebook.png'}/>
-                                <img src={'/twitter.png'}/>
-                                <img src={'/instagram.png'}/>
-                                <img src={'/linkedin.png'}/>
-                                <img src={'/youtube.png'}/>
+                                <a href="https://www.facebook.com/mrmedhq" target="_blank"><img src={'/facebook.png'}/></a>
+                                <a href="https://www.twitter.com/mrmedhq" target="_blank"><img src={'/twitter.png'}/></a>
+                                <a href="https://www.instagram.com/mrmedhq" target="_blank"><img src={'/instagram.png'}/></a>
+                                <a href="https://www.linkedin.com/company/mrmedin" target="_blank"><img src={'/linkedin.png'}/></a>
+                                <a href="" target="_blank"><img src={'/youtube.png'}/></a>
                             </div>                    
                         </div>
                         <div className="col-md-7 offset-md-1">

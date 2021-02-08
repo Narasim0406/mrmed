@@ -1,0 +1,57 @@
+.modals{
+    margin-right: 510px !important;
+    margin-top: 100px !important;
+}
+
+.needSignin{
+        background-color: white;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 400px;
+        width: 700px;
+        position: relative;
+        .ptMsg{
+            display: flex;
+            flex-direction: column;
+        }
+        .cancelImg{
+            object-fit: contain;
+            position: absolute;
+            top:15px;
+            right:20px;
+            cursor: pointer;
+        }
+        .needSignInBtns{
+            .signinBtn{
+                width: 195px;
+                height: 51px;
+                background: #6054E5;
+                border-radius: 2px;
+                border: none;
+                outline: none;
+                color: white;
+            }
+            .cancelBtn{
+                width: 195px;
+                height: 51px;
+                background: white;
+                border-radius: 2px;
+                border: none;
+                outline: none;
+                color: black;
+                border: 1px solid#6054E5;
+                margin-right: 20px;
+            }
+            text-align: center;
+        }
+        .paymentMsg{
+            font-size: 26px;
+            line-height: 165.7%;
+            text-align: center;
+            color: #737373;
+        }
+}

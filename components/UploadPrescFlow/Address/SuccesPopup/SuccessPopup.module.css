@@ -1,0 +1,80 @@
+.modals {
+  max-width: 704px !important;
+}
+
+.order_MainContainer {
+  height: 450px;
+}
+
+.order_MainContainer .RegConfirmMain {
+  padding-top: 70px;
+}
+
+.order_MainContainer .RegConfirmMain .contact_mr {
+  position: relative;
+}
+
+.order_MainContainer .RegConfirmMain .contact_mr img {
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  cursor: pointer;
+}
+
+.order_MainContainer .RegConfirmMain .orderSuccessImg {
+  width: 81px;
+  height: 81px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.order_MainContainer .RegConfirmMain .mr_med_lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.order_MainContainer .RegConfirmMain .mr_med_lower .contact_text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.order_MainContainer .RegConfirmMain .mr_med_lower .contact_text .enrolling_section {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 116.6%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2F2F2F;
+}
+
+.order_MainContainer .RegConfirmMain .mr_med_lower .contact_text .mr_medcontact {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #449500;
+}
+
+.order_MainContainer .RegConfirmMain .mr_med_lower .explore_med {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.order_MainContainer .RegConfirmMain .mr_med_lower .explore_med .explore_medBtn {
+  width: 205px;
+  height: 52px;
+  background: #00D9C5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  margin-right: 30px;
+}
+/*# sourceMappingURL=SuccessPopup.module.css.map */

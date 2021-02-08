@@ -7,6 +7,10 @@ const initialAuth = {
   cartProduct:[],
   products:[]
 }
+const initialPresc = {
+  uploadPrescription: [],
+  chooseMedicine: ""
+}
 
 const reducer = (state=initialAuth,{type,payload}) => {
   switch (type) {
@@ -14,17 +18,68 @@ const reducer = (state=initialAuth,{type,payload}) => {
       console.log("USER_DETAILS", type, payload)
       return {userDetails:payload};
     }
+   
+    default:
+      return state
+  }
+}
+
+const userToken = (state=initialAuth,{type,payload}) => {
+  switch (type) {
+   
     case types.USER_TOKEN:{
       console.log("USER_TOKEN", type, payload)
       return {userToken:payload};
     }
+   
+    default:
+      return state
+  }
+}
+
+const cartProduct = (state=initialAuth,{type,payload}) => {
+  switch (type) {
+   
+   
     case types.CART_PRODUCTS:{
       console.log("CART_PRODUCTS", type, payload)
       return {cartProduct:payload};
     }
+    default:
+      return state
+  }
+}
+
+const products = (state=initialAuth,{type,payload}) => {
+  switch (type) {
+   
+   
     case types.PRODUCT_LISTS:{
       console.log("PRODUCT_LISTS", type, payload)
       return {products:payload};
+    }
+    default:
+      return state
+  }
+}
+
+const upload_prescription = (state=initialPresc,{type,payload}) => {
+  switch (type) {
+    case types.UPLOAD_PRESCRIPTION:{
+      console.log("USER_DETAILS", type, payload)
+      return {uploadPrescription:payload};
+    }
+    default:
+      return state
+  }
+}
+
+const choose_medicine = (state=initialPresc,{type,payload}) => {
+  switch (type) {
+   
+    case types.CHOOSE_MEDICINE:{
+      console.log("USER_TOKEN", type, payload)
+      return {chooseMedicine:payload};
     }
     default:
       return state
@@ -69,7 +124,12 @@ const reducers = {
   // counter: counterReducer,
   // timer: timerReducer,
   auth:reducer,
-
+  userDetail:reducer,
+  userToken:userToken,
+  cartDetail:cartProduct,
+  productList:products,
+  prescription:upload_prescription,
+  chooseMedicines:choose_medicine
 }
 
 export default combineReducers(reducers)

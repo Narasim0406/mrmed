@@ -4,6 +4,8 @@ import {profiles_url} from '../../../apiVariables';
 import axios from 'axios';
 import { cartProduct } from '../../../actions'
 import styles from './MedicineDetail.module.scss'
+import { products_url, orders_url  } from '../../../apiVariables';
+import { connect } from 'react-redux';
 
 class Detail extends React.Component {
   constructor() {
@@ -20,7 +22,7 @@ class Detail extends React.Component {
 
 
 removeFromCart = async(id) => {
-   await axios.delete(`http://180.151.69.138:2258/api/v1/cart/${id}`)
+   await axios.delete(`${products_url}/cart/${id}`)
    .then(res => {
         console.log(res)
    });
@@ -29,7 +31,8 @@ removeFromCart = async(id) => {
 
 fetchCart  = async(id) => {
     //let userId = "601cd4f10787cd421e6f6acc";
-    const api=`http://180.151.69.138:2258/api/v1/cart?userId=601cd4f10787cd421e6f6acc`;
+    let { userDetail } = this.props;
+    const api=`${products_url}/cart?userId=${userDetail.userId}`;
     await axios.get(api)
     .then(res => {
         this.setState({
@@ -78,11 +81,12 @@ fetchCart  = async(id) => {
           </div>
       </div> <hr/>  */}
       <div className="col-md-8">
+      <b>Items Prescription Required</b>
       {
           cartProducts && cartProducts.length!==0 ? cartProducts.map((product,ind) => {
               let {_id,medicineName,manufacturer,price,priceToCustomer} = product;
               return (
-                  <div key={ind}>
+                  <div key={ind} className="mt-3">
                        <div className="row">
                           <div className="col-md-3">
                               <div className={styles.background}>
@@ -120,11 +124,13 @@ fetchCart  = async(id) => {
                               </div>  
                           </div>
                       </div>
-                      <hr/>          
+                      <hr/>  
                   </div>
+                  
               )
           }) : <div><p>Your Cart is Empty</p><p>Please Add products to the cart</p></div>
       }
+    <b>Items NOT Prescription Required</b>        
       </div>
       <div className="col-md-4">
           <OrderSummary cartDetails={cartDetails}/>
@@ -134,4 +140,10 @@ fetchCart  = async(id) => {
   }
 }
 
-export default Detail;
+const mapStateToProps = state => ({
+    userDetail: state.auth.userDetails,
+    cartDetail: state.cartDetail,
+    productList: state.productList
+  });
+  
+  export default connect(mapStateToProps)(Detail)
